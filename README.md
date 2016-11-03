@@ -1,2 +1,2 @@
 # ECSE548_viterbi_decoder
-Final Project of ECSE 548
+The repository of final project, for codes and electric files updating and exchanging 
