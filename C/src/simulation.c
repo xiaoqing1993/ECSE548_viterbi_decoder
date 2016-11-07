@@ -41,7 +41,7 @@ void simulation_run() {
 			encoder_encode(&c, m, code);
 			modulator_modulate(&x, c, code, simparams.MODULATOR);
 			channel_transmit(&y, x, simparams.EbNo_VALS[EbNo_count], code, simparams.CHANNEL);
-			decoder_decode(&m_est, y, code, simparams.DECODER, simparams.MODULATOR);
+			decoder_decode(&m_est, y, code, simparams.DECODER, simparams.MODULATOR, simparams.Q_N, simparams.Q_M);
 			/*
 			for(i=0 ; i<code.K ; i++)
 				printf("%d", m[i]);

@@ -78,7 +78,7 @@ void set_MODULATOR(FILE *fp, simparams_t *simparams) {
 }
 
 void set_DECODER(FILE *fp, simparams_t *simparams) {
-	char str[10];
+	char str[20];
 
 	fscanf(fp, "%s", str);
 	
@@ -87,6 +87,23 @@ void set_DECODER(FILE *fp, simparams_t *simparams) {
 		
 	if(!strcmp(str, "VITERBI"))
 		simparams->DECODER = VITERBI;
+		
+	if(!strcmp(str, "VITERBI_FIXEDPOINT"))
+		simparams->DECODER = VITERBI_FIXEDPOINT;
+}
+
+void set_Q_N(FILE *fp, simparams_t *simparams) {
+	int i;
+	
+	fscanf(fp, "%d", &i);
+	simparams->Q_N = i;
+}
+
+void set_Q_M(FILE *fp, simparams_t *simparams) {
+	int i;
+	
+	fscanf(fp, "%d", &i);
+	simparams->Q_M = i;
 }
 
 void load_defaults() {
@@ -142,6 +159,12 @@ void simparams_load(simparams_t *simparams) {
 
 			if(!strcmp(str, "DECODER"))
 				set_DECODER(fp, simparams);
+			
+			if(!strcmp(str, "Q_N"))
+				set_Q_N(fp, simparams);
+				
+			if(!strcmp(str, "Q_M"))
+				set_Q_M(fp, simparams);
 	}
 	fclose(fp);
 	goto END;

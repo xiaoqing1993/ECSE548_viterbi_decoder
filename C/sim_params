@@ -15,8 +15,8 @@ The VITERBI decoder unfortunately is harcoded to the Haming 8,4,4 code
 0 0 1 0 1 0 1 1
 0 0 0 1 0 1 1 1
 
-# EbNo_STEPS 12
-# EbNo_VALS 0 0.5 1 1.5 2 2.5 3 3.5 4 4.5 5 5.5
+# EbNo_STEPS 8
+# EbNo_VALS 0 0.5 1 1.5 2 2.5 3 3.5
 
 # MIN_FRAMES 10000
 # MIN_ERRORS 100
@@ -25,8 +25,9 @@ The VITERBI decoder unfortunately is harcoded to the Haming 8,4,4 code
 
 # MODULATOR BPSK
 
-# DECODER MLE
+# DECODER VITERBI
 
-# FIXED YES
+# Q_N 4
+# Q_M 10
 
 # END

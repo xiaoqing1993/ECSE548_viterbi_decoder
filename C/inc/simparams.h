@@ -21,6 +21,8 @@
 		channel_t CHANNEL;
 		modulator_t MODULATOR;
 		decoder_t DECODER;
+		int Q_N;
+		int Q_M;
 	} simparams_t;
 	
 	void simparams_load(simparams_t *simparams);
