@@ -1,0 +1,16 @@
+README
+
+Compile code only once, by navigating to C folder in terminal and then typing: make
+
+To simulate new parameters for fixed point, go to the simparams folder and see how Viterbi_4_10 is written
+
+Running ./main in the C folder will simulate all the files in the simparams folder
+
+Results are placed in the results folder, with the same filename as the simulation file
+
+to plot any result file, go to the results folder in terminal and type python plot.py [files_to_plot]
+eg: $ python plot.py ./MLE ./Viterbi ./Viterbi_4_10
+
+So far the Q4.10 format for fixed point looks good, maybe you can experiment with different formats and see what the plots look like, just so that we have a spread to show in our progress report. I haven't tried any other formats. I've included a helpful lecture on fixed point where it outlines what the Qn.m format stands for.
+
+Okay thanks bye.

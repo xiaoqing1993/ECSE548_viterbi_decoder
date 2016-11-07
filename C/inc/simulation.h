@@ -1,6 +1,8 @@
 #ifndef _SIMULATION
 #define _SIMULATION
 
+	#define RESULTS_DIR "./results"
+	
 	#include <time.h>
 
 	#include "../inc/simparams.h"

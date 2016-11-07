@@ -1,5 +1,35 @@
 #include "../inc/simparams.h"
 
+void simparams_loadfiles(simfiles_t* simfiles) {
+	DIR *dir;
+	struct dirent *ent;
+	
+	simfiles->num_files = 0;
+	simfiles->files = (char **)malloc(sizeof(*(simfiles->files)));
+		
+	if ((dir = opendir (FILE_DIR)) != NULL) {
+ 		while ((ent = readdir (dir)) != NULL) {
+   		if(strcmp(ent->d_name, ".") && strcmp(ent->d_name, "..")) {
+   			simfiles->num_files++;
+   			simfiles->files = realloc(simfiles->files, simfiles->num_files*sizeof(*(simfiles->files)));
+				simfiles->files[simfiles->num_files - 1] = (char *)malloc((strlen(ent->d_name)+1)*sizeof(**(simfiles->files)));
+   			strcpy(simfiles->files[simfiles->num_files - 1], ent->d_name);
+   			}
+  	}
+  	closedir (dir);
+	} else {
+  	printf("Simulation Directory Does Not Exist!!\n");
+	}
+}
+
+void simparams_freefiles(simfiles_t* simfiles) {
+	int i;
+	
+	for(i=0 ; i<simfiles->num_files ; i++)
+		free(simfiles->files[i]);
+	free(simfiles->files);
+}
+
 void set_N(FILE *fp, simparams_t *simparams) {
 	int i;
 	
@@ -110,22 +140,26 @@ void load_defaults() {
 
 }
 
-void simparams_load(simparams_t *simparams) {
+void simparams_load(simparams_t *simparams, char *file) {
 	FILE *fp;
 	char *str;
-	
-	//simparams = (simparams_t *)malloc(sizeof(*simparams));
-	
-	str = (char *)malloc(20*sizeof(char));
+
+	str = (char *)malloc((strlen(file) + 13)*sizeof(char));
 	str[0] = '\0';
 	
-	fp = fopen("./sim_params", "r");
+	strcat(str, FILE_DIR);
+	strcat(str, "/");
+	strcat(str, file);
+	
+	fp = fopen(str, "r");
 	if(fp == NULL) {
 		printf("No sim_params file found, using defaults...\n");
 		goto DEFAULT;	
 	}
-		
-
+	
+	str = (char *)realloc(str, 20*sizeof(char));
+	str[0] = '\0';
+	
 	while(strcmp(str, "END")) {
 		while(fgetc(fp) != '#');
 			fscanf(fp, "%s", str);
@@ -186,8 +220,6 @@ void simparams_free(simparams_t *simparams) {
 	free(simparams->G);
 	
 	free(simparams->EbNo_VALS);
-	
-	//free(simparams);
 }
 
 

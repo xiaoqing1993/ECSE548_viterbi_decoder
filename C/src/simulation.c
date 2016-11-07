@@ -1,9 +1,11 @@
 #include "../inc/simulation.h"
 
-void simulation_run() {
+
+void simulate(char *file) {
 	int i, Ferr, run, EbNo_count = 0;
 	int num_frames;
 	double BER, FER;
+	char *str;
 	FILE *fp;
 	
 	simparams_t simparams;
@@ -14,7 +16,7 @@ void simulation_run() {
 	double *y;
 	uint8_t *m_est;
 	
-	simparams_load(&simparams);
+	simparams_load(&simparams, file);
 	code_load(&code, simparams.N, simparams.K, simparams.G);
 	modulator_modulate_codebook(&code, simparams.MODULATOR);
 	m = (uint8_t *)malloc(simparams.K*sizeof(*m));
@@ -25,10 +27,14 @@ void simulation_run() {
 	
 	srand(time(NULL));
 	
-	//printf("codebook:\n");
-	//for(i=0 ; i<)
 	
-	fp = fopen("./results/test", "w+");
+	str = (char *)malloc((strlen(file) + 13)*sizeof(char));
+	str[0] = '\0';
+	
+	strcat(str, RESULTS_DIR);
+	strcat(str, "/");
+	strcat(str, file);
+	fp = fopen(str, "w+");
 	fprintf(fp, "#Component\n");
 	fprintf(fp, "#EbNo_db    BER         SER         FER         Av. Iters   Frame Count\n");
 	while(EbNo_count < simparams.EbNo_STEPS) {
@@ -42,29 +48,7 @@ void simulation_run() {
 			modulator_modulate(&x, c, code, simparams.MODULATOR);
 			channel_transmit(&y, x, simparams.EbNo_VALS[EbNo_count], code, simparams.CHANNEL);
 			decoder_decode(&m_est, y, code, simparams.DECODER, simparams.MODULATOR, simparams.Q_N, simparams.Q_M);
-			/*
-			for(i=0 ; i<code.K ; i++)
-				printf("%d", m[i]);
-			printf("\n");
-			
-			for(i=0 ; i<code.N ; i++)
-				printf("%d", c[i]);
-			printf("\n");
-			
-			for(i=0 ; i<code.N ; i++)
-				printf("%d ", x[i]);
-			printf("\n");
-			
-			for(i=0 ; i<code.N ; i++)
-				printf("%f ", y[i]);
-			printf("\n");
-			
-			for(i=0 ; i<code.K ; i++)
-				printf("%d", m_est[i]);
-			printf("\n\n\n");
-			*/
-			
-			
+
 			Ferr = 0;
 			for(i=0 ; i<code.K ; i++) {
 				if(m[i] != m_est[i]) {
@@ -98,4 +82,22 @@ void simulation_run() {
 	free(m);
 	code_free(&code);
 	simparams_free(&simparams);
+
 }
+
+
+void simulation_run() {
+	int i;
+	
+	simfiles_t simfiles;
+	simparams_loadfiles(&simfiles);
+	
+	for(i=0 ; i<simfiles.num_files ; i++)
+		simulate(simfiles.files[i]);
+	
+	simparams_freefiles(&simfiles);
+/*	
+
+*/
+}
+
