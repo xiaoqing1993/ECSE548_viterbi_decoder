@@ -23,6 +23,10 @@ void simulation_run() {
 	y = (double *)malloc(simparams.N*sizeof(*y));
 	m_est = (uint8_t *)malloc(simparams.K*sizeof(*m_est));
 	
+	srand(time(NULL));
+	
+	//printf("codebook:\n");
+	//for(i=0 ; i<)
 	
 	fp = fopen("./results/test", "w+");
 	fprintf(fp, "#Component\n");
@@ -38,6 +42,28 @@ void simulation_run() {
 			modulator_modulate(&x, c, code, simparams.MODULATOR);
 			channel_transmit(&y, x, simparams.EbNo_VALS[EbNo_count], code, simparams.CHANNEL);
 			decoder_decode(&m_est, y, code, simparams.DECODER, simparams.MODULATOR);
+			/*
+			for(i=0 ; i<code.K ; i++)
+				printf("%d", m[i]);
+			printf("\n");
+			
+			for(i=0 ; i<code.N ; i++)
+				printf("%d", c[i]);
+			printf("\n");
+			
+			for(i=0 ; i<code.N ; i++)
+				printf("%d ", x[i]);
+			printf("\n");
+			
+			for(i=0 ; i<code.N ; i++)
+				printf("%f ", y[i]);
+			printf("\n");
+			
+			for(i=0 ; i<code.K ; i++)
+				printf("%d", m_est[i]);
+			printf("\n\n\n");
+			*/
+			
 			
 			Ferr = 0;
 			for(i=0 ; i<code.K ; i++) {
