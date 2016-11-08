@@ -28,6 +28,6 @@ The VITERBI decoder unfortunately is harcoded to the Haming 8,4,4 code
 # DECODER VITERBI_FIXEDPOINT
 
 # Q_N 4
-# Q_M 10
+# Q_M 6
 
 # END
