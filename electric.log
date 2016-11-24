@@ -2888,4 +2888,1004 @@ Currently highlighted:
     com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , Ground['gnd@0']
 --------------- 873 --------------
   Thu Nov 24 12:16:56 EST 2016
-ProcessKeyBinding 400 when=1480007816641 modifiers=80 code=0 cha
+ProcessKeyBinding 400 when=1480007816641 modifiers=80 code=0 char=15 false false
+--------------- 874 --------------
+  Thu Nov 24 12:16:56 EST 2016
+ProcessKeyBinding 402 when=1480007816719 modifiers=80 code=55 char=15 false false
+--------------- 875 --------------
+  Thu Nov 24 12:16:57 EST 2016
+ProcessKeyBinding 402 when=1480007817266 modifiers=0 code=11 char=ffff false false
+--------------- 876 --------------
+  Thu Nov 24 12:17:01 EST 2016
+ProcessKeyBinding 401 when=1480007821719 modifiers=80 code=11 char=ffff false false
+--------------- 877 --------------
+  Thu Nov 24 12:17:02 EST 2016
+ProcessKeyBinding 401 when=1480007822141 modifiers=80 code=4a char=a false false
+--------------- 878 --------------
+  Thu Nov 24 12:17:02 EST 2016
+Menu Activated: Edit | Rotate | 90 Degrees Counterclockwise
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , 'Ground[gnd@0].gnd'
+--------------- 879 --------------
+  Thu Nov 24 12:17:02 EST 2016
+ProcessKeyBinding 400 when=1480007822141 modifiers=80 code=0 char=a false false
+--------------- 880 --------------
+  Thu Nov 24 12:17:02 EST 2016
+ProcessKeyBinding 402 when=1480007822266 modifiers=80 code=4a char=a false false
+--------------- 881 --------------
+  Thu Nov 24 12:17:02 EST 2016
+ProcessKeyBinding 401 when=1480007822407 modifiers=80 code=4a char=a false false
+--------------- 882 --------------
+  Thu Nov 24 12:17:02 EST 2016
+Menu Activated: Edit | Rotate | 90 Degrees Counterclockwise
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , 'Ground[gnd@0].gnd'
+--------------- 883 --------------
+  Thu Nov 24 12:17:02 EST 2016
+ProcessKeyBinding 400 when=1480007822407 modifiers=80 code=0 char=a false false
+--------------- 884 --------------
+  Thu Nov 24 12:17:02 EST 2016
+ProcessKeyBinding 402 when=1480007822469 modifiers=80 code=4a char=a false false
+--------------- 885 --------------
+  Thu Nov 24 12:17:02 EST 2016
+ProcessKeyBinding 402 when=1480007822672 modifiers=0 code=11 char=ffff false false
+--------------- 886 --------------
+  Thu Nov 24 12:17:16 EST 2016
+ProcessKeyBinding 401 when=1480007836376 modifiers=80 code=11 char=ffff false false
+--------------- 887 --------------
+  Thu Nov 24 12:17:16 EST 2016
+ProcessKeyBinding 401 when=1480007836704 modifiers=80 code=45 char=5 false false
+--------------- 888 --------------
+  Thu Nov 24 12:17:16 EST 2016
+Menu Activated: Export | Create Export...
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , 'Bus_Pin[pin@0].bus'
+--------------- 889 --------------
+  Thu Nov 24 12:17:17 EST 2016
+ProcessKeyBinding 400 when=1480007836704 modifiers=80 code=0 char=5 false false
+--------------- 890 --------------
+  Thu Nov 24 12:17:28 EST 2016
+ProcessKeyBinding 401 when=1480007847891 modifiers=80 code=11 char=ffff false false
+--------------- 891 --------------
+  Thu Nov 24 12:17:28 EST 2016
+ProcessKeyBinding 401 when=1480007848094 modifiers=80 code=45 char=5 false false
+--------------- 892 --------------
+  Thu Nov 24 12:17:28 EST 2016
+Menu Activated: Export | Create Export...
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , 'Bus_Pin[pin@1].bus'
+--------------- 893 --------------
+  Thu Nov 24 12:17:28 EST 2016
+ProcessKeyBinding 400 when=1480007848094 modifiers=80 code=0 char=5 false false
+--------------- 894 --------------
+  Thu Nov 24 12:17:37 EST 2016
+Menu Activated: Cell | Place Cell Instance...
+--------------- 895 --------------
+  Thu Nov 24 12:17:48 EST 2016
+ProcessKeyBinding 401 when=1480007868032 modifiers=0 code=0 char=ffff false false
+--------------- 896 --------------
+  Thu Nov 24 12:17:48 EST 2016
+ProcessKeyBinding 402 when=1480007868032 modifiers=0 code=0 char=ffff false false
+--------------- 897 --------------
+  Thu Nov 24 12:17:59 EST 2016
+ProcessKeyBinding 401 when=1480007879141 modifiers=80 code=11 char=ffff false false
+--------------- 898 --------------
+  Thu Nov 24 12:17:59 EST 2016
+ProcessKeyBinding 401 when=1480007879219 modifiers=80 code=5a char=1a false false
+--------------- 899 --------------
+  Thu Nov 24 12:17:59 EST 2016
+Menu Activated: Edit | Undo
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , 'xor2_1x{ic}[xor2_1x@0].a'
+--------------- 900 --------------
+  Thu Nov 24 12:17:59 EST 2016
+ProcessKeyBinding 400 when=1480007879219 modifiers=80 code=0 char=1a false false
+--------------- 901 --------------
+  Thu Nov 24 12:17:59 EST 2016
+ProcessKeyBinding 402 when=1480007879344 modifiers=80 code=5a char=1a false false
+--------------- 902 --------------
+  Thu Nov 24 12:17:59 EST 2016
+ProcessKeyBinding 402 when=1480007879360 modifiers=0 code=11 char=ffff false false
+--------------- 903 --------------
+  Thu Nov 24 12:18:22 EST 2016
+ProcessKeyBinding 401 when=1480007902766 modifiers=80 code=11 char=ffff false false
+--------------- 904 --------------
+  Thu Nov 24 12:18:23 EST 2016
+ProcessKeyBinding 401 when=1480007902844 modifiers=80 code=5a char=1a false false
+--------------- 905 --------------
+  Thu Nov 24 12:18:23 EST 2016
+Menu Activated: Edit | Undo
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , 'Bus_Pin[pin@3].bus'
+--------------- 906 --------------
+  Thu Nov 24 12:18:23 EST 2016
+ProcessKeyBinding 400 when=1480007902844 modifiers=80 code=0 char=1a false false
+--------------- 907 --------------
+  Thu Nov 24 12:18:23 EST 2016
+ProcessKeyBinding 402 when=1480007903001 modifiers=80 code=5a char=1a false false
+--------------- 908 --------------
+  Thu Nov 24 12:18:23 EST 2016
+ProcessKeyBinding 402 when=1480007903032 modifiers=0 code=11 char=ffff false false
+--------------- 909 --------------
+  Thu Nov 24 12:18:33 EST 2016
+ProcessKeyBinding 401 when=1480007913282 modifiers=80 code=11 char=ffff false false
+--------------- 910 --------------
+  Thu Nov 24 12:18:33 EST 2016
+ProcessKeyBinding 401 when=1480007913547 modifiers=80 code=45 char=5 false false
+--------------- 911 --------------
+  Thu Nov 24 12:18:33 EST 2016
+Menu Activated: Export | Create Export...
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , 'Wire_Pin[pin@4].wire'
+--------------- 912 --------------
+  Thu Nov 24 12:18:33 EST 2016
+ProcessKeyBinding 400 when=1480007913547 modifiers=80 code=0 char=5 false false
+--------------- 913 --------------
+  Thu Nov 24 12:18:53 EST 2016
+Menu Activated: View | Make Icon View
+--------------- 914 --------------
+  Thu Nov 24 12:19:00 EST 2016
+ProcessKeyBinding 401 when=1480007940032 modifiers=80 code=11 char=ffff false false
+--------------- 915 --------------
+  Thu Nov 24 12:19:00 EST 2016
+ProcessKeyBinding 401 when=1480007940126 modifiers=80 code=53 char=13 false false
+--------------- 916 --------------
+  Thu Nov 24 12:19:00 EST 2016
+Menu Activated: File | Save All Libraries
+--------------- 917 --------------
+  Thu Nov 24 12:19:00 EST 2016
+ProcessKeyBinding 400 when=1480007940126 modifiers=80 code=0 char=13 false false
+--------------- 918 --------------
+  Thu Nov 24 12:19:00 EST 2016
+ProcessKeyBinding 402 when=1480007940251 modifiers=80 code=53 char=13 false false
+--------------- 919 --------------
+  Thu Nov 24 12:19:00 EST 2016
+ProcessKeyBinding 402 when=1480007940282 modifiers=0 code=11 char=ffff false false
+--------------- 920 --------------
+  Thu Nov 24 12:19:07 EST 2016
+Menu Activated: Tool | Simulation (Verilog) | Write Verilog Deck...
+--------------- 921 --------------
+  Thu Nov 24 12:25:04 EST 2016
+ProcessKeyBinding 401 when=1480008304157 modifiers=80 code=11 char=ffff false false
+--------------- 922 --------------
+  Thu Nov 24 12:25:04 EST 2016
+ProcessKeyBinding 401 when=1480008304297 modifiers=80 code=45 char=5 false false
+--------------- 923 --------------
+  Thu Nov 24 12:25:04 EST 2016
+Menu Activated: Export | Create Export...
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , 'Ground[gnd@0].gnd'
+--------------- 924 --------------
+  Thu Nov 24 12:25:04 EST 2016
+ProcessKeyBinding 400 when=1480008304297 modifiers=80 code=0 char=5 false false
+--------------- 925 --------------
+  Thu Nov 24 12:25:18 EST 2016
+ProcessKeyBinding 401 when=1480008317922 modifiers=80 code=11 char=ffff false false
+--------------- 926 --------------
+  Thu Nov 24 12:25:18 EST 2016
+ProcessKeyBinding 401 when=1480008318047 modifiers=80 code=5a char=1a false false
+--------------- 927 --------------
+  Thu Nov 24 12:25:18 EST 2016
+Menu Activated: Edit | Undo
+--------------- 928 --------------
+  Thu Nov 24 12:25:18 EST 2016
+ProcessKeyBinding 400 when=1480008318047 modifiers=80 code=0 char=1a false false
+--------------- 929 --------------
+  Thu Nov 24 12:25:18 EST 2016
+ProcessKeyBinding 402 when=1480008318219 modifiers=80 code=5a char=1a false false
+--------------- 930 --------------
+  Thu Nov 24 12:25:19 EST 2016
+ProcessKeyBinding 402 when=1480008319204 modifiers=0 code=11 char=ffff false false
+--------------- 931 --------------
+  Thu Nov 24 12:28:07 EST 2016
+ProcessKeyBinding 401 when=1480008487719 modifiers=0 code=7f char=7f false false
+--------------- 932 --------------
+  Thu Nov 24 12:28:07 EST 2016
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , 'Ground[gnd@0].gnd'
+--------------- 933 --------------
+  Thu Nov 24 12:28:07 EST 2016
+ProcessKeyBinding 400 when=1480008487719 modifiers=0 code=0 char=7f false false
+--------------- 934 --------------
+  Thu Nov 24 12:28:08 EST 2016
+ProcessKeyBinding 402 when=1480008487797 modifiers=0 code=7f char=7f false false
+--------------- 935 --------------
+  Thu Nov 24 12:28:14 EST 2016
+ProcessKeyBinding 401 when=1480008494110 modifiers=80 code=11 char=ffff false false
+--------------- 936 --------------
+  Thu Nov 24 12:28:14 EST 2016
+ProcessKeyBinding 401 when=1480008494282 modifiers=80 code=53 char=13 false false
+--------------- 937 --------------
+  Thu Nov 24 12:28:14 EST 2016
+Menu Activated: File | Save All Libraries
+--------------- 938 --------------
+  Thu Nov 24 12:28:14 EST 2016
+ProcessKeyBinding 400 when=1480008494282 modifiers=80 code=0 char=13 false false
+--------------- 939 --------------
+  Thu Nov 24 12:28:14 EST 2016
+ProcessKeyBinding 402 when=1480008494422 modifiers=80 code=53 char=13 false false
+--------------- 940 --------------
+  Thu Nov 24 12:28:14 EST 2016
+ProcessKeyBinding 402 when=1480008494438 modifiers=0 code=11 char=ffff false false
+--------------- 941 --------------
+  Thu Nov 24 12:28:15 EST 2016
+ProcessKeyBinding 401 when=1480008495469 modifiers=80 code=11 char=ffff false false
+--------------- 942 --------------
+  Thu Nov 24 12:28:15 EST 2016
+ProcessKeyBinding 401 when=1480008495547 modifiers=80 code=53 char=13 false false
+--------------- 943 --------------
+  Thu Nov 24 12:28:15 EST 2016
+Menu Activated: File | Save All Libraries
+--------------- 944 --------------
+  Thu Nov 24 12:28:15 EST 2016
+ProcessKeyBinding 400 when=1480008495547 modifiers=80 code=0 char=13 false false
+--------------- 945 --------------
+  Thu Nov 24 12:28:15 EST 2016
+ProcessKeyBinding 402 when=1480008495672 modifiers=80 code=53 char=13 false false
+--------------- 946 --------------
+  Thu Nov 24 12:28:15 EST 2016
+ProcessKeyBinding 402 when=1480008495688 modifiers=0 code=11 char=ffff false false
+--------------- 947 --------------
+  Thu Nov 24 12:28:19 EST 2016
+Menu Activated: Tool | Simulation (Verilog) | Write Verilog Deck...
+--------------- 948 --------------
+  Thu Nov 24 12:59:53 EST 2016
+ProcessKeyBinding 401 when=1480010392922 modifiers=0 code=7f char=7f false false
+--------------- 949 --------------
+  Thu Nov 24 12:59:53 EST 2016
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    Arc name for wire['s[5]']
+--------------- 950 --------------
+  Thu Nov 24 12:59:53 EST 2016
+ProcessKeyBinding 400 when=1480010392922 modifiers=0 code=0 char=7f false false
+--------------- 951 --------------
+  Thu Nov 24 12:59:53 EST 2016
+ProcessKeyBinding 402 when=1480010392985 modifiers=0 code=7f char=7f false false
+--------------- 952 --------------
+  Thu Nov 24 13:00:00 EST 2016
+Menu Activated: Cell | Place Cell Instance...
+--------------- 953 --------------
+  Thu Nov 24 13:00:52 EST 2016
+ProcessKeyBinding 401 when=1480010452547 modifiers=80 code=11 char=ffff false false
+--------------- 954 --------------
+  Thu Nov 24 13:00:53 EST 2016
+ProcessKeyBinding 401 when=1480010453063 modifiers=80 code=43 char=3 false false
+--------------- 955 --------------
+  Thu Nov 24 13:00:53 EST 2016
+Menu Activated: Edit | Copy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , 'inv_1x{ic}[inv_1x@0].a'
+--------------- 956 --------------
+  Thu Nov 24 13:00:53 EST 2016
+ProcessKeyBinding 400 when=1480010453063 modifiers=80 code=0 char=3 false false
+--------------- 957 --------------
+  Thu Nov 24 13:00:53 EST 2016
+ProcessKeyBinding 402 when=1480010453188 modifiers=0 code=11 char=ffff false false
+--------------- 958 --------------
+  Thu Nov 24 13:00:53 EST 2016
+ProcessKeyBinding 402 when=1480010453188 modifiers=0 code=43 char=63(c) false false
+--------------- 959 --------------
+  Thu Nov 24 13:00:54 EST 2016
+ProcessKeyBinding 401 when=1480010454032 modifiers=80 code=11 char=ffff false false
+--------------- 960 --------------
+  Thu Nov 24 13:00:54 EST 2016
+ProcessKeyBinding 401 when=1480010454126 modifiers=80 code=56 char=16 false false
+--------------- 961 --------------
+  Thu Nov 24 13:00:54 EST 2016
+Menu Activated: Edit | Paste
+--------------- 962 --------------
+  Thu Nov 24 13:00:54 EST 2016
+ProcessKeyBinding 400 when=1480010454126 modifiers=80 code=0 char=16 false false
+--------------- 963 --------------
+  Thu Nov 24 13:00:54 EST 2016
+ProcessKeyBinding 402 when=1480010454235 modifiers=80 code=56 char=16 false false
+--------------- 964 --------------
+  Thu Nov 24 13:00:54 EST 2016
+ProcessKeyBinding 402 when=1480010454266 modifiers=0 code=11 char=ffff false false
+--------------- 965 --------------
+  Thu Nov 24 13:00:59 EST 2016
+ProcessKeyBinding 402 when=1480010458719 modifiers=0 code=28 char=ffff false false
+--------------- 966 --------------
+  Thu Nov 24 13:00:59 EST 2016
+ProcessKeyBinding 402 when=1480010458829 modifiers=0 code=25 char=ffff false false
+--------------- 967 --------------
+  Thu Nov 24 13:00:59 EST 2016
+ProcessKeyBinding 402 when=1480010458938 modifiers=0 code=25 char=ffff false false
+--------------- 968 --------------
+  Thu Nov 24 13:01:01 EST 2016
+ProcessKeyBinding 401 when=1480010460954 modifiers=80 code=11 char=ffff false false
+--------------- 969 --------------
+  Thu Nov 24 13:01:01 EST 2016
+ProcessKeyBinding 401 when=1480010461047 modifiers=80 code=56 char=16 false false
+--------------- 970 --------------
+  Thu Nov 24 13:01:01 EST 2016
+Menu Activated: Edit | Paste
+--------------- 971 --------------
+  Thu Nov 24 13:01:01 EST 2016
+ProcessKeyBinding 400 when=1480010461047 modifiers=80 code=0 char=16 false false
+--------------- 972 --------------
+  Thu Nov 24 13:01:01 EST 2016
+ProcessKeyBinding 402 when=1480010461126 modifiers=80 code=56 char=16 false false
+--------------- 973 --------------
+  Thu Nov 24 13:01:01 EST 2016
+ProcessKeyBinding 402 when=1480010461157 modifiers=0 code=11 char=ffff false false
+--------------- 974 --------------
+  Thu Nov 24 13:01:03 EST 2016
+ProcessKeyBinding 401 when=1480010462907 modifiers=80 code=11 char=ffff false false
+--------------- 975 --------------
+  Thu Nov 24 13:01:03 EST 2016
+ProcessKeyBinding 401 when=1480010463344 modifiers=80 code=43 char=3 false false
+--------------- 976 --------------
+  Thu Nov 24 13:01:03 EST 2016
+Menu Activated: Edit | Copy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , 'and3_1x{ic}[and3_1x@0].y'
+--------------- 977 --------------
+  Thu Nov 24 13:01:03 EST 2016
+ProcessKeyBinding 400 when=1480010463344 modifiers=80 code=0 char=3 false false
+--------------- 978 --------------
+  Thu Nov 24 13:01:03 EST 2016
+ProcessKeyBinding 402 when=1480010463469 modifiers=80 code=43 char=3 false false
+--------------- 979 --------------
+  Thu Nov 24 13:01:03 EST 2016
+ProcessKeyBinding 402 when=1480010463501 modifiers=0 code=11 char=ffff false false
+--------------- 980 --------------
+  Thu Nov 24 13:01:04 EST 2016
+ProcessKeyBinding 401 when=1480010463891 modifiers=80 code=11 char=ffff false false
+--------------- 981 --------------
+  Thu Nov 24 13:01:04 EST 2016
+ProcessKeyBinding 401 when=1480010464001 modifiers=80 code=56 char=16 false false
+--------------- 982 --------------
+  Thu Nov 24 13:01:04 EST 2016
+Menu Activated: Edit | Paste
+--------------- 983 --------------
+  Thu Nov 24 13:01:04 EST 2016
+ProcessKeyBinding 400 when=1480010464001 modifiers=80 code=0 char=16 false false
+--------------- 984 --------------
+  Thu Nov 24 13:01:04 EST 2016
+ProcessKeyBinding 402 when=1480010464126 modifiers=80 code=56 char=16 false false
+--------------- 985 --------------
+  Thu Nov 24 13:01:04 EST 2016
+ProcessKeyBinding 402 when=1480010464157 modifiers=0 code=11 char=ffff false false
+--------------- 986 --------------
+  Thu Nov 24 13:01:36 EST 2016
+ProcessKeyBinding 401 when=1480010495782 modifiers=80 code=11 char=ffff false false
+--------------- 987 --------------
+  Thu Nov 24 13:01:36 EST 2016
+ProcessKeyBinding 401 when=1480010495891 modifiers=80 code=5a char=1a false false
+--------------- 988 --------------
+  Thu Nov 24 13:01:36 EST 2016
+Menu Activated: Edit | Undo
+--------------- 989 --------------
+  Thu Nov 24 13:01:36 EST 2016
+ProcessKeyBinding 400 when=1480010495891 modifiers=80 code=0 char=1a false false
+--------------- 990 --------------
+  Thu Nov 24 13:01:36 EST 2016
+ProcessKeyBinding 402 when=1480010496016 modifiers=80 code=5a char=1a false false
+--------------- 991 --------------
+  Thu Nov 24 13:01:36 EST 2016
+ProcessKeyBinding 401 when=1480010496422 modifiers=80 code=5a char=1a false false
+--------------- 992 --------------
+  Thu Nov 24 13:01:36 EST 2016
+Menu Activated: Edit | Undo
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , 'and3_1x{ic}[and3_1x@1].c'
+--------------- 993 --------------
+  Thu Nov 24 13:01:36 EST 2016
+ProcessKeyBinding 400 when=1480010496422 modifiers=80 code=0 char=1a false false
+--------------- 994 --------------
+  Thu Nov 24 13:01:36 EST 2016
+ProcessKeyBinding 402 when=1480010496532 modifiers=80 code=5a char=1a false false
+--------------- 995 --------------
+  Thu Nov 24 13:01:37 EST 2016
+ProcessKeyBinding 402 when=1480010496766 modifiers=0 code=11 char=ffff false false
+--------------- 996 --------------
+  Thu Nov 24 13:01:44 EST 2016
+ProcessKeyBinding 401 when=1480010503688 modifiers=0 code=7f char=7f false false
+--------------- 997 --------------
+  Thu Nov 24 13:01:44 EST 2016
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@11']
+--------------- 998 --------------
+  Thu Nov 24 13:01:44 EST 2016
+ProcessKeyBinding 400 when=1480010503688 modifiers=0 code=0 char=7f false false
+--------------- 999 --------------
+  Thu Nov 24 13:01:44 EST 2016
+ProcessKeyBinding 402 when=1480010503782 modifiers=0 code=7f char=7f false false
+--------------- 1000 --------------
+  Thu Nov 24 13:01:48 EST 2016
+ProcessKeyBinding 401 when=1480010508266 modifiers=0 code=7f char=7f false false
+--------------- 1001 --------------
+  Thu Nov 24 13:01:48 EST 2016
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@12']
+--------------- 1002 --------------
+  Thu Nov 24 13:01:48 EST 2016
+ProcessKeyBinding 400 when=1480010508266 modifiers=0 code=0 char=7f false false
+--------------- 1003 --------------
+  Thu Nov 24 13:01:48 EST 2016
+ProcessKeyBinding 402 when=1480010508329 modifiers=0 code=7f char=7f false false
+--------------- 1004 --------------
+  Thu Nov 24 13:01:52 EST 2016
+ProcessKeyBinding 401 when=1480010511844 modifiers=80 code=11 char=ffff false false
+--------------- 1005 --------------
+  Thu Nov 24 13:01:52 EST 2016
+ProcessKeyBinding 402 when=1480010512188 modifiers=0 code=11 char=ffff false false
+--------------- 1006 --------------
+  Thu Nov 24 13:01:52 EST 2016
+ProcessKeyBinding 401 when=1480010512672 modifiers=80 code=11 char=ffff false false
+--------------- 1007 --------------
+  Thu Nov 24 13:01:53 EST 2016
+ProcessKeyBinding 401 when=1480010512766 modifiers=80 code=5a char=1a false false
+--------------- 1008 --------------
+  Thu Nov 24 13:01:53 EST 2016
+Menu Activated: Edit | Undo
+--------------- 1009 --------------
+  Thu Nov 24 13:01:53 EST 2016
+ProcessKeyBinding 400 when=1480010512766 modifiers=80 code=0 char=1a false false
+--------------- 1010 --------------
+  Thu Nov 24 13:01:53 EST 2016
+ProcessKeyBinding 402 when=1480010512876 modifiers=80 code=5a char=1a false false
+--------------- 1011 --------------
+  Thu Nov 24 13:01:53 EST 2016
+ProcessKeyBinding 402 when=1480010512922 modifiers=0 code=11 char=ffff false false
+--------------- 1012 --------------
+  Thu Nov 24 13:01:56 EST 2016
+ProcessKeyBinding 401 when=1480010515797 modifiers=80 code=11 char=ffff false false
+--------------- 1013 --------------
+  Thu Nov 24 13:01:56 EST 2016
+ProcessKeyBinding 401 when=1480010515860 modifiers=80 code=5a char=1a false false
+--------------- 1014 --------------
+  Thu Nov 24 13:01:56 EST 2016
+Menu Activated: Edit | Undo
+--------------- 1015 --------------
+  Thu Nov 24 13:01:56 EST 2016
+ProcessKeyBinding 400 when=1480010515860 modifiers=80 code=0 char=1a false false
+--------------- 1016 --------------
+  Thu Nov 24 13:01:56 EST 2016
+ProcessKeyBinding 402 when=1480010515969 modifiers=80 code=5a char=1a false false
+--------------- 1017 --------------
+  Thu Nov 24 13:01:56 EST 2016
+ProcessKeyBinding 402 when=1480010516016 modifiers=0 code=11 char=ffff false false
+--------------- 1018 --------------
+  Thu Nov 24 13:02:04 EST 2016
+ProcessKeyBinding 401 when=1480010524016 modifiers=80 code=11 char=ffff false false
+--------------- 1019 --------------
+  Thu Nov 24 13:02:04 EST 2016
+ProcessKeyBinding 401 when=1480010524282 modifiers=80 code=5a char=1a false false
+--------------- 1020 --------------
+  Thu Nov 24 13:02:04 EST 2016
+Menu Activated: Edit | Undo
+--------------- 1021 --------------
+  Thu Nov 24 13:02:04 EST 2016
+ProcessKeyBinding 400 when=1480010524282 modifiers=80 code=0 char=1a false false
+--------------- 1022 --------------
+  Thu Nov 24 13:02:04 EST 2016
+ProcessKeyBinding 402 when=1480010524376 modifiers=80 code=5a char=1a false false
+--------------- 1023 --------------
+  Thu Nov 24 13:02:05 EST 2016
+ProcessKeyBinding 401 when=1480010524751 modifiers=80 code=5a char=1a false false
+--------------- 1024 --------------
+  Thu Nov 24 13:02:05 EST 2016
+Menu Activated: Edit | Undo
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , 'Wire_Pin[pin@9].wire'
+--------------- 1025 --------------
+  Thu Nov 24 13:02:05 EST 2016
+ProcessKeyBinding 400 when=1480010524751 modifiers=80 code=0 char=1a false false
+--------------- 1026 --------------
+  Thu Nov 24 13:02:05 EST 2016
+ProcessKeyBinding 402 when=1480010524860 modifiers=80 code=5a char=1a false false
+--------------- 1027 --------------
+  Thu Nov 24 13:02:05 EST 2016
+ProcessKeyBinding 402 when=1480010525063 modifiers=0 code=11 char=ffff false false
+--------------- 1028 --------------
+  Thu Nov 24 13:02:21 EST 2016
+ProcessKeyBinding 401 when=1480010541079 modifiers=80 code=11 char=ffff false false
+--------------- 1029 --------------
+  Thu Nov 24 13:02:21 EST 2016
+ProcessKeyBinding 401 when=1480010541422 modifiers=80 code=5a char=1a false false
+--------------- 1030 --------------
+  Thu Nov 24 13:02:21 EST 2016
+Menu Activated: Edit | Undo
+--------------- 1031 --------------
+  Thu Nov 24 13:02:21 EST 2016
+ProcessKeyBinding 400 when=1480010541422 modifiers=80 code=0 char=1a false false
+--------------- 1032 --------------
+  Thu Nov 24 13:02:21 EST 2016
+ProcessKeyBinding 402 when=1480010541532 modifiers=80 code=5a char=1a false false
+--------------- 1033 --------------
+  Thu Nov 24 13:02:22 EST 2016
+ProcessKeyBinding 402 when=1480010542079 modifiers=0 code=11 char=ffff false false
+--------------- 1034 --------------
+  Thu Nov 24 13:02:33 EST 2016
+ProcessKeyBinding 401 when=1480010552751 modifiers=80 code=11 char=ffff false false
+--------------- 1035 --------------
+  Thu Nov 24 13:02:33 EST 2016
+ProcessKeyBinding 401 when=1480010552844 modifiers=80 code=5a char=1a false false
+--------------- 1036 --------------
+  Thu Nov 24 13:02:33 EST 2016
+Menu Activated: Edit | Undo
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , 'Wire_Pin[pin@13].wire'
+--------------- 1037 --------------
+  Thu Nov 24 13:02:33 EST 2016
+ProcessKeyBinding 400 when=1480010552844 modifiers=80 code=0 char=1a false false
+--------------- 1038 --------------
+  Thu Nov 24 13:02:33 EST 2016
+ProcessKeyBinding 402 when=1480010552954 modifiers=80 code=5a char=1a false false
+--------------- 1039 --------------
+  Thu Nov 24 13:02:33 EST 2016
+ProcessKeyBinding 402 when=1480010553360 modifiers=0 code=11 char=ffff false false
+--------------- 1040 --------------
+  Thu Nov 24 13:02:35 EST 2016
+ProcessKeyBinding 401 when=1480010555485 modifiers=80 code=11 char=ffff false false
+--------------- 1041 --------------
+  Thu Nov 24 13:02:35 EST 2016
+ProcessKeyBinding 401 when=1480010555547 modifiers=80 code=5a char=1a false false
+--------------- 1042 --------------
+  Thu Nov 24 13:02:35 EST 2016
+Menu Activated: Edit | Undo
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , 'Wire_Pin[pin@6].wire'
+--------------- 1043 --------------
+  Thu Nov 24 13:02:35 EST 2016
+ProcessKeyBinding 400 when=1480010555547 modifiers=80 code=0 char=1a false false
+--------------- 1044 --------------
+  Thu Nov 24 13:02:35 EST 2016
+ProcessKeyBinding 402 when=1480010555672 modifiers=80 code=5a char=1a false false
+--------------- 1045 --------------
+  Thu Nov 24 13:02:36 EST 2016
+ProcessKeyBinding 402 when=1480010555719 modifiers=0 code=11 char=ffff false false
+--------------- 1046 --------------
+  Thu Nov 24 13:02:38 EST 2016
+ProcessKeyBinding 401 when=1480010558501 modifiers=80 code=11 char=ffff false false
+--------------- 1047 --------------
+  Thu Nov 24 13:02:39 EST 2016
+ProcessKeyBinding 402 when=1480010559110 modifiers=0 code=11 char=ffff false false
+--------------- 1048 --------------
+  Thu Nov 24 13:12:37 EST 2016
+Menu Activated: Cell | Place Cell Instance...
+--------------- 1049 --------------
+  Thu Nov 24 13:12:52 EST 2016
+ProcessKeyBinding 402 when=1480011172407 modifiers=0 code=25 char=ffff false false
+--------------- 1050 --------------
+  Thu Nov 24 13:12:52 EST 2016
+ProcessKeyBinding 402 when=1480011172563 modifiers=0 code=25 char=ffff false false
+--------------- 1051 --------------
+  Thu Nov 24 13:13:46 EST 2016
+Menu Activated: File | Project Settings...
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , or2_1x{ic}['or2_1x@0']
+--------------- 1052 --------------
+  Thu Nov 24 13:16:31 EST 2016
+ProcessKeyBinding 401 when=1480011391157 modifiers=80 code=11 char=ffff false false
+--------------- 1053 --------------
+  Thu Nov 24 13:16:31 EST 2016
+ProcessKeyBinding 401 when=1480011391391 modifiers=80 code=5a char=1a false false
+--------------- 1054 --------------
+  Thu Nov 24 13:16:31 EST 2016
+Menu Activated: Edit | Undo
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@30']
+--------------- 1055 --------------
+  Thu Nov 24 13:16:31 EST 2016
+ProcessKeyBinding 400 when=1480011391391 modifiers=80 code=0 char=1a false false
+--------------- 1056 --------------
+  Thu Nov 24 13:16:31 EST 2016
+ProcessKeyBinding 402 when=1480011391516 modifiers=80 code=5a char=1a false false
+--------------- 1057 --------------
+  Thu Nov 24 13:16:31 EST 2016
+ProcessKeyBinding 402 when=1480011391532 modifiers=0 code=11 char=ffff false false
+--------------- 1058 --------------
+  Thu Nov 24 13:16:37 EST 2016
+ProcessKeyBinding 401 when=1480011397313 modifiers=80 code=11 char=ffff false false
+--------------- 1059 --------------
+  Thu Nov 24 13:16:37 EST 2016
+ProcessKeyBinding 401 when=1480011397438 modifiers=80 code=5a char=1a false false
+--------------- 1060 --------------
+  Thu Nov 24 13:16:37 EST 2016
+Menu Activated: Edit | Undo
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@29']
+--------------- 1061 --------------
+  Thu Nov 24 13:16:37 EST 2016
+ProcessKeyBinding 400 when=1480011397438 modifiers=80 code=0 char=1a false false
+--------------- 1062 --------------
+  Thu Nov 24 13:16:37 EST 2016
+ProcessKeyBinding 402 when=1480011397594 modifiers=80 code=5a char=1a false false
+--------------- 1063 --------------
+  Thu Nov 24 13:16:38 EST 2016
+ProcessKeyBinding 402 when=1480011397938 modifiers=0 code=11 char=ffff false false
+--------------- 1064 --------------
+  Thu Nov 24 13:16:42 EST 2016
+ProcessKeyBinding 401 when=1480011401938 modifiers=80 code=11 char=ffff false false
+--------------- 1065 --------------
+  Thu Nov 24 13:16:42 EST 2016
+ProcessKeyBinding 401 when=1480011402016 modifiers=80 code=5a char=1a false false
+--------------- 1066 --------------
+  Thu Nov 24 13:16:42 EST 2016
+Menu Activated: Edit | Undo
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@28']
+--------------- 1067 --------------
+  Thu Nov 24 13:16:42 EST 2016
+ProcessKeyBinding 400 when=1480011402016 modifiers=80 code=0 char=1a false false
+--------------- 1068 --------------
+  Thu Nov 24 13:16:42 EST 2016
+ProcessKeyBinding 402 when=1480011402141 modifiers=80 code=5a char=1a false false
+--------------- 1069 --------------
+  Thu Nov 24 13:16:42 EST 2016
+ProcessKeyBinding 402 when=1480011402329 modifiers=0 code=11 char=ffff false false
+--------------- 1070 --------------
+  Thu Nov 24 13:16:46 EST 2016
+ProcessKeyBinding 402 when=1480011405860 modifiers=0 code=25 char=ffff false false
+--------------- 1071 --------------
+  Thu Nov 24 13:16:46 EST 2016
+ProcessKeyBinding 401 when=1480011406282 modifiers=80 code=11 char=ffff false false
+--------------- 1072 --------------
+  Thu Nov 24 13:16:47 EST 2016
+ProcessKeyBinding 402 when=1480011406672 modifiers=0 code=11 char=ffff false false
+--------------- 1073 --------------
+  Thu Nov 24 13:16:47 EST 2016
+ProcessKeyBinding 402 when=1480011406766 modifiers=0 code=25 char=ffff false false
+--------------- 1074 --------------
+  Thu Nov 24 13:16:47 EST 2016
+ProcessKeyBinding 402 when=1480011407063 modifiers=0 code=25 char=ffff false false
+--------------- 1075 --------------
+  Thu Nov 24 13:16:47 EST 2016
+ProcessKeyBinding 402 when=1480011407188 modifiers=0 code=25 char=ffff false false
+--------------- 1076 --------------
+  Thu Nov 24 13:16:47 EST 2016
+ProcessKeyBinding 402 when=1480011407376 modifiers=0 code=25 char=ffff false false
+--------------- 1077 --------------
+  Thu Nov 24 13:16:48 EST 2016
+ProcessKeyBinding 401 when=1480011408516 modifiers=0 code=48 char=68(h) false false
+--------------- 1078 --------------
+  Thu Nov 24 13:16:48 EST 2016
+Menu Activated: Edit | Modes | Movement | Half motion
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@29']
+--------------- 1079 --------------
+  Thu Nov 24 13:16:48 EST 2016
+ProcessKeyBinding 400 when=1480011408516 modifiers=0 code=0 char=68(h) false false
+--------------- 1080 --------------
+  Thu Nov 24 13:16:48 EST 2016
+ProcessKeyBinding 402 when=1480011408594 modifiers=0 code=48 char=68(h) false false
+--------------- 1081 --------------
+  Thu Nov 24 13:16:49 EST 2016
+ProcessKeyBinding 402 when=1480011409157 modifiers=0 code=25 char=ffff false false
+--------------- 1082 --------------
+  Thu Nov 24 13:16:58 EST 2016
+ProcessKeyBinding 402 when=1480011417719 modifiers=0 code=25 char=ffff false false
+--------------- 1083 --------------
+  Thu Nov 24 13:16:58 EST 2016
+ProcessKeyBinding 402 when=1480011417860 modifiers=0 code=25 char=ffff false false
+--------------- 1084 --------------
+  Thu Nov 24 13:16:58 EST 2016
+ProcessKeyBinding 402 when=1480011417985 modifiers=0 code=25 char=ffff false false
+--------------- 1085 --------------
+  Thu Nov 24 13:16:58 EST 2016
+ProcessKeyBinding 402 when=1480011418579 modifiers=0 code=25 char=ffff false false
+--------------- 1086 --------------
+  Thu Nov 24 13:16:58 EST 2016
+ProcessKeyBinding 402 when=1480011418626 modifiers=0 code=25 char=ffff false false
+--------------- 1087 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011418672 modifiers=0 code=25 char=ffff false false
+--------------- 1088 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011418704 modifiers=0 code=25 char=ffff false false
+--------------- 1089 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011418751 modifiers=0 code=25 char=ffff false false
+--------------- 1090 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011418797 modifiers=0 code=25 char=ffff false false
+--------------- 1091 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011418829 modifiers=0 code=25 char=ffff false false
+--------------- 1092 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011418876 modifiers=0 code=25 char=ffff false false
+--------------- 1093 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011418922 modifiers=0 code=25 char=ffff false false
+--------------- 1094 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011418954 modifiers=0 code=25 char=ffff false false
+--------------- 1095 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011419001 modifiers=0 code=25 char=ffff false false
+--------------- 1096 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011419047 modifiers=0 code=25 char=ffff false false
+--------------- 1097 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011419079 modifiers=0 code=25 char=ffff false false
+--------------- 1098 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011419126 modifiers=0 code=25 char=ffff false false
+--------------- 1099 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011419172 modifiers=0 code=25 char=ffff false false
+--------------- 1100 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011419204 modifiers=0 code=25 char=ffff false false
+--------------- 1101 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011419251 modifiers=0 code=25 char=ffff false false
+--------------- 1102 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011419297 modifiers=0 code=25 char=ffff false false
+--------------- 1103 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011419329 modifiers=0 code=25 char=ffff false false
+--------------- 1104 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011419376 modifiers=0 code=25 char=ffff false false
+--------------- 1105 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011419422 modifiers=0 code=25 char=ffff false false
+--------------- 1106 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011419454 modifiers=0 code=25 char=ffff false false
+--------------- 1107 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011419501 modifiers=0 code=25 char=ffff false false
+--------------- 1108 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011419547 modifiers=0 code=25 char=ffff false false
+--------------- 1109 --------------
+  Thu Nov 24 13:16:59 EST 2016
+ProcessKeyBinding 402 when=1480011419579 modifiers=0 code=25 char=ffff false false
+--------------- 1110 --------------
+  Thu Nov 24 13:17:00 EST 2016
+ProcessKeyBinding 402 when=1480011419626 modifiers=0 code=25 char=ffff false false
+--------------- 1111 --------------
+  Thu Nov 24 13:17:00 EST 2016
+ProcessKeyBinding 402 when=1480011419672 modifiers=0 code=25 char=ffff false false
+--------------- 1112 --------------
+  Thu Nov 24 13:17:00 EST 2016
+ProcessKeyBinding 402 when=1480011419704 modifiers=0 code=25 char=ffff false false
+--------------- 1113 --------------
+  Thu Nov 24 13:17:00 EST 2016
+ProcessKeyBinding 402 when=1480011419751 modifiers=0 code=25 char=ffff false false
+--------------- 1114 --------------
+  Thu Nov 24 13:17:00 EST 2016
+ProcessKeyBinding 402 when=1480011419797 modifiers=0 code=25 char=ffff false false
+--------------- 1115 --------------
+  Thu Nov 24 13:17:00 EST 2016
+ProcessKeyBinding 402 when=1480011419829 modifiers=0 code=25 char=ffff false false
+--------------- 1116 --------------
+  Thu Nov 24 13:17:00 EST 2016
+ProcessKeyBinding 402 when=1480011419876 modifiers=0 code=25 char=ffff false false
+--------------- 1117 --------------
+  Thu Nov 24 13:17:00 EST 2016
+ProcessKeyBinding 402 when=1480011419922 modifiers=0 code=25 char=ffff false false
+--------------- 1118 --------------
+  Thu Nov 24 13:17:00 EST 2016
+ProcessKeyBinding 402 when=1480011419954 modifiers=0 code=25 char=ffff false false
+--------------- 1119 --------------
+  Thu Nov 24 13:17:00 EST 2016
+ProcessKeyBinding 402 when=1480011420001 modifiers=0 code=25 char=ffff false false
+--------------- 1120 --------------
+  Thu Nov 24 13:17:00 EST 2016
+ProcessKeyBinding 402 when=1480011420047 modifiers=0 code=25 char=ffff false false
+--------------- 1121 --------------
+  Thu Nov 24 13:17:00 EST 2016
+ProcessKeyBinding 402 when=1480011420079 modifiers=0 code=25 char=ffff false false
+--------------- 1122 --------------
+  Thu Nov 24 13:17:00 EST 2016
+ProcessKeyBinding 402 when=1480011420094 modifiers=0 code=25 char=ffff false false
+--------------- 1123 --------------
+  Thu Nov 24 13:17:00 EST 2016
+ProcessKeyBinding 402 when=1480011420204 modifiers=0 code=26 char=ffff false false
+--------------- 1124 --------------
+  Thu Nov 24 13:17:00 EST 2016
+ProcessKeyBinding 402 when=1480011420360 modifiers=0 code=26 char=ffff false false
+--------------- 1125 --------------
+  Thu Nov 24 13:17:01 EST 2016
+ProcessKeyBinding 402 when=1480011420938 modifiers=0 code=26 char=ffff false false
+--------------- 1126 --------------
+  Thu Nov 24 13:17:01 EST 2016
+ProcessKeyBinding 402 when=1480011420985 modifiers=0 code=26 char=ffff false false
+--------------- 1127 --------------
+  Thu Nov 24 13:17:01 EST 2016
+ProcessKeyBinding 402 when=1480011421032 modifiers=0 code=26 char=ffff false false
+--------------- 1128 --------------
+  Thu Nov 24 13:17:01 EST 2016
+ProcessKeyBinding 402 when=1480011421079 modifiers=0 code=26 char=ffff false false
+--------------- 1129 --------------
+  Thu Nov 24 13:17:01 EST 2016
+ProcessKeyBinding 402 when=1480011421126 modifiers=0 code=26 char=ffff false false
+--------------- 1130 --------------
+  Thu Nov 24 13:17:01 EST 2016
+ProcessKeyBinding 402 when=1480011421172 modifiers=0 code=26 char=ffff false false
+--------------- 1131 --------------
+  Thu Nov 24 13:17:01 EST 2016
+ProcessKeyBinding 402 when=1480011421204 modifiers=0 code=26 char=ffff false false
+--------------- 1132 --------------
+  Thu Nov 24 13:17:01 EST 2016
+ProcessKeyBinding 402 when=1480011421251 modifiers=0 code=26 char=ffff false false
+--------------- 1133 --------------
+  Thu Nov 24 13:17:01 EST 2016
+ProcessKeyBinding 402 when=1480011421297 modifiers=0 code=26 char=ffff false false
+--------------- 1134 --------------
+  Thu Nov 24 13:17:01 EST 2016
+ProcessKeyBinding 402 when=1480011421329 modifiers=0 code=26 char=ffff false false
+--------------- 1135 --------------
+  Thu Nov 24 13:17:01 EST 2016
+ProcessKeyBinding 402 when=1480011421376 modifiers=0 code=26 char=ffff false false
+--------------- 1136 --------------
+  Thu Nov 24 13:17:01 EST 2016
+ProcessKeyBinding 402 when=1480011421422 modifiers=0 code=26 char=ffff false false
+--------------- 1137 --------------
+  Thu Nov 24 13:17:01 EST 2016
+ProcessKeyBinding 402 when=1480011421454 modifiers=0 code=26 char=ffff false false
+--------------- 1138 --------------
+  Thu Nov 24 13:17:01 EST 2016
+ProcessKeyBinding 402 when=1480011421501 modifiers=0 code=26 char=ffff false false
+--------------- 1139 --------------
+  Thu Nov 24 13:17:01 EST 2016
+ProcessKeyBinding 402 when=1480011421547 modifiers=0 code=26 char=ffff false false
+--------------- 1140 --------------
+  Thu Nov 24 13:17:01 EST 2016
+ProcessKeyBinding 402 when=1480011421579 modifiers=0 code=26 char=ffff false false
+--------------- 1141 --------------
+  Thu Nov 24 13:17:01 EST 2016
+ProcessKeyBinding 402 when=1480011421626 modifiers=0 code=26 char=ffff false false
+--------------- 1142 --------------
+  Thu Nov 24 13:17:02 EST 2016
+ProcessKeyBinding 402 when=1480011421672 modifiers=0 code=26 char=ffff false false
+--------------- 1143 --------------
+  Thu Nov 24 13:17:02 EST 2016
+ProcessKeyBinding 402 when=1480011421704 modifiers=0 code=26 char=ffff false false
+--------------- 1144 --------------
+  Thu Nov 24 13:17:02 EST 2016
+ProcessKeyBinding 402 when=1480011421751 modifiers=0 code=26 char=ffff false false
+--------------- 1145 --------------
+  Thu Nov 24 13:17:02 EST 2016
+ProcessKeyBinding 402 when=1480011421797 modifiers=0 code=26 char=ffff false false
+--------------- 1146 --------------
+  Thu Nov 24 13:17:02 EST 2016
+ProcessKeyBinding 402 when=1480011421829 modifiers=0 code=26 char=ffff false false
+--------------- 1147 --------------
+  Thu Nov 24 13:17:02 EST 2016
+ProcessKeyBinding 402 when=1480011421829 modifiers=0 code=26 char=ffff false false
+--------------- 1148 --------------
+  Thu Nov 24 13:17:02 EST 2016
+ProcessKeyBinding 402 when=1480011422016 modifiers=0 code=27 char=ffff false false
+--------------- 1149 --------------
+  Thu Nov 24 13:17:02 EST 2016
+ProcessKeyBinding 402 when=1480011422157 modifiers=0 code=27 char=ffff false false
+--------------- 1150 --------------
+  Thu Nov 24 13:17:04 EST 2016
+ProcessKeyBinding 402 when=1480011424422 modifiers=0 code=28 char=ffff false false
+--------------- 1151 --------------
+  Thu Nov 24 13:17:04 EST 2016
+ProcessKeyBinding 402 when=1480011424532 modifiers=0 code=28 char=ffff false false
+--------------- 1152 --------------
+  Thu Nov 24 13:17:05 EST 2016
+ProcessKeyBinding 402 when=1480011424657 modifiers=0 code=28 char=ffff false false
+--------------- 1153 --------------
+  Thu Nov 24 13:17:05 EST 2016
+ProcessKeyBinding 402 when=1480011424829 modifiers=0 code=28 char=ffff false false
+--------------- 1154 --------------
+  Thu Nov 24 13:17:05 EST 2016
+ProcessKeyBinding 402 when=1480011424985 modifiers=0 code=28 char=ffff false false
+--------------- 1155 --------------
+  Thu Nov 24 13:17:05 EST 2016
+ProcessKeyBinding 402 when=1480011425141 modifiers=0 code=28 char=ffff false false
+--------------- 1156 --------------
+  Thu Nov 24 13:17:05 EST 2016
+ProcessKeyBinding 402 when=1480011425313 modifiers=0 code=28 char=ffff false false
+--------------- 1157 --------------
+  Thu Nov 24 13:17:05 EST 2016
+ProcessKeyBinding 402 when=1480011425501 modifiers=0 code=27 char=ffff false false
+--------------- 1158 --------------
+  Thu Nov 24 13:17:06 EST 2016
+ProcessKeyBinding 402 when=1480011425657 modifiers=0 code=27 char=ffff false false
+--------------- 1159 --------------
+  Thu Nov 24 13:17:06 EST 2016
+ProcessKeyBinding 402 when=1480011425829 modifiers=0 code=27 char=ffff false false
+--------------- 1160 --------------
+  Thu Nov 24 13:17:06 EST 2016
+ProcessKeyBinding 402 when=1480011425985 modifiers=0 code=27 char=ffff false false
+--------------- 1161 --------------
+  Thu Nov 24 13:17:07 EST 2016
+ProcessKeyBinding 402 when=1480011426672 modifiers=0 code=27 char=ffff false false
+--------------- 1162 --------------
+  Thu Nov 24 13:17:14 EST 2016
+ProcessKeyBinding 401 when=1480011433735 modifiers=80 code=11 char=ffff false false
+--------------- 1163 --------------
+  Thu Nov 24 13:17:14 EST 2016
+ProcessKeyBinding 401 when=1480011433844 modifiers=80 code=39 char=39(9) false false
+--------------- 1164 --------------
+  Thu Nov 24 13:17:14 EST 2016
+Menu Activated: Window | Fill Window
+--------------- 1165 --------------
+  Thu Nov 24 13:17:14 EST 2016
+ProcessKeyBinding 400 when=1480011433844 modifiers=80 code=0 char=39(9) false false
+--------------- 1166 --------------
+  Thu Nov 24 13:17:14 EST 2016
+ProcessKeyBinding 402 when=1480011433891 modifiers=80 code=39 char=39(9) false false
+--------------- 1167 --------------
+  Thu Nov 24 13:17:14 EST 2016
+ProcessKeyBinding 402 when=1480011433969 modifiers=0 code=11 char=ffff false false
+--------------- 1168 --------------
+  Thu Nov 24 13:38:18 EST 2016
+ProcessKeyBinding 401 when=1480012698469 modifiers=0 code=7f char=7f false false
+--------------- 1169 --------------
+  Thu Nov 24 13:38:18 EST 2016
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    Arc name for wire['s[5]']
+    Arc name for wire['s[5]']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , Wire_Pin['pin@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , Wire_Pin['pin@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , Wire_Pin['pin@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , Wire_Pin['pin@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , Wire_Pin['pin@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , Wire_Pin['pin@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , Wire_Pin['pin@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , inv_1x{ic}['inv_1x@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , inv_1x{ic}['inv_1x@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , and3_1x{ic}['and3_1x@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , and3_1x{ic}['and3_1x@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , or2_1x{ic}['or2_1x@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['s[5]']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['s[5]']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@28']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@29']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@30']
+--------------- 1170 --------------
+  Thu Nov 24 13:38:18 EST 2016
+ProcessKeyBinding 400 when=1480012698469 modifiers=0 code=0 char=7f false false
+--------------- 1171 --------------
+  Thu Nov 24 13:38:19 EST 2016
+ProcessKeyBinding 402 when=1480012698547 modifiers=0 code=7f char=7f false false
+--------------- 1172 --------------
+  Thu Nov 24 13:38:22 EST 2016
+ProcessKeyBinding 401 when=1480012701672 modifiers=0 code=7f char=7f false false
+--------------- 1173 --------------
+  Thu Nov 24 13:38:22 EST 2016
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , Wire_Pin['pin@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , Wire_Pin['pin@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , Wire_Pin['pin@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , inv_1x{ic}['inv_1x@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , wire['net@33']
+--------------- 1174 --------------
+  Thu Nov 24 13:38:22 EST 2016
+ProcessKeyBinding 400 when=1480012701672 modifiers=0 code=0 char=7f false false
+--------------- 1175 --------------
+  Thu Nov 24 13:38:22 EST 2016
+ProcessKeyBinding 402 when=1480012701751 modifiers=0 code=7f char=7f false false
+--------------- 1176 --------------
+  Thu Nov 24 13:38:26 EST 2016
+ProcessKeyBinding 401 when=1480012706407 modifiers=0 code=7f char=7f false false
+--------------- 1177 --------------
+  Thu Nov 24 13:38:26 EST 2016
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'comp6{sch}': , Wire_Pin['pin@20']
+    com.sun.electric.tool.user.Hi
