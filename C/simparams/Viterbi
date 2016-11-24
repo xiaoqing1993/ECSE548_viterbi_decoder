@@ -27,4 +27,6 @@ The VITERBI decoder unfortunately is harcoded to the Haming 8,4,4 code
 
 # DECODER VITERBI
 
+# PRINT_VALS 0
+
 # END

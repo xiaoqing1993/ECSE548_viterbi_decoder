@@ -9,6 +9,7 @@
 	#include "../inc/code.h"
 	#include "../inc/datagen.h"
 	#include "../inc/encoder.h"
+	#include "../inc/fixedpoint.h"
 	
 	void simulation_run();
 

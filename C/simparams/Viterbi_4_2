@@ -30,4 +30,6 @@ The VITERBI decoder unfortunately is harcoded to the Haming 8,4,4 code
 # Q_N 4
 # Q_M 2
 
+# PRINT_VALS 1
+
 # END

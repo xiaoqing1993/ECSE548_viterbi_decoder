@@ -9,7 +9,7 @@ void simparams_loadfiles(simfiles_t* simfiles) {
 		
 	if ((dir = opendir (FILE_DIR)) != NULL) {
  		while ((ent = readdir (dir)) != NULL) {
-   		if(strcmp(ent->d_name, ".") && strcmp(ent->d_name, "..")) {
+   		if(strcmp(ent->d_name, ".") && strcmp(ent->d_name, "..") && strcmp(ent->d_name, "ignore")) {
    			simfiles->num_files++;
    			simfiles->files = realloc(simfiles->files, simfiles->num_files*sizeof(*(simfiles->files)));
 				simfiles->files[simfiles->num_files - 1] = (char *)malloc((strlen(ent->d_name)+1)*sizeof(**(simfiles->files)));
@@ -136,6 +136,13 @@ void set_Q_M(FILE *fp, simparams_t *simparams) {
 	simparams->Q_M = i;
 }
 
+void set_PRINT_VALS(FILE *fp, simparams_t *simparams) {
+	int i;
+	
+	fscanf(fp, "%d", &i);
+	simparams->PRINT_VALS = i;
+}
+
 void load_defaults() {
 
 }
@@ -199,6 +206,9 @@ void simparams_load(simparams_t *simparams, char *file) {
 				
 			if(!strcmp(str, "Q_M"))
 				set_Q_M(fp, simparams);
+				
+			if(!strcmp(str, "PRINT_VALS"))
+				set_PRINT_VALS(fp, simparams);
 	}
 	fclose(fp);
 	goto END;

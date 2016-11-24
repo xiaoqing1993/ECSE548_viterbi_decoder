@@ -6,7 +6,7 @@ void simulate(char *file) {
 	int num_frames;
 	double BER, FER;
 	char *str;
-	FILE *fp;
+	FILE *fp, *fvsim = NULL;
 	
 	simparams_t simparams;
 	code_t code;
@@ -25,8 +25,8 @@ void simulate(char *file) {
 	y = (double *)malloc(simparams.N*sizeof(*y));
 	m_est = (uint8_t *)malloc(simparams.K*sizeof(*m_est));
 	
-	srand(time(NULL));
-	
+	//Give each simulation the same inputs and noise
+	srand(21);
 	
 	str = (char *)malloc((strlen(file) + 13)*sizeof(char));
 	str[0] = '\0';
@@ -35,6 +35,10 @@ void simulate(char *file) {
 	strcat(str, "/");
 	strcat(str, file);
 	fp = fopen(str, "w+");
+	
+	if(simparams.PRINT_VALS)
+		fvsim = fopen("../modelsim/inputs.txt", "w+");
+	
 	fprintf(fp, "#Component\n");
 	fprintf(fp, "#EbNo_db    BER         SER         FER         Av. Iters   Frame Count\n");
 	while(EbNo_count < simparams.EbNo_STEPS) {
@@ -48,7 +52,17 @@ void simulate(char *file) {
 			modulator_modulate(&x, c, code, simparams.MODULATOR);
 			channel_transmit(&y, x, simparams.EbNo_VALS[EbNo_count], code, simparams.CHANNEL);
 			decoder_decode(&m_est, y, code, simparams.DECODER, simparams.MODULATOR, simparams.Q_N, simparams.Q_M);
-
+			
+			if(simparams.PRINT_VALS) {
+				for(i=0 ; i<code.N ; i++)
+					fprintf(fvsim, "%d ", fixedpoint_double2fixed(y[i], simparams.Q_N, simparams.Q_M));
+				for(i=0 ; i<code.K ; i++)
+					fprintf(fvsim, "%d ", m_est[i]);
+				for(i=0 ; i<code.K ; i++)
+					fprintf(fvsim, "%d ", m[i]);
+				fprintf(fvsim, "\n");
+			}
+			
 			Ferr = 0;
 			for(i=0 ; i<code.K ; i++) {
 				if(m[i] != m_est[i]) {
@@ -73,7 +87,11 @@ void simulate(char *file) {
 																									(double)num_frames);
 		EbNo_count++;
 	}
+	
+	
 	fclose(fp);
+	if(simparams.PRINT_VALS)
+		fclose(fvsim);
 	
 	free(m_est);
 	free(y);
@@ -89,6 +107,7 @@ void simulate(char *file) {
 void simulation_run() {
 	int i;
 	
+	system("exec rm -r ./results/*");
 	simfiles_t simfiles;
 	simparams_loadfiles(&simfiles);
 	
@@ -96,8 +115,5 @@ void simulation_run() {
 		simulate(simfiles.files[i]);
 	
 	simparams_freefiles(&simfiles);
-/*	
-
-*/
 }
 

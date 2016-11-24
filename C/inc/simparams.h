@@ -32,6 +32,7 @@
 		decoder_t DECODER;
 		int Q_N;
 		int Q_M;
+		int PRINT_VALS;
 	} simparams_t;
 	void simparams_loadfiles(simfiles_t* simfiles);
 	void simparams_freefiles(simfiles_t* simfiles);
