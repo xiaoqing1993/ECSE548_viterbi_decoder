@@ -1,0 +1,180 @@
+|six_bit_kogge_stone_adder
+A[0] => bit_prop_gen:BPG1.A
+A[1] => bit_prop_gen:BPG2.A
+A[2] => bit_prop_gen:BPG3.A
+A[3] => bit_prop_gen:BPG4.A
+A[4] => bit_prop_gen:BPG5.A
+A[5] => bit_prop_gen:BPG6.A
+B[0] => bit_prop_gen:BPG1.B
+B[1] => bit_prop_gen:BPG2.B
+B[2] => bit_prop_gen:BPG3.B
+B[3] => bit_prop_gen:BPG4.B
+B[4] => bit_prop_gen:BPG5.B
+B[5] => bit_prop_gen:BPG6.B
+cin => S.IN1
+cin => group_gen:GG1.G0
+cin => group_gen:GG2.G0
+cin => group_gen:GG4.G0
+S[0] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= S.DB_MAX_OUTPUT_PORT_TYPE
+probe[0] <= group_prop_gen:GPG7.G2
+probe[1] <= group_prop_gen:GPG8.G2
+probe[2] <= <GND>
+probe[3] <= <GND>
+probe[4] <= <GND>
+probe[5] <= <GND>
+
+
+|six_bit_kogge_stone_adder|bit_prop_gen:BPG1
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|six_bit_kogge_stone_adder|bit_prop_gen:BPG2
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|six_bit_kogge_stone_adder|bit_prop_gen:BPG3
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|six_bit_kogge_stone_adder|bit_prop_gen:BPG4
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|six_bit_kogge_stone_adder|bit_prop_gen:BPG5
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|six_bit_kogge_stone_adder|bit_prop_gen:BPG6
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|six_bit_kogge_stone_adder|group_gen:GG1
+P1 => G2.IN0
+G0 => G2.IN1
+G1 => G2.IN1
+G2 <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|six_bit_kogge_stone_adder|group_prop_gen:GPG2
+P0 => P2.IN0
+P1 => P2.IN1
+P1 => G2.IN0
+G0 => G2.IN1
+G1 => G2.IN1
+P2 <= P2.DB_MAX_OUTPUT_PORT_TYPE
+G2 <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|six_bit_kogge_stone_adder|group_prop_gen:GPG3
+P0 => P2.IN0
+P1 => P2.IN1
+P1 => G2.IN0
+G0 => G2.IN1
+G1 => G2.IN1
+P2 <= P2.DB_MAX_OUTPUT_PORT_TYPE
+G2 <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|six_bit_kogge_stone_adder|group_prop_gen:GPG4
+P0 => P2.IN0
+P1 => P2.IN1
+P1 => G2.IN0
+G0 => G2.IN1
+G1 => G2.IN1
+P2 <= P2.DB_MAX_OUTPUT_PORT_TYPE
+G2 <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|six_bit_kogge_stone_adder|group_prop_gen:GPG5
+P0 => P2.IN0
+P1 => P2.IN1
+P1 => G2.IN0
+G0 => G2.IN1
+G1 => G2.IN1
+P2 <= P2.DB_MAX_OUTPUT_PORT_TYPE
+G2 <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|six_bit_kogge_stone_adder|group_gen:GG2
+P1 => G2.IN0
+G0 => G2.IN1
+G1 => G2.IN1
+G2 <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|six_bit_kogge_stone_adder|group_gen:GG3
+P1 => G2.IN0
+G0 => G2.IN1
+G1 => G2.IN1
+G2 <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|six_bit_kogge_stone_adder|group_prop_gen:GPG7
+P0 => P2.IN0
+P1 => P2.IN1
+P1 => G2.IN0
+G0 => G2.IN1
+G1 => G2.IN1
+P2 <= P2.DB_MAX_OUTPUT_PORT_TYPE
+G2 <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|six_bit_kogge_stone_adder|group_prop_gen:GPG8
+P0 => P2.IN0
+P1 => P2.IN1
+P1 => G2.IN0
+G0 => G2.IN1
+G1 => G2.IN1
+P2 <= P2.DB_MAX_OUTPUT_PORT_TYPE
+G2 <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|six_bit_kogge_stone_adder|group_gen:GG4
+P1 => G2.IN0
+G0 => G2.IN1
+G1 => G2.IN1
+G2 <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|six_bit_kogge_stone_adder|group_gen:GG5
+P1 => G2.IN0
+G0 => G2.IN1
+G1 => G2.IN1
+G2 <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+

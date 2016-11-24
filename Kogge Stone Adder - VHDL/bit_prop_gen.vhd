@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity bit_prop_gen is
+	port ( A, B : in std_logic;
+			 P, G : out std_logic
+			 );
+end bit_prop_gen;
+
+architecture arch of bit_prop_gen is 
+begin 
+	P <=  A xor B;
+	G <=  A and B;
+end arch;
+

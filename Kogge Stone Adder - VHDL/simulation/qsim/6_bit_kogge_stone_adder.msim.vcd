@@ -1,0 +1,158 @@
+$comment
+	File created using the following command:
+		vcd file 6_bit_kogge_stone_adder.msim.vcd -direction
+$end
+$date
+	Thu Nov 24 12:48:10 2016
+$end
+$version
+	ModelSim Version 10.1e
+$end
+$timescale
+	1ps
+$end
+$scope module six_bit_kogge_stone_adder_vlg_vec_tst $end
+$var reg 6 ! A [5:0] $end
+$var reg 6 " B [5:0] $end
+$var reg 1 # cin $end
+$var wire 1 $ probe [5] $end
+$var wire 1 % probe [4] $end
+$var wire 1 & probe [3] $end
+$var wire 1 ' probe [2] $end
+$var wire 1 ( probe [1] $end
+$var wire 1 ) probe [0] $end
+$var wire 1 * S [5] $end
+$var wire 1 + S [4] $end
+$var wire 1 , S [3] $end
+$var wire 1 - S [2] $end
+$var wire 1 . S [1] $end
+$var wire 1 / S [0] $end
+$var wire 1 0 sampler $end
+$scope module i1 $end
+$var wire 1 1 gnd $end
+$var wire 1 2 vcc $end
+$var wire 1 3 unknown $end
+$var tri1 1 4 devclrn $end
+$var tri1 1 5 devpor $end
+$var tri1 1 6 devoe $end
+$var wire 1 7 S[0]~output_o $end
+$var wire 1 8 S[1]~output_o $end
+$var wire 1 9 S[2]~output_o $end
+$var wire 1 : S[3]~output_o $end
+$var wire 1 ; S[4]~output_o $end
+$var wire 1 < S[5]~output_o $end
+$var wire 1 = probe[0]~output_o $end
+$var wire 1 > probe[1]~output_o $end
+$var wire 1 ? probe[2]~output_o $end
+$var wire 1 @ probe[3]~output_o $end
+$var wire 1 A probe[4]~output_o $end
+$var wire 1 B probe[5]~output_o $end
+$var wire 1 C A[0]~input_o $end
+$var wire 1 D B[0]~input_o $end
+$var wire 1 E cin~input_o $end
+$var wire 1 F S~8_combout $end
+$var wire 1 G GG1|G2~0_combout $end
+$var wire 1 H A[1]~input_o $end
+$var wire 1 I B[1]~input_o $end
+$var wire 1 J S~11_combout $end
+$var wire 1 K GPG2|G2~0_combout $end
+$var wire 1 L BPG2|P~combout $end
+$var wire 1 M GG2|G2~0_combout $end
+$var wire 1 N A[2]~input_o $end
+$var wire 1 O B[2]~input_o $end
+$var wire 1 P S~12_combout $end
+$var wire 1 Q GPG3|G2~0_combout $end
+$var wire 1 R A[3]~input_o $end
+$var wire 1 S GG3|G2~0_combout $end
+$var wire 1 T B[3]~input_o $end
+$var wire 1 U S~13_combout $end
+$var wire 1 V GPG7|G2~0_combout $end
+$var wire 1 W BPG3|P~combout $end
+$var wire 1 X GPG4|G2~0_combout $end
+$var wire 1 Y BPG4|P~combout $end
+$var wire 1 Z GPG7|G2~combout $end
+$var wire 1 [ B[4]~input_o $end
+$var wire 1 \ A[4]~input_o $end
+$var wire 1 ] BPG5|P~combout $end
+$var wire 1 ^ S~9_combout $end
+$var wire 1 _ A[5]~input_o $end
+$var wire 1 ` B[5]~input_o $end
+$var wire 1 a GPG5|G2~0_combout $end
+$var wire 1 b GPG8|G2~combout $end
+$var wire 1 c GG5|G2~combout $end
+$var wire 1 d S~10_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10100 !
+b10100 "
+0#
+0)
+1(
+0'
+0&
+0%
+0$
+0/
+0.
+0-
+1,
+0+
+1*
+x0
+01
+12
+x3
+14
+15
+16
+07
+08
+09
+1:
+0;
+1<
+0=
+1>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+1N
+1O
+0P
+1Q
+0R
+0S
+0T
+1U
+0V
+0W
+0X
+0Y
+0Z
+1[
+1\
+0]
+0^
+0_
+0`
+1a
+1b
+1c
+1d
+$end
+#1000000

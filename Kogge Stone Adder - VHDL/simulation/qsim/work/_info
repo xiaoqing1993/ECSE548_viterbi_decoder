@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Adam Cavatassi\Dropbox\McGill\MEng Year 1\ECSE 548 - Intro to VLSI\Viterbi\Kogge Stone Adder\simulation\qsim
+vsix_bit_kogge_stone_adder
+Z1 !s100 No0@g;9D8H^LeLAj[A07@0
+Z2 IF56_ko]2Pl8J8A_5SHioi3
+Z3 V1hg_aCzdT=e_@mzHWJIeh0
+Z4 dC:\Users\Adam Cavatassi\Dropbox\McGill\MEng Year 1\ECSE 548 - Intro to VLSI\Viterbi\Kogge Stone Adder\simulation\qsim
+Z5 w1480009689
+Z6 86_bit_kogge_stone_adder.vo
+Z7 F6_bit_kogge_stone_adder.vo
+L0 32
+Z8 OV;L;10.1e;51
+r1
+31
+Z9 !s90 -work|work|6_bit_kogge_stone_adder.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1480009690.279000
+Z12 !s107 6_bit_kogge_stone_adder.vo|
+!s101 -O0
+vsix_bit_kogge_stone_adder_vlg_check_tst
+!i10b 1
+!s100 ZHDeC6I>b26XmK]8=7NEQ0
+Ibg5ZF]enFi_K:iL_R]`P[0
+Z13 V_N@>6PbQWka:I:]7R6B5B1
+R4
+Z14 w1480009687
+Z15 8Waveform1.vwf.vt
+Z16 FWaveform1.vwf.vt
+L0 62
+R8
+r1
+!s85 0
+31
+Z17 !s108 1480009690.334000
+Z18 !s107 Waveform1.vwf.vt|
+Z19 !s90 -work|work|Waveform1.vwf.vt|
+!s101 -O0
+R10
+vsix_bit_kogge_stone_adder_vlg_sample_tst
+!i10b 1
+Z20 !s100 NLCfAi2BlzY4;Zl0mVgoI0
+Z21 IFLIGUBkZ`URT;afNDe:0C2
+Z22 V7caL@8>nDgdPHOE^^?HK63
+R4
+R14
+R15
+R16
+L0 30
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+vsix_bit_kogge_stone_adder_vlg_vec_tst
+!i10b 1
+!s100 e;KYnB8L`D_Ef>iVf<`h`0
+I;9KP0OI>Vl5633nLJGP2F2
+Z23 V9VLNK]kdeYWJ6Jc7?Z?Y_2
+R4
+R14
+R15
+R16
+Z24 L0 362
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
