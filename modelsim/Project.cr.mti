@@ -10,6 +10,18 @@ Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
 Top level modules:
 	comp
 
+} {} {}} /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_sch.v {1 {vlog -work work -stats=none /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_sch.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module Project__fulladder
+-- Compiling module Project__xor2_1x
+-- Compiling module Project__fulladder6
+-- Compiling module Project__mux2_c_1x
+-- Compiling module Project__mux6
+-- Compiling module adder
+
+Top level modules:
+	adder
+
 } {} {}} /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv {1 {vlog -work work -sv -stats=none /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv
 Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
 -- Compiling module testbench
