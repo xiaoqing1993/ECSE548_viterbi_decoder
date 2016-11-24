@@ -167,17 +167,8 @@ module decoder(	input		logic signed [5:0] r[0:7],
 	
 endmodule
 
-module adder(	input		logic	signed [5:0] a, b,
+module adder_ideal(	input		logic	signed [5:0] a, b,
 							output	logic	signed [5:0] y);
-	/*
-  wire signed [6:0] a_t, b_t, s_t;
-  
-  assign a_t = {a[5], a};
-  assign b_t = {b[5], b};
-  assign s_t = a+b;
-  
-  assign y = (s_t<32) ? ((s_t>=-32) ? s_t[5:0] : -32) : 31;
-  */
   
   wire signed [5:0] s;
   wire and1, and2;
@@ -189,14 +180,14 @@ module adder(	input		logic	signed [5:0] a, b,
   assign y = and1==0 ? (and2==0 ? s : -32) : 31;
 endmodule
 
-/*
-module comp(	input		logic	signed [5:0] a, b,
+
+module comp_ideal(	input		logic	signed [5:0] a, b,
 							output	logic alb);
 	assign alb = a<b ? 1 : 0;
 endmodule
-*/
 
-module mux6(	input		logic	signed [5:0] a, b,
+
+module mux6_ideal(	input		logic	signed [5:0] a, b,
 						input		logic s,
 						output	logic	signed [5:0] y);
 	
