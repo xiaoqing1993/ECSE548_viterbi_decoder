@@ -1,0 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity six_bit_kogge_stone_adder is
+	port ( A, B : in std_logic_vector(5 downto 0);
+			 cin : in std_logic;
+			 cout : out std_logic;
+			 S : out std_logic_vector(5 downto 0)
+			 );
+end six_bit_kogge_stone_adder;
+
+architecture arch of six_bit_kogge_stone_adder is 
+begin
+end arch;
