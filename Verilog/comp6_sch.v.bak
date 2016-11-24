@@ -1,7 +1,7 @@
 /* Verilog for cell 'comp6{sch}' from library 'Project' */
 /* Created on Thu Nov 24, 2016 11:53:05 */
-/* Last revised on Thu Nov 24, 2016 12:28:12 */
-/* Written on Thu Nov 24, 2016 12:28:21 by Electric VLSI Design System, version 8.06 */
+/* Last revised on Thu Nov 24, 2016 13:41:37 */
+/* Written on Thu Nov 24, 2016 13:41:48 by Electric VLSI Design System, version 8.06 */
 
 module Project__fulladder(a, b, c, cout, s);
   input a;
@@ -45,10 +45,34 @@ module Project__fulladder(a, b, c, cout, s);
   tranif0 pmos_14(s, vdd, sb);
 endmodule   /* Project__fulladder */
 
-module Project__fulladder6(a, b, cin, cout, s);
+module Project__xor2_1x(a, b, y);
+  input a;
+  input b;
+  output y;
+
+  supply1 vdd;
+  supply0 gnd;
+  wire ab, bb, net_3, net_4, net_7, net_8;
+
+  tranif1 nmos_0(gnd, net_3, a);
+  tranif1 nmos_1(gnd, net_4, ab);
+  tranif1 nmos_2(net_3, y, b);
+  tranif1 nmos_3(net_4, y, bb);
+  tranif1 nmos_4(gnd, bb, b);
+  tranif1 nmos_5(gnd, ab, a);
+  tranif0 pmos_0(y, net_7, b);
+  tranif0 pmos_1(net_7, vdd, ab);
+  tranif0 pmos_2(y, net_8, bb);
+  tranif0 pmos_3(net_8, vdd, a);
+  tranif0 pmos_4(bb, vdd, b);
+  tranif0 pmos_5(ab, vdd, a);
+endmodule   /* Project__xor2_1x */
+
+module Project__fulladder6(a, b, cin, Ovf, cout, s);
   input [5:0] a;
   input [5:0] b;
   input cin;
+  output Ovf;
   output cout;
   output [5:0] s;
 
@@ -68,6 +92,7 @@ module Project__fulladder6(a, b, cin, cout, s);
       .s(s[4]));
   Project__fulladder fulladde_7(.a(a[5]), .b(b[5]), .c(net_4), .cout(cout), 
       .s(s[5]));
+  Project__xor2_1x xor2_1x_0(.a(net_4), .b(cout), .y(Ovf));
 endmodule   /* Project__fulladder6 */
 
 module Project__inv_1x(a, y);
@@ -94,29 +119,6 @@ module Project__inv6_1x(a, y);
   Project__inv_1x inv_1x_6(.a(a[0]), .y(y[0]));
 endmodule   /* Project__inv6_1x */
 
-module Project__xor2_1x(a, b, y);
-  input a;
-  input b;
-  output y;
-
-  supply1 vdd;
-  supply0 gnd;
-  wire ab, bb, net_3, net_4, net_7, net_8;
-
-  tranif1 nmos_0(gnd, net_3, a);
-  tranif1 nmos_1(gnd, net_4, ab);
-  tranif1 nmos_2(net_3, y, b);
-  tranif1 nmos_3(net_4, y, bb);
-  tranif1 nmos_4(gnd, bb, b);
-  tranif1 nmos_5(gnd, ab, a);
-  tranif0 pmos_0(y, net_7, b);
-  tranif0 pmos_1(net_7, vdd, ab);
-  tranif0 pmos_2(y, net_8, bb);
-  tranif0 pmos_3(net_8, vdd, a);
-  tranif0 pmos_4(bb, vdd, b);
-  tranif0 pmos_5(ab, vdd, a);
-endmodule   /* Project__xor2_1x */
-
 module comp6(a, b, alb);
   input [5:0] a;
   input [5:0] b;
@@ -124,12 +126,12 @@ module comp6(a, b, alb);
 
   supply1 vdd;
   supply0 gnd;
-  wire net_5;
+  wire fulladde_0_cout, net_35;
   wire [5:0] net_1;
   wire [5:0] s;
 
   Project__fulladder6 fulladde_0(.a(a[5:0]), .b(net_1[5:0]), .cin(vdd), 
-      .cout(net_5), .s(s[5:0]));
+      .Ovf(net_35), .cout(fulladde_0_cout), .s(s[5:0]));
   Project__inv6_1x inv6_1x_0(.a(b[5:0]), .y(net_1[5:0]));
-  Project__xor2_1x xor2_1x_0(.a(net_5), .b(s[5]), .y(alb));
+  Project__xor2_1x xor2_1x_0(.a(net_35), .b(s[5]), .y(alb));
 endmodule   /* comp6 */
