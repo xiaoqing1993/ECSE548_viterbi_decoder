@@ -7223,3 +7223,518 @@ Menu Activated: File | Save All Libraries
 --------------- 2153 --------------
   Thu Nov 24 15:38:40 EST 2016
 ProcessKeyBinding 400 when=1480019919969 modifiers=80 code=0 char=13 false false
+--------------- 2154 --------------
+  Thu Nov 24 15:38:40 EST 2016
+ProcessKeyBinding 402 when=1480019920079 modifiers=0 code=11 char=ffff false false
+--------------- 2155 --------------
+  Thu Nov 24 15:38:40 EST 2016
+ProcessKeyBinding 402 when=1480019920079 modifiers=0 code=53 char=73(s) false false
+--------------- 2156 --------------
+  Thu Nov 24 15:38:42 EST 2016
+Menu Activated: View | Make Icon View
+--------------- 2157 --------------
+  Thu Nov 24 15:38:47 EST 2016
+ProcessKeyBinding 401 when=1480019926626 modifiers=80 code=11 char=ffff false false
+--------------- 2158 --------------
+  Thu Nov 24 15:38:47 EST 2016
+ProcessKeyBinding 402 when=1480019926969 modifiers=0 code=11 char=ffff false false
+--------------- 2159 --------------
+  Thu Nov 24 15:38:48 EST 2016
+ProcessKeyBinding 401 when=1480019927204 modifiers=80 code=11 char=ffff false false
+--------------- 2160 --------------
+  Thu Nov 24 15:38:48 EST 2016
+ProcessKeyBinding 401 when=1480019927297 modifiers=80 code=44 char=4 false false
+--------------- 2161 --------------
+  Thu Nov 24 15:38:48 EST 2016
+Menu Activated: Cell | Down Hierarchy | Down Hierarchy
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'adder6_ksa{sch}': , 'adder6_ksa{ic}[adder6_k@0].y[5:0]'
+--------------- 2162 --------------
+  Thu Nov 24 15:38:48 EST 2016
+ProcessKeyBinding 400 when=1480019927297 modifiers=80 code=0 char=4 false false
+--------------- 2163 --------------
+  Thu Nov 24 15:38:48 EST 2016
+ProcessKeyBinding 402 when=1480019927391 modifiers=80 code=44 char=4 false false
+--------------- 2164 --------------
+  Thu Nov 24 15:38:48 EST 2016
+ProcessKeyBinding 402 when=1480019927469 modifiers=0 code=11 char=ffff false false
+--------------- 2165 --------------
+  Thu Nov 24 15:38:52 EST 2016
+ProcessKeyBinding 401 when=1480019931766 modifiers=80 code=11 char=ffff false true
+--------------- 2166 --------------
+  Thu Nov 24 15:38:52 EST 2016
+ProcessKeyBinding 401 when=1480019931891 modifiers=80 code=4a char=a false true
+--------------- 2167 --------------
+  Thu Nov 24 15:38:52 EST 2016
+Menu Activated: Edit | Rotate | 90 Degrees Counterclockwise
+Currently highlighted: 
+    Text: Variable 'SCHEM_function' on node Opened-Thicker-Polygon['art@1']
+--------------- 2168 --------------
+  Thu Nov 24 15:38:52 EST 2016
+ProcessKeyBinding 402 when=1480019931954 modifiers=80 code=4a char=a false true
+--------------- 2169 --------------
+  Thu Nov 24 15:38:54 EST 2016
+ProcessKeyBinding 401 when=1480019933141 modifiers=80 code=4a char=a false true
+--------------- 2170 --------------
+  Thu Nov 24 15:38:54 EST 2016
+Menu Activated: Edit | Rotate | 90 Degrees Counterclockwise
+Currently highlighted: 
+    Text: Variable 'SCHEM_function' on node Opened-Thicker-Polygon['art@1']
+--------------- 2171 --------------
+  Thu Nov 24 15:38:54 EST 2016
+ProcessKeyBinding 402 when=1480019933219 modifiers=80 code=4a char=a false true
+--------------- 2172 --------------
+  Thu Nov 24 15:38:54 EST 2016
+ProcessKeyBinding 402 when=1480019933469 modifiers=0 code=11 char=ffff false true
+--------------- 2173 --------------
+  Thu Nov 24 15:38:55 EST 2016
+ProcessKeyBinding 401 when=1480019934985 modifiers=80 code=11 char=ffff false false
+--------------- 2174 --------------
+  Thu Nov 24 15:38:56 EST 2016
+ProcessKeyBinding 401 when=1480019935344 modifiers=80 code=4a char=a false false
+--------------- 2175 --------------
+  Thu Nov 24 15:38:56 EST 2016
+Menu Activated: Edit | Rotate | 90 Degrees Counterclockwise
+Currently highlighted: 
+    Text: Variable 'SCHEM_function' on node Opened-Thicker-Polygon['art@1']
+--------------- 2176 --------------
+  Thu Nov 24 15:38:56 EST 2016
+ProcessKeyBinding 400 when=1480019935344 modifiers=80 code=0 char=a false false
+--------------- 2177 --------------
+  Thu Nov 24 15:38:56 EST 2016
+ProcessKeyBinding 402 when=1480019935438 modifiers=80 code=4a char=a false false
+--------------- 2178 --------------
+  Thu Nov 24 15:38:56 EST 2016
+ProcessKeyBinding 402 when=1480019936047 modifiers=0 code=11 char=ffff false false
+--------------- 2179 --------------
+  Thu Nov 24 15:38:59 EST 2016
+ProcessKeyBinding 401 when=1480019938751 modifiers=80 code=11 char=ffff false false
+--------------- 2180 --------------
+  Thu Nov 24 15:38:59 EST 2016
+ProcessKeyBinding 401 when=1480019939110 modifiers=80 code=4a char=a false false
+--------------- 2181 --------------
+  Thu Nov 24 15:38:59 EST 2016
+Menu Activated: Edit | Rotate | 90 Degrees Counterclockwise
+Currently highlighted: 
+    Text: Variable 'SCHEM_function' on node Opened-Thicker-Polygon['art@1']
+--------------- 2182 --------------
+  Thu Nov 24 15:38:59 EST 2016
+ProcessKeyBinding 400 when=1480019939110 modifiers=80 code=0 char=a false false
+--------------- 2183 --------------
+  Thu Nov 24 15:39:00 EST 2016
+ProcessKeyBinding 402 when=1480019939188 modifiers=80 code=4a char=a false false
+--------------- 2184 --------------
+  Thu Nov 24 15:39:00 EST 2016
+ProcessKeyBinding 401 when=1480019939547 modifiers=80 code=4a char=a false false
+--------------- 2185 --------------
+  Thu Nov 24 15:39:00 EST 2016
+Menu Activated: Edit | Rotate | 90 Degrees Counterclockwise
+Currently highlighted: 
+    Text: Variable 'SCHEM_function' on node Opened-Thicker-Polygon['art@1']
+--------------- 2186 --------------
+  Thu Nov 24 15:39:00 EST 2016
+ProcessKeyBinding 400 when=1480019939547 modifiers=80 code=0 char=a false false
+--------------- 2187 --------------
+  Thu Nov 24 15:39:00 EST 2016
+ProcessKeyBinding 402 when=1480019939626 modifiers=80 code=4a char=a false false
+--------------- 2188 --------------
+  Thu Nov 24 15:39:01 EST 2016
+ProcessKeyBinding 402 when=1480019940126 modifiers=0 code=11 char=ffff false false
+--------------- 2189 --------------
+  Thu Nov 24 15:39:07 EST 2016
+ProcessKeyBinding 401 when=1480019946391 modifiers=80 code=11 char=ffff false false
+--------------- 2190 --------------
+  Thu Nov 24 15:39:07 EST 2016
+ProcessKeyBinding 401 when=1480019946454 modifiers=80 code=5a char=1a false false
+--------------- 2191 --------------
+  Thu Nov 24 15:39:07 EST 2016
+Menu Activated: Edit | Undo
+Currently highlighted: 
+    Text: Variable 'SCHEM_function' on node Opened-Thicker-Polygon['art@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'adder6_ksa{ic}': , Opened-Thicker-Polygon['art@1']
+--------------- 2192 --------------
+  Thu Nov 24 15:39:07 EST 2016
+ProcessKeyBinding 400 when=1480019946454 modifiers=80 code=0 char=1a false false
+--------------- 2193 --------------
+  Thu Nov 24 15:39:07 EST 2016
+ProcessKeyBinding 402 when=1480019946688 modifiers=80 code=5a char=1a false false
+--------------- 2194 --------------
+  Thu Nov 24 15:39:07 EST 2016
+ProcessKeyBinding 402 when=1480019946922 modifiers=0 code=11 char=ffff false false
+--------------- 2195 --------------
+  Thu Nov 24 15:39:13 EST 2016
+ProcessKeyBinding 401 when=1480019952735 modifiers=80 code=11 char=ffff false false
+--------------- 2196 --------------
+  Thu Nov 24 15:39:14 EST 2016
+ProcessKeyBinding 401 when=1480019953547 modifiers=80 code=4a char=a false false
+--------------- 2197 --------------
+  Thu Nov 24 15:39:14 EST 2016
+Menu Activated: Edit | Rotate | 90 Degrees Counterclockwise
+Currently highlighted: 
+    Text: Variable 'SCHEM_function' on node Opened-Thicker-Polygon['art@1']
+--------------- 2198 --------------
+  Thu Nov 24 15:39:14 EST 2016
+ProcessKeyBinding 400 when=1480019953547 modifiers=80 code=0 char=a false false
+--------------- 2199 --------------
+  Thu Nov 24 15:39:14 EST 2016
+ProcessKeyBinding 402 when=1480019953610 modifiers=80 code=4a char=a false false
+--------------- 2200 --------------
+  Thu Nov 24 15:39:14 EST 2016
+ProcessKeyBinding 401 when=1480019953704 modifiers=80 code=4a char=a false false
+--------------- 2201 --------------
+  Thu Nov 24 15:39:14 EST 2016
+Menu Activated: Edit | Rotate | 90 Degrees Counterclockwise
+Currently highlighted: 
+    Text: Variable 'SCHEM_function' on node Opened-Thicker-Polygon['art@1']
+--------------- 2202 --------------
+  Thu Nov 24 15:39:14 EST 2016
+ProcessKeyBinding 400 when=1480019953704 modifiers=80 code=0 char=a false false
+--------------- 2203 --------------
+  Thu Nov 24 15:39:14 EST 2016
+ProcessKeyBinding 402 when=1480019953766 modifiers=80 code=4a char=a false false
+--------------- 2204 --------------
+  Thu Nov 24 15:39:14 EST 2016
+ProcessKeyBinding 401 when=1480019953844 modifiers=80 code=4a char=a false false
+--------------- 2205 --------------
+  Thu Nov 24 15:39:14 EST 2016
+Menu Activated: Edit | Rotate | 90 Degrees Counterclockwise
+Currently highlighted: 
+    Text: Variable 'SCHEM_function' on node Opened-Thicker-Polygon['art@1']
+--------------- 2206 --------------
+  Thu Nov 24 15:39:14 EST 2016
+ProcessKeyBinding 400 when=1480019953844 modifiers=80 code=0 char=a false false
+--------------- 2207 --------------
+  Thu Nov 24 15:39:14 EST 2016
+ProcessKeyBinding 402 when=1480019953891 modifiers=80 code=4a char=a false false
+--------------- 2208 --------------
+  Thu Nov 24 15:39:14 EST 2016
+ProcessKeyBinding 401 when=1480019953969 modifiers=80 code=4a char=a false false
+--------------- 2209 --------------
+  Thu Nov 24 15:39:14 EST 2016
+Menu Activated: Edit | Rotate | 90 Degrees Counterclockwise
+Currently highlighted: 
+    Text: Variable 'SCHEM_function' on node Opened-Thicker-Polygon['art@1']
+--------------- 2210 --------------
+  Thu Nov 24 15:39:14 EST 2016
+ProcessKeyBinding 400 when=1480019953969 modifiers=80 code=0 char=a false false
+--------------- 2211 --------------
+  Thu Nov 24 15:39:14 EST 2016
+ProcessKeyBinding 402 when=1480019954032 modifiers=80 code=4a char=a false false
+--------------- 2212 --------------
+  Thu Nov 24 15:39:14 EST 2016
+ProcessKeyBinding 401 when=1480019954110 modifiers=80 code=4a char=a false false
+--------------- 2213 --------------
+  Thu Nov 24 15:39:14 EST 2016
+Menu Activated: Edit | Rotate | 90 Degrees Counterclockwise
+Currently highlighted: 
+    Text: Variable 'SCHEM_function' on node Opened-Thicker-Polygon['art@1']
+--------------- 2214 --------------
+  Thu Nov 24 15:39:14 EST 2016
+ProcessKeyBinding 400 when=1480019954110 modifiers=80 code=0 char=a false false
+--------------- 2215 --------------
+  Thu Nov 24 15:39:15 EST 2016
+ProcessKeyBinding 402 when=1480019954204 modifiers=80 code=4a char=a false false
+--------------- 2216 --------------
+  Thu Nov 24 15:39:15 EST 2016
+ProcessKeyBinding 402 when=1480019954297 modifiers=0 code=11 char=ffff false false
+--------------- 2217 --------------
+  Thu Nov 24 15:39:18 EST 2016
+Menu Activated: Edit | Rotate | 90 Degrees Clockwise
+Currently highlighted: 
+    Text: Variable 'SCHEM_function' on node Opened-Thicker-Polygon['art@1']
+--------------- 2218 --------------
+  Thu Nov 24 15:39:21 EST 2016
+ProcessKeyBinding 402 when=1480019960844 modifiers=0 code=26 char=ffff false false
+--------------- 2219 --------------
+  Thu Nov 24 15:39:21 EST 2016
+ProcessKeyBinding 402 when=1480019960969 modifiers=0 code=26 char=ffff false false
+--------------- 2220 --------------
+  Thu Nov 24 15:39:21 EST 2016
+ProcessKeyBinding 402 when=1480019961032 modifiers=0 code=26 char=ffff false false
+--------------- 2221 --------------
+  Thu Nov 24 15:39:22 EST 2016
+ProcessKeyBinding 402 when=1480019961141 modifiers=0 code=26 char=ffff false false
+--------------- 2222 --------------
+  Thu Nov 24 15:39:22 EST 2016
+ProcessKeyBinding 402 when=1480019961547 modifiers=0 code=28 char=ffff false false
+--------------- 2223 --------------
+  Thu Nov 24 15:39:24 EST 2016
+ProcessKeyBinding 401 when=1480019963657 modifiers=80 code=11 char=ffff false false
+--------------- 2224 --------------
+  Thu Nov 24 15:39:24 EST 2016
+ProcessKeyBinding 401 when=1480019963829 modifiers=80 code=55 char=15 false false
+--------------- 2225 --------------
+  Thu Nov 24 15:39:24 EST 2016
+Menu Activated: Cell | Up Hierarchy
+--------------- 2226 --------------
+  Thu Nov 24 15:39:24 EST 2016
+ProcessKeyBinding 400 when=1480019963829 modifiers=80 code=0 char=15 false false
+--------------- 2227 --------------
+  Thu Nov 24 15:39:24 EST 2016
+ProcessKeyBinding 402 when=1480019963891 modifiers=80 code=55 char=15 false false
+--------------- 2228 --------------
+  Thu Nov 24 15:39:24 EST 2016
+ProcessKeyBinding 402 when=1480019963954 modifiers=0 code=11 char=ffff false false
+--------------- 2229 --------------
+  Thu Nov 24 15:39:24 EST 2016
+ProcessKeyBinding 401 when=1480019964110 modifiers=80 code=11 char=ffff false false
+--------------- 2230 --------------
+  Thu Nov 24 15:39:25 EST 2016
+ProcessKeyBinding 401 when=1480019964219 modifiers=80 code=53 char=13 false false
+--------------- 2231 --------------
+  Thu Nov 24 15:39:25 EST 2016
+Menu Activated: File | Save All Libraries
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'adder6_ksa{sch}': , 'adder6_ksa{ic}[adder6_k@0].y[5:0]'
+--------------- 2232 --------------
+  Thu Nov 24 15:39:25 EST 2016
+ProcessKeyBinding 400 when=1480019964219 modifiers=80 code=0 char=13 false false
+--------------- 2233 --------------
+  Thu Nov 24 15:39:25 EST 2016
+ProcessKeyBinding 402 when=1480019964329 modifiers=80 code=53 char=13 false false
+--------------- 2234 --------------
+  Thu Nov 24 15:39:25 EST 2016
+ProcessKeyBinding 402 when=1480019964360 modifiers=0 code=11 char=ffff false false
+--------------- 2235 --------------
+  Thu Nov 24 15:39:28 EST 2016
+ProcessKeyBinding 401 when=1480019968047 modifiers=80 code=11 char=ffff false false
+--------------- 2236 --------------
+  Thu Nov 24 15:39:29 EST 2016
+ProcessKeyBinding 401 when=1480019968485 modifiers=80 code=53 char=13 false false
+--------------- 2237 --------------
+  Thu Nov 24 15:39:29 EST 2016
+Menu Activated: File | Save All Libraries
+--------------- 2238 --------------
+  Thu Nov 24 15:39:29 EST 2016
+ProcessKeyBinding 400 when=1480019968485 modifiers=80 code=0 char=13 false false
+--------------- 2239 --------------
+  Thu Nov 24 15:39:29 EST 2016
+ProcessKeyBinding 402 when=1480019968579 modifiers=80 code=53 char=13 false false
+--------------- 2240 --------------
+  Thu Nov 24 15:39:29 EST 2016
+ProcessKeyBinding 402 when=1480019968594 modifiers=0 code=11 char=ffff false false
+--------------- 2241 --------------
+  Thu Nov 24 15:39:33 EST 2016
+Menu Activated: Tool | Simulation (Verilog) | Write Verilog Deck...
+--------------- 2242 --------------
+  Thu Nov 24 16:04:57 EST 2016
+ProcessKeyBinding 401 when=1480021496016 modifiers=80 code=11 char=ffff false false
+--------------- 2243 --------------
+  Thu Nov 24 16:04:57 EST 2016
+ProcessKeyBinding 401 when=1480021496172 modifiers=80 code=5a char=1a false false
+--------------- 2244 --------------
+  Thu Nov 24 16:04:57 EST 2016
+Menu Activated: Edit | Undo
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'adder6{sch}': , 'Bus_Pin[pin@32].bus'
+--------------- 2245 --------------
+  Thu Nov 24 16:04:57 EST 2016
+ProcessKeyBinding 400 when=1480021496172 modifiers=80 code=0 char=1a false false
+--------------- 2246 --------------
+  Thu Nov 24 16:04:57 EST 2016
+ProcessKeyBinding 402 when=1480021496313 modifiers=0 code=11 char=ffff false false
+--------------- 2247 --------------
+  Thu Nov 24 16:04:57 EST 2016
+ProcessKeyBinding 402 when=1480021496313 modifiers=0 code=5a char=7a(z) false false
+--------------- 2248 --------------
+  Thu Nov 24 16:07:35 EST 2016
+ProcessKeyBinding 401 when=1480021654751 modifiers=80 code=11 char=ffff false false
+--------------- 2249 --------------
+  Thu Nov 24 16:07:37 EST 2016
+ProcessKeyBinding 401 when=1480021656594 modifiers=80 code=45 char=5 false false
+--------------- 2250 --------------
+  Thu Nov 24 16:07:37 EST 2016
+Menu Activated: Export | Create Export...
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'adder6{sch}': , 'Bus_Pin[pin@18].bus'
+--------------- 2251 --------------
+  Thu Nov 24 16:07:37 EST 2016
+ProcessKeyBinding 400 when=1480021656594 modifiers=80 code=0 char=5 false false
+--------------- 2252 --------------
+  Thu Nov 24 16:07:37 EST 2016
+ProcessKeyBinding 402 when=1480021656719 modifiers=80 code=45 char=5 false false
+--------------- 2253 --------------
+  Thu Nov 24 16:07:37 EST 2016
+ProcessKeyBinding 402 when=1480021656719 modifiers=0 code=11 char=ffff false false
+--------------- 2254 --------------
+  Thu Nov 24 16:07:37 EST 2016
+ProcessKeyBinding 401 when=1480021656719 modifiers=80 code=11 char=ffff false false
+--------------- 2255 --------------
+  Thu Nov 24 16:10:58 EST 2016
+Menu Activated: Cell | Edit Cell...
+--------------- 2256 --------------
+  Thu Nov 24 16:17:40 EST 2016
+Menu Activated: View | Make Icon View
+--------------- 2257 --------------
+  Thu Nov 24 16:17:42 EST 2016
+ProcessKeyBinding 401 when=1480022261282 modifiers=80 code=11 char=ffff false false
+--------------- 2258 --------------
+  Thu Nov 24 16:17:42 EST 2016
+ProcessKeyBinding 401 when=1480022261391 modifiers=80 code=5a char=1a false false
+--------------- 2259 --------------
+  Thu Nov 24 16:17:42 EST 2016
+Menu Activated: Edit | Undo
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'adder6{sch}': , 'adder6{ic}[adder6@0].a[5:0]'
+--------------- 2260 --------------
+  Thu Nov 24 16:17:42 EST 2016
+ProcessKeyBinding 400 when=1480022261391 modifiers=80 code=0 char=1a false false
+--------------- 2261 --------------
+  Thu Nov 24 16:17:42 EST 2016
+ProcessKeyBinding 402 when=1480022261532 modifiers=80 code=5a char=1a false false
+--------------- 2262 --------------
+  Thu Nov 24 16:17:43 EST 2016
+ProcessKeyBinding 401 when=1480022262172 modifiers=80 code=5a char=1a false false
+--------------- 2263 --------------
+  Thu Nov 24 16:17:43 EST 2016
+Menu Activated: Edit | Undo
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'adder6{sch}': , 'adder6{ic}[adder6@0].a[5:0]'
+--------------- 2264 --------------
+  Thu Nov 24 16:17:43 EST 2016
+ProcessKeyBinding 400 when=1480022262172 modifiers=80 code=0 char=1a false false
+--------------- 2265 --------------
+  Thu Nov 24 16:17:43 EST 2016
+ProcessKeyBinding 402 when=1480022262251 modifiers=80 code=5a char=1a false false
+--------------- 2266 --------------
+  Thu Nov 24 16:17:43 EST 2016
+ProcessKeyBinding 402 when=1480022262610 modifiers=0 code=11 char=ffff false false
+--------------- 2267 --------------
+  Thu Nov 24 16:17:47 EST 2016
+ProcessKeyBinding 401 when=1480022266829 modifiers=80 code=11 char=ffff false false
+--------------- 2268 --------------
+  Thu Nov 24 16:17:48 EST 2016
+ProcessKeyBinding 401 when=1480022267438 modifiers=80 code=45 char=5 false false
+--------------- 2269 --------------
+  Thu Nov 24 16:17:48 EST 2016
+Menu Activated: Export | Create Export...
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'adder6{sch}': , 'Bus_Pin[pin@19].bus'
+--------------- 2270 --------------
+  Thu Nov 24 16:17:48 EST 2016
+ProcessKeyBinding 400 when=1480022267438 modifiers=80 code=0 char=5 false false
+--------------- 2271 --------------
+  Thu Nov 24 16:17:48 EST 2016
+ProcessKeyBinding 402 when=1480022267547 modifiers=80 code=45 char=5 false false
+--------------- 2272 --------------
+  Thu Nov 24 16:17:48 EST 2016
+ProcessKeyBinding 402 when=1480022267547 modifiers=0 code=11 char=ffff false false
+--------------- 2273 --------------
+  Thu Nov 24 16:17:48 EST 2016
+ProcessKeyBinding 401 when=1480022267547 modifiers=80 code=11 char=ffff false false
+--------------- 2274 --------------
+  Thu Nov 24 16:17:54 EST 2016
+ProcessKeyBinding 401 when=1480022273032 modifiers=80 code=11 char=ffff false false
+--------------- 2275 --------------
+  Thu Nov 24 16:17:54 EST 2016
+ProcessKeyBinding 401 when=1480022273719 modifiers=80 code=45 char=5 false false
+--------------- 2276 --------------
+  Thu Nov 24 16:17:54 EST 2016
+Menu Activated: Export | Create Export...
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'adder6{sch}': , 'Bus_Pin[pin@35].bus'
+--------------- 2277 --------------
+  Thu Nov 24 16:17:54 EST 2016
+ProcessKeyBinding 400 when=1480022273719 modifiers=80 code=0 char=5 false false
+--------------- 2278 --------------
+  Thu Nov 24 16:17:54 EST 2016
+ProcessKeyBinding 402 when=1480022273813 modifiers=80 code=45 char=5 false false
+--------------- 2279 --------------
+  Thu Nov 24 16:17:54 EST 2016
+ProcessKeyBinding 402 when=1480022273813 modifiers=0 code=11 char=ffff false false
+--------------- 2280 --------------
+  Thu Nov 24 16:17:54 EST 2016
+ProcessKeyBinding 401 when=1480022273829 modifiers=80 code=11 char=ffff false false
+--------------- 2281 --------------
+  Thu Nov 24 16:18:02 EST 2016
+ProcessKeyBinding 401 when=1480022281297 modifiers=80 code=11 char=ffff false false
+--------------- 2282 --------------
+  Thu Nov 24 16:18:02 EST 2016
+ProcessKeyBinding 401 when=1480022281501 modifiers=80 code=53 char=13 false false
+--------------- 2283 --------------
+  Thu Nov 24 16:18:02 EST 2016
+Menu Activated: File | Save All Libraries
+--------------- 2284 --------------
+  Thu Nov 24 16:18:02 EST 2016
+ProcessKeyBinding 400 when=1480022281501 modifiers=80 code=0 char=13 false false
+--------------- 2285 --------------
+  Thu Nov 24 16:18:02 EST 2016
+ProcessKeyBinding 402 when=1480022281626 modifiers=80 code=53 char=13 false false
+--------------- 2286 --------------
+  Thu Nov 24 16:18:02 EST 2016
+ProcessKeyBinding 402 when=1480022281813 modifiers=0 code=11 char=ffff false false
+--------------- 2287 --------------
+  Thu Nov 24 16:18:10 EST 2016
+Menu Activated: View | Make Icon View
+--------------- 2288 --------------
+  Thu Nov 24 16:18:13 EST 2016
+ProcessKeyBinding 401 when=1480022292032 modifiers=80 code=11 char=ffff false false
+--------------- 2289 --------------
+  Thu Nov 24 16:18:13 EST 2016
+ProcessKeyBinding 401 when=1480022292329 modifiers=80 code=5a char=1a false false
+--------------- 2290 --------------
+  Thu Nov 24 16:18:13 EST 2016
+Menu Activated: Edit | Undo
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'adder6{sch}': , adder6{ic}['adder6@0']
+--------------- 2291 --------------
+  Thu Nov 24 16:18:13 EST 2016
+ProcessKeyBinding 400 when=1480022292329 modifiers=80 code=0 char=1a false false
+--------------- 2292 --------------
+  Thu Nov 24 16:18:13 EST 2016
+ProcessKeyBinding 402 when=1480022292422 modifiers=80 code=5a char=1a false false
+--------------- 2293 --------------
+  Thu Nov 24 16:18:13 EST 2016
+ProcessKeyBinding 402 when=1480022292938 modifiers=0 code=11 char=ffff false false
+--------------- 2294 --------------
+  Thu Nov 24 16:18:15 EST 2016
+ProcessKeyBinding 401 when=1480022294001 modifiers=80 code=11 char=ffff false false
+--------------- 2295 --------------
+  Thu Nov 24 16:18:15 EST 2016
+ProcessKeyBinding 401 when=1480022294938 modifiers=80 code=5a char=1a false false
+--------------- 2296 --------------
+  Thu Nov 24 16:18:15 EST 2016
+Menu Activated: Edit | Undo
+Currently highlighted: 
+    Text: Export 'y[5:0]'
+--------------- 2297 --------------
+  Thu Nov 24 16:18:15 EST 2016
+ProcessKeyBinding 400 when=1480022294938 modifiers=80 code=0 char=1a false false
+--------------- 2298 --------------
+  Thu Nov 24 16:18:16 EST 2016
+ProcessKeyBinding 402 when=1480022295032 modifiers=80 code=5a char=1a false false
+--------------- 2299 --------------
+  Thu Nov 24 16:18:16 EST 2016
+ProcessKeyBinding 401 when=1480022295547 modifiers=80 code=5a char=1a false false
+--------------- 2300 --------------
+  Thu Nov 24 16:18:16 EST 2016
+Menu Activated: Edit | Undo
+--------------- 2301 --------------
+  Thu Nov 24 16:18:16 EST 2016
+ProcessKeyBinding 400 when=1480022295547 modifiers=80 code=0 char=1a false false
+--------------- 2302 --------------
+  Thu Nov 24 16:18:16 EST 2016
+ProcessKeyBinding 402 when=1480022295657 modifiers=80 code=5a char=1a false false
+--------------- 2303 --------------
+  Thu Nov 24 16:18:17 EST 2016
+ProcessKeyBinding 402 when=1480022296126 modifiers=0 code=11 char=ffff false false
+--------------- 2304 --------------
+  Thu Nov 24 16:18:17 EST 2016
+ProcessKeyBinding 401 when=1480022296532 modifiers=80 code=11 char=ffff false false
+--------------- 2305 --------------
+  Thu Nov 24 16:18:17 EST 2016
+ProcessKeyBinding 401 when=1480022296969 modifiers=80 code=45 char=5 false false
+--------------- 2306 --------------
+  Thu Nov 24 16:18:17 EST 2016
+Menu Activated: Export | Create Export...
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'adder6{sch}': , 'Bus_Pin[pin@35].bus'
+--------------- 2307 --------------
+  Thu Nov 24 16:18:18 EST 2016
+ProcessKeyBinding 400 when=1480022296969 modifiers=80 code=0 char=5 false false
+--------------- 2308 --------------
+  Thu Nov 24 16:18:18 EST 2016
+ProcessKeyBinding 402 when=1480022297047 modifiers=80 code=45 char=5 false false
+--------------- 2309 --------------
+  Thu Nov 24 16:18:18 EST 2016
+ProcessKeyBinding 4

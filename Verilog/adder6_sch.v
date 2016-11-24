@@ -1,0 +1,154 @@
+/* Verilog for cell 'adder6{sch}' from library 'Project' */
+/* Created on Thu Nov 24, 2016 14:54:53 */
+/* Last revised on Thu Nov 24, 2016 16:23:23 */
+/* Written on Thu Nov 24, 2016 16:23:35 by Electric VLSI Design System, version 8.06 */
+
+module Project__fulladder(a, b, c, cout, s);
+  input a;
+  input b;
+  input c;
+  output cout;
+  output s;
+
+  supply1 vdd;
+  supply0 gnd;
+  wire coutb, net_1, net_11, net_111, net_23, net_32, net_33, net_90, net_92;
+  wire net_94, net_95, sb;
+
+  tranif1 nmos_0(gnd, net_1, a);
+  tranif1 nmos_1(gnd, net_1, b);
+  tranif1 nmos_2(net_1, coutb, c);
+  tranif1 nmos_3(gnd, net_11, a);
+  tranif1 nmos_4(net_11, coutb, b);
+  tranif1 nmos_5(gnd, net_23, a);
+  tranif1 nmos_6(gnd, net_23, b);
+  tranif1 nmos_7(gnd, net_23, c);
+  tranif1 nmos_8(net_23, sb, coutb);
+  tranif1 nmos_9(gnd, net_33, a);
+  tranif1 nmos_10(net_33, net_32, b);
+  tranif1 nmos_11(net_32, sb, c);
+  tranif1 nmos_12(gnd, cout, coutb);
+  tranif1 nmos_13(gnd, s, sb);
+  tranif0 pmos_1(sb, net_92, c);
+  tranif0 pmos_2(net_92, net_90, b);
+  tranif0 pmos_3(net_90, vdd, a);
+  tranif0 pmos_4(sb, net_94, coutb);
+  tranif0 pmos_5(net_94, vdd, b);
+  tranif0 pmos_6(net_94, vdd, c);
+  tranif0 pmos_7(net_94, vdd, a);
+  tranif0 pmos_8(cout, vdd, coutb);
+  tranif0 pmos_9(net_95, vdd, a);
+  tranif0 pmos_10(coutb, net_95, b);
+  tranif0 pmos_11(net_111, vdd, a);
+  tranif0 pmos_12(net_111, vdd, b);
+  tranif0 pmos_13(coutb, net_111, c);
+  tranif0 pmos_14(s, vdd, sb);
+endmodule   /* Project__fulladder */
+
+module Project__xor2_1x(a, b, y);
+  input a;
+  input b;
+  output y;
+
+  supply1 vdd;
+  supply0 gnd;
+  wire ab, bb, net_3, net_4, net_7, net_8;
+
+  tranif1 nmos_0(gnd, net_3, a);
+  tranif1 nmos_1(gnd, net_4, ab);
+  tranif1 nmos_2(net_3, y, b);
+  tranif1 nmos_3(net_4, y, bb);
+  tranif1 nmos_4(gnd, bb, b);
+  tranif1 nmos_5(gnd, ab, a);
+  tranif0 pmos_0(y, net_7, b);
+  tranif0 pmos_1(net_7, vdd, ab);
+  tranif0 pmos_2(y, net_8, bb);
+  tranif0 pmos_3(net_8, vdd, a);
+  tranif0 pmos_4(bb, vdd, b);
+  tranif0 pmos_5(ab, vdd, a);
+endmodule   /* Project__xor2_1x */
+
+module Project__fulladder6(a, b, cin, Ovf, cout, s);
+  input [5:0] a;
+  input [5:0] b;
+  input cin;
+  output Ovf;
+  output cout;
+  output [5:0] s;
+
+  supply1 vdd;
+  supply0 gnd;
+  wire net_0, net_1, net_2, net_3, net_4;
+
+  Project__fulladder fulladde_0(.a(a[0]), .b(b[0]), .c(cin), .cout(net_0), 
+      .s(s[0]));
+  Project__fulladder fulladde_1(.a(a[1]), .b(b[1]), .c(net_0), .cout(net_1), 
+      .s(s[1]));
+  Project__fulladder fulladde_4(.a(a[2]), .b(b[2]), .c(net_1), .cout(net_2), 
+      .s(s[2]));
+  Project__fulladder fulladde_5(.a(a[3]), .b(b[3]), .c(net_2), .cout(net_3), 
+      .s(s[3]));
+  Project__fulladder fulladde_6(.a(a[4]), .b(b[4]), .c(net_3), .cout(net_4), 
+      .s(s[4]));
+  Project__fulladder fulladde_7(.a(a[5]), .b(b[5]), .c(net_4), .cout(cout), 
+      .s(s[5]));
+  Project__xor2_1x xor2_1x_0(.a(net_4), .b(cout), .y(Ovf));
+endmodule   /* Project__fulladder6 */
+
+module Project__mux2_c_1x(d0, d1, s, y);
+  input d0;
+  input d1;
+  input s;
+  output y;
+
+  supply1 vdd;
+  supply0 gnd;
+  wire net_12, net_15, net_3, net_4, net_5, sb;
+
+  tranif1 nmos_0(gnd, net_3, d1);
+  tranif1 nmos_1(gnd, net_4, d0);
+  tranif1 nmos_2(net_3, net_5, s);
+  tranif1 nmos_3(net_4, net_5, sb);
+  tranif1 nmos_4(gnd, y, net_5);
+  tranif1 nmos_5(gnd, sb, s);
+  tranif0 pmos_0(net_5, net_15, sb);
+  tranif0 pmos_1(net_15, vdd, d1);
+  tranif0 pmos_2(net_5, net_12, s);
+  tranif0 pmos_3(net_12, vdd, d0);
+  tranif0 pmos_4(y, vdd, net_5);
+  tranif0 pmos_5(sb, vdd, s);
+endmodule   /* Project__mux2_c_1x */
+
+module Project__mux6(d0, d1, s, y);
+  input [5:0] d0;
+  input [5:0] d1;
+  input s;
+  output [5:0] y;
+
+  supply1 vdd;
+  supply0 gnd;
+  Project__mux2_c_1x mux2_c_1_0(.d0(d0[0]), .d1(d1[0]), .s(s), .y(y[0]));
+  Project__mux2_c_1x mux2_c_1_1(.d0(d0[1]), .d1(d1[1]), .s(s), .y(y[1]));
+  Project__mux2_c_1x mux2_c_1_2(.d0(d0[2]), .d1(d1[2]), .s(s), .y(y[2]));
+  Project__mux2_c_1x mux2_c_1_3(.d0(d0[3]), .d1(d1[3]), .s(s), .y(y[3]));
+  Project__mux2_c_1x mux2_c_1_4(.d0(d0[4]), .d1(d1[4]), .s(s), .y(y[4]));
+  Project__mux2_c_1x mux2_c_1_5(.d0(d0[5]), .d1(d1[5]), .s(s), .y(y[5]));
+endmodule   /* Project__mux6 */
+
+module adder(a, b, y);
+  input [5:0] a;
+  input [5:0] b;
+  output [5:0] y;
+
+  supply1 vdd;
+  supply0 gnd;
+  wire fulladde_0_cout, ovf;
+  wire [5:0] net_28;
+  wire [5:0] s;
+
+  Project__fulladder6 fulladde_0(.a(a[5:0]), .b(b[5:0]), .cin(gnd), .Ovf(ovf), 
+      .cout(fulladde_0_cout), .s(s[5:0]));
+  Project__mux6 mux6_0(.d0({vdd, gnd, gnd, gnd, gnd, gnd}), .d1({gnd, vdd, vdd, 
+      vdd, vdd, vdd}), .s(s[5]), .y(net_28[5:0]));
+  Project__mux6 mux6_1(.d0(s[5:0]), .d1(net_28[5:0]), .s(ovf), .y(y[5:0]));
+endmodule   /* adder6 */

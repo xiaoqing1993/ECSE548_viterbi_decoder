@@ -9,23 +9,23 @@ z2
 cModel Technology
 d/home/harshaurora/Desktop
 vadder
-Z0 !s110 1480020056
+Z0 !s110 1480022627
 !i10b 1
-!s100 >[I2=F5Be>1X44U:cMX:l3
-I<SLAB>Jl;ffjUnK6l^RKO2
+!s100 2hJUGb6bh6A16jDV0NSDP3
+Io73M5bE7fN>e^Wkd;gV643
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 d/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/modelsim
-Z3 w1480020002
-Z4 8/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_ksa_sch.v
-Z5 F/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_ksa_sch.v
-L0 221
+Z3 w1480022625
+Z4 8/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_sch.v
+Z5 F/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_sch.v
+L0 138
 Z6 OV;L;10.4d;61
 r1
 !s85 0
 31
-Z7 !s108 1480020056.000000
-Z8 !s107 /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_ksa_sch.v|
-Z9 !s90 -reportprogress|300|-work|work|-stats=none|/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_ksa_sch.v|
+Z7 !s108 1480022627.000000
+Z8 !s107 /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_sch.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_sch.v|
 !i113 1
 Z10 o-work work
 vadder_ideal
@@ -51,6 +51,26 @@ Z16 !s107 /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/
 Z17 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv|
 !i113 1
 Z18 o-work work -sv
+vadder_ksa
+R0
+!i10b 1
+!s100 <gIGDmGXLK0m]c:oM^SWX1
+IWbETDI0JMRd4XQP0ER@l`1
+R1
+R2
+Z19 w1480022397
+Z20 8/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_ksa_sch.v
+Z21 F/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_ksa_sch.v
+L0 221
+R6
+r1
+!s85 0
+31
+R7
+Z22 !s107 /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_ksa_sch.v|
+Z23 !s90 -reportprogress|300|-work|work|-stats=none|/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_ksa_sch.v|
+!i113 1
+R10
 vblllll
 R11
 !s110 1479933760
@@ -81,17 +101,17 @@ R0
 I0HEjFiR=5e1EG>CKd=a5f1
 R1
 R2
-Z19 w1480012922
-Z20 8/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v
-Z21 F/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v
-L0 122
+Z24 w1480012922
+Z25 8/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v
+Z26 F/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v
+Z27 L0 122
 R6
 r1
 !s85 0
 31
 R7
-Z22 !s107 /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v|
-Z23 !s90 -reportprogress|300|-work|work|-stats=none|/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v|
+Z28 !s107 /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v|
+Z29 !s90 -reportprogress|300|-work|work|-stats=none|/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v|
 !i113 1
 R10
 vcomp_ideal
@@ -176,7 +196,7 @@ R2
 w1479949501
 R14
 R15
-Z24 L0 128
+Z30 L0 128
 R6
 r1
 !s85 0
@@ -259,17 +279,17 @@ R0
 IdFSneYVY<@6Ph5PzVIk8g3
 R1
 R2
-R3
-R4
-R5
-R24
+R19
+R20
+R21
+R30
 R6
 r1
 !s85 0
 31
 R7
-R8
-R9
+R22
+R23
 !i113 1
 R10
 n@project__a2o1_1x
@@ -280,17 +300,17 @@ R0
 I@D7Z_AzWo5^=fNiz2`z[C3
 R1
 R2
-R3
-R4
-R5
+R19
+R20
+R21
 L0 76
 R6
 r1
 !s85 0
 31
 R7
-R8
-R9
+R22
+R23
 !i113 1
 R10
 n@project__and2_1x
@@ -301,17 +321,17 @@ R0
 I2VfjU_>eH]RzjAd1CTbVO0
 R1
 R2
-R3
-R4
-R5
+R19
+R20
+R21
 L0 6
 R6
 r1
 !s85 0
 31
 R7
-R8
-R9
+R22
+R23
 !i113 1
 R10
 n@project__and3_1x
@@ -322,10 +342,31 @@ R0
 Il6d6PKaE9SER_D_DFdkZ01
 R1
 R2
+R19
+R20
+R21
+L0 116
+R6
+r1
+!s85 0
+31
+R7
+R22
+R23
+!i113 1
+R10
+n@project__bit_prop_gen
+vProject__fulladder
+R0
+!i10b 1
+!s100 o1PCd=7YW0?ZXgj1`O<]B3
+IWDS]?JSWB13J?3mg]8Se63
+R1
+R2
 R3
 R4
 R5
-L0 116
+L0 6
 R6
 r1
 !s85 0
@@ -335,46 +376,25 @@ R8
 R9
 !i113 1
 R10
-n@project__bit_prop_gen
-vProject__fulladder
-R0
-!i10b 1
-!s100 o1PCd=7YW0?ZXgj1`O<]B3
-IY>B@TMbF]hAeP0Om?lK@J2
-R1
-R2
-R19
-R20
-R21
-L0 6
-R6
-r1
-!s85 0
-31
-R7
-R22
-R23
-!i113 1
-R10
 n@project__fulladder
 vProject__fulladder6
 R0
 !i10b 1
 !s100 mFnPF4R7PV4Fa08eUYnnW1
-I?22<zSA>UIM<8dDHMbY1Q0
+IC:8>l@Z5nVh<lL9=oE]a81
 R1
 R2
-R19
-R20
-R21
+R3
+R4
+R5
 L0 71
 R6
 r1
 !s85 0
 31
 R7
-R22
-R23
+R8
+R9
 !i113 1
 R10
 n@project__fulladder6
@@ -385,17 +405,17 @@ R0
 IR7OGg=BzR`BfSeiY3ef`=3
 R1
 R2
-R3
-R4
-R5
+R19
+R20
+R21
 L0 148
 R6
 r1
 !s85 0
 31
 R7
-R8
-R9
+R22
+R23
 !i113 1
 R10
 n@project__group_gen
@@ -406,17 +426,17 @@ R0
 IHbk=6_>?TZ5mWNO>1VMN41
 R1
 R2
-R3
-R4
-R5
+R19
+R20
+R21
 L0 159
 R6
 r1
 !s85 0
 31
 R7
-R8
-R9
+R22
+R23
 !i113 1
 R10
 n@project__group_prop_gen
@@ -427,17 +447,17 @@ R0
 ITh6LLKC?mR4UMP2Bh`3Nk0
 R1
 R2
-R19
-R20
-R21
+R24
+R25
+R26
 L0 108
 R6
 r1
 !s85 0
 31
 R7
-R22
-R23
+R28
+R29
 !i113 1
 R10
 n@project__inv6_1x
@@ -448,31 +468,31 @@ R0
 InfBfkgX@LZm:2Y[37^bV]3
 R1
 R2
-R3
-R4
-R5
+R19
+R20
+R21
 L0 26
 R6
 r1
 !s85 0
 31
 R7
-R8
-R9
+R22
+R23
 !i113 1
 R10
 n@project__inv_1x
 vProject__mux2_c_1x
 R0
 !i10b 1
-!s100 CXS_]jf073Nn5jA=`l<UI1
-I^cSKW=cGV0Si<57o4TO6B1
+!s100 a_=EdzPM2Ee=]LVn?fc4X3
+I[?n5`hT=g6Y3U<b?i5ll?3
 R1
 R2
 R3
 R4
 R5
-L0 36
+L0 98
 R6
 r1
 !s85 0
@@ -486,14 +506,14 @@ n@project__mux2_c_1x
 vProject__mux6
 R0
 !i10b 1
-!s100 jCCn;^Wld=2NbC9lYRn9`3
-IEn1_Eo0@`9nF]dj=DnDK91
+!s100 BA6e2fekE]009TCom3<mS2
+IZh`Kmzg_FeY4C2Fbn=<P43
 R1
 R2
 R3
 R4
 R5
-L0 60
+R27
 R6
 r1
 !s85 0
@@ -511,31 +531,31 @@ R0
 IN@3jgK4cQ298NNh3UNZil3
 R1
 R2
-R3
-R4
-R5
+R19
+R20
+R21
 L0 173
 R6
 r1
 !s85 0
 31
 R7
-R8
-R9
+R22
+R23
 !i113 1
 R10
 n@project__six_bit_kogge_stone_adder
 vProject__xor2_1x
 R0
 !i10b 1
-!s100 A0<V^Q6NoJej?>djikkk<3
-Ina2OiFh_TzzTT:@UIkji63
+!s100 XaFNL;^Q<>3b;zR[`;FIY0
+IX[6WTU23]1izCBXglFVBU1
 R1
 R2
 R3
 R4
 R5
-L0 93
+L0 48
 R6
 r1
 !s85 0
