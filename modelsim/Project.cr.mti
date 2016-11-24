@@ -1,1 +1,13 @@
+/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv {1 {vlog -work work -sv -stats=none /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module testbench
+-- Compiling module decoder
+-- Compiling module adder
+-- Compiling module mux6
+-- Compiling module mux1
+-- Compiling module inv
 
+Top level modules:
+	testbench
+
+} {} {}}

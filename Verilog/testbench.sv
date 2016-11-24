@@ -189,10 +189,12 @@ module adder(	input		logic	signed [5:0] a, b,
   assign y = and1==0 ? (and2==0 ? s : -32) : 31;
 endmodule
 
+/*
 module comp(	input		logic	signed [5:0] a, b,
 							output	logic alb);
 	assign alb = a<b ? 1 : 0;
 endmodule
+*/
 
 module mux6(	input		logic	signed [5:0] a, b,
 						input		logic s,

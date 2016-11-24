@@ -10,7 +10,7 @@ cModel Technology
 d/home/harshaurora/Desktop
 vadder
 Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
-Z1 !s110 1479995568
+Z1 !s110 1480008534
 !i10b 1
 !s100 ILTbLhLJ<7LRMKk5dE4IJ1
 I@fNiL:3mEJXWX<imFlIYU1
@@ -18,7 +18,7 @@ Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 !s105 testbench_sv_unit
 S1
 Z4 d/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/modelsim
-Z5 w1479995564
+Z5 w1480008061
 Z6 8/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv
 Z7 F/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv
 L0 170
@@ -26,7 +26,7 @@ Z8 OV;L;10.4d;61
 r1
 !s85 0
 31
-Z9 !s108 1479995568.000000
+Z9 !s108 1480008533.000000
 Z10 !s107 /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv|
 Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv|
 !i113 1
@@ -55,28 +55,25 @@ R11
 !i113 1
 R12
 vcomp
-R0
 R1
 !i10b 1
-!s100 O]R<NUO4R5RHnn2@7TQJD1
-I0eb7CWDSVDoQG>0K?6O190
+!s100 J]ID]loY]1RNg9j4^Wzj22
+I0Ff_@?Kj2VP^B:dVgFEiW3
 R2
-R3
-S1
 R4
-R5
-R6
-R7
-L0 192
+Z13 w1480008528
+Z14 8/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v
+Z15 F/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v
+L0 120
 R8
 r1
 !s85 0
 31
-R9
-R10
-R11
+Z16 !s108 1480008534.000000
+Z17 !s107 /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v|
 !i113 1
-R12
+Z19 o-work work
 vdecoder
 R0
 R1
@@ -104,8 +101,8 @@ vinv
 R0
 R1
 !i10b 1
-!s100 ?dLLNDXdU3WOz>I;RShOC0
-IQ<l851b:41k?7TcSgl@1:1
+!s100 R_2FX?mbZj=01[Kk3^@0C3
+IUIb80S3@P5HeUaO_R;kCl3
 R2
 R3
 S1
@@ -113,7 +110,7 @@ R4
 R5
 R6
 R7
-L0 211
+L0 213
 R8
 r1
 !s85 0
@@ -150,8 +147,8 @@ vmux1
 R0
 R1
 !i10b 1
-!s100 K?fc=2=V1o9b9mCJ5DkQ=3
-I37NQa:=KCI3KURSEokZQF0
+!s100 ;HL@QIjhJCfnhD]=<85D>2
+IK8l@`lI=FDiE9gi:PeRZf0
 R2
 R3
 S1
@@ -159,7 +156,7 @@ R4
 R5
 R6
 R7
-L0 204
+L0 206
 R8
 r1
 !s85 0
@@ -173,8 +170,8 @@ vmux6
 R0
 R1
 !i10b 1
-!s100 fPkz=VzC2zP3`Q8]]_e;71
-IiaYekj@YDB6bYhOGzfIdX0
+!s100 T;Xf_A8JJ[WV9=C<=aX]C3
+I7PSMK__j=:TVEYHm<QN5Q2
 R2
 R3
 S1
@@ -182,7 +179,7 @@ R4
 R5
 R6
 R7
-L0 197
+L0 199
 R8
 r1
 !s85 0
@@ -192,9 +189,114 @@ R10
 R11
 !i113 1
 R12
+vProject__fulladder
+R1
+!i10b 1
+!s100 o1PCd=7YW0?ZXgj1`O<]B3
+IY>B@TMbF]hAeP0Om?lK@J2
+R2
+R4
+R13
+R14
+R15
+L0 6
+R8
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R19
+n@project__fulladder
+vProject__fulladder6
+R1
+!i10b 1
+!s100 0`52jMLSR2_SGGo=D]P:[2
+I;NA9WNV4^odRnJV[aY5Ak3
+R2
+R4
+R13
+R14
+R15
+L0 48
+R8
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R19
+n@project__fulladder6
+vProject__inv6_1x
+R1
+!i10b 1
+!s100 hijazg9@o4KKN`4YNTPWb2
+IoM@^Ne9<cE`N5YhhLK4J@3
+R2
+R4
+R13
+R14
+R15
+L0 83
+R8
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R19
+n@project__inv6_1x
+vProject__inv_1x
+R1
+!i10b 1
+!s100 `RUEIBSZS<LM45h>9;L3N2
+Il@3dF4Ef_T4lm]o4MTO@F1
+R2
+R4
+R13
+R14
+R15
+L0 73
+R8
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R19
+n@project__inv_1x
+vProject__xor2_1x
+R1
+!i10b 1
+!s100 ZU9aiK^V4EFCP6]c<a>1`1
+IYXo:AM4ZIz0Pi2>Q096431
+R2
+R4
+R13
+R14
+R15
+L0 97
+R8
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R19
+n@project__xor2_1x
 vtestbench
 R0
-R1
+!s110 1480008533
 !i10b 1
 !s100 0L_hUgoN>=`izOSE6[Bid3
 I]fzE>NF;gLWc>ARDzAU5P0
