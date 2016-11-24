@@ -218,7 +218,7 @@ module Project__six_bit_kogge_stone_adder(A, B, S);
   Project__xor2_1x xor2_1x_8(.a(gnd), .b(P[0]), .y(S[0]));
 endmodule   /* Project__six_bit_kogge_stone_adder */
 
-module adder(a, b, y);
+module adder_ksa(a, b, y);
   input [5:0] a;
   input [5:0] b;
   output [5:0] y;
