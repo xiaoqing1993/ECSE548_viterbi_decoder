@@ -10,7 +10,7 @@ cModel Technology
 d/home/harshaurora/Desktop
 vadder
 Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
-Z1 !s110 1480012927
+Z1 !s110 1480016271
 !i10b 1
 !s100 ILTbLhLJ<7LRMKk5dE4IJ1
 I@fNiL:3mEJXWX<imFlIYU1
@@ -26,7 +26,7 @@ Z8 OV;L;10.4d;61
 r1
 !s85 0
 31
-Z9 !s108 1480012927.000000
+Z9 !s108 1480016271.000000
 Z10 !s107 /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv|
 Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv|
 !i113 1
@@ -167,28 +167,25 @@ R11
 !i113 1
 R12
 vmux6
-R0
 R1
 !i10b 1
-!s100 T;Xf_A8JJ[WV9=C<=aX]C3
-I7PSMK__j=:TVEYHm<QN5Q2
+!s100 eHW:P8P0nEC0hk^2`:mc]2
+IAIIQglYfjR;9D8Vc8m>1G2
 R2
-R3
-S1
 R4
-R5
-R6
-R7
-L0 199
+Z19 w1480016225
+Z20 8/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/mux6_sch.v
+Z21 F/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/mux6_sch.v
+L0 30
 R8
 r1
 !s85 0
 31
 R9
-R10
-R11
+Z22 !s107 /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/mux6_sch.v|
+Z23 !s90 -reportprogress|300|-work|work|-stats=none|/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/mux6_sch.v|
 !i113 1
-R12
+R18
 vProject__fulladder
 R1
 !i10b 1
@@ -273,6 +270,27 @@ R17
 !i113 1
 R18
 n@project__inv_1x
+vProject__mux2_c_1x
+R1
+!i10b 1
+!s100 KbB0BR7bCY:PhX`mBjSX?2
+IhBa8_@j3WZJMFT:V[fz>40
+R2
+R4
+R19
+R20
+R21
+L0 6
+R8
+r1
+!s85 0
+31
+R9
+R22
+R23
+!i113 1
+R18
+n@project__mux2_c_1x
 vProject__xor2_1x
 R1
 !i10b 1
