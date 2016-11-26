@@ -6,8 +6,8 @@ module testbench();
 	integer fp;
 	`define NULL 0  
 	
-	decoder dec(r,m);
-	
+	//decoder dec(r,m);
+	decoder1 dec(r[0], r[1], r[2], r[3], r[4], r[5], r[6], r[7], m);
 	initial begin
 		fp = $fopen("inputs.txt", "r");
 		if (fp == `NULL) begin
@@ -45,6 +45,7 @@ module testbench();
 				$error("decoder failed");
 				$stop;
 			end
+			
 		end
 		else begin
 			$fclose(fp);

@@ -9,588 +9,659 @@ z2
 cModel Technology
 d/home/harshaurora/Desktop
 vadder
-Z0 !s110 1480022627
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z1 !s110 1480157985
 !i10b 1
-!s100 2hJUGb6bh6A16jDV0NSDP3
-Io73M5bE7fN>e^Wkd;gV643
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 d/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/modelsim
-Z3 w1480022625
-Z4 8/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_sch.v
-Z5 F/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_sch.v
-L0 138
-Z6 OV;L;10.4d;61
-r1
-!s85 0
-31
-Z7 !s108 1480022627.000000
-Z8 !s107 /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_sch.v|
-Z9 !s90 -reportprogress|300|-work|work|-stats=none|/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_sch.v|
-!i113 1
-Z10 o-work work
-vadder_ideal
-Z11 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
-R0
-!i10b 1
-!s100 ]QV_nQ8o^MGe0HJVel:>?3
-I<dEk5FZXWW]73b6H1HHOL3
-R1
-Z12 !s105 testbench_sv_unit
+!s100 b[]AOInfFDCaeSVCf3QaJ0
+I[neDTlL8n8S9_OMToN4K>3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 testbench_sv_unit
 S1
-R2
-Z13 w1480020050
-Z14 8/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv
-Z15 F/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv
-L0 170
-R6
+Z4 d/home/harshaurora/ECSE548_viterbi_decoder/modelsim
+Z5 w1480157983
+Z6 8/home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+Z7 F/home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+Z8 L0 171
+Z9 OV;L;10.4d;61
 r1
 !s85 0
 31
-R7
-Z16 !s107 /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv|
-Z17 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv|
+Z10 !s108 1480157985.000000
+Z11 !s107 /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv|
+Z12 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv|
 !i113 1
-Z18 o-work work -sv
-vadder_ksa
+Z13 o-work work -sv
+vadder_ideal
 R0
+Z14 !s110 1480158998
+!i10b 1
+!s100 9lNOAK^4n4E2lGF@Yg_`^0
+Ij;`]ILTd25USIhbjLo:o82
+R2
+R3
+S1
+R4
+Z15 w1480158795
+R6
+R7
+R8
+R9
+r1
+!s85 0
+31
+Z16 !s108 1480158998.000000
+R11
+R12
+!i113 1
+R13
+vadder_ksa
+Z17 !s110 1480022627
 !i10b 1
 !s100 <gIGDmGXLK0m]c:oM^SWX1
 IWbETDI0JMRd4XQP0ER@l`1
-R1
 R2
+Z18 d/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/modelsim
 Z19 w1480022397
 Z20 8/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_ksa_sch.v
 Z21 F/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_ksa_sch.v
 L0 221
-R6
+R9
 r1
 !s85 0
 31
-R7
-Z22 !s107 /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_ksa_sch.v|
-Z23 !s90 -reportprogress|300|-work|work|-stats=none|/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_ksa_sch.v|
+Z22 !s108 1480022627.000000
+Z23 !s107 /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_ksa_sch.v|
+Z24 !s90 -reportprogress|300|-work|work|-stats=none|/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_ksa_sch.v|
 !i113 1
-R10
+Z25 o-work work
 vblllll
-R11
+R0
 !s110 1479933760
 !i10b 1
 !s100 d_8JH9I4Ef<4OGE5QHA2P2
 I;RkXFV22hB[KcEP8caAYk1
-R1
-R12
-S1
 R2
+R3
+S1
+R18
 w1479933756
-R14
-R15
+Z26 8/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv
+Z27 F/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv
 L0 33
-R6
+R9
 r1
 !s85 0
 31
 !s108 1479933760.000000
-R16
-R17
+Z28 !s107 /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv|
+Z29 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv|
 !i113 1
-R18
+R13
 vcomp
 R0
-!i10b 1
-!s100 Nlo3B4DZF]INE5l_V5Q[T1
-I0HEjFiR=5e1EG>CKd=a5f1
 R1
+!i10b 1
+!s100 590o[aF99YdQHWBoo:1Lj2
+IIjXMjcGXaa7YN[d@aVgOZ1
 R2
-Z24 w1480012922
-Z25 8/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v
-Z26 F/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v
-Z27 L0 122
+R3
+S1
+R4
+R5
 R6
+R7
+Z30 L0 185
+R9
 r1
 !s85 0
 31
-R7
-Z28 !s107 /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v|
-Z29 !s90 -reportprogress|300|-work|work|-stats=none|/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v|
-!i113 1
 R10
+R11
+R12
+!i113 1
+R13
 vcomp_ideal
-R11
 R0
-!i10b 1
-!s100 843X:ICN`1W:lNzm^64J10
-IID<eEX1RdJGzFk<11T_oR0
-R1
-R12
-S1
-R2
-R13
 R14
+!i10b 1
+!s100 ZkkB;7aCMQn;;^kEdCI1A1
+IQM3QFae1dla26`N8GzW3>0
+R2
+R3
+S1
+R4
 R15
-L0 184
 R6
+R7
+R30
+R9
 r1
 !s85 0
 31
-R7
 R16
-R17
+R11
+R12
 !i113 1
-R18
+R13
 vdecoder
-R11
 R0
-!i10b 1
-!s100 oioM9B>dE54DlB541S=8M2
-I`kF801ncGNef:I6YW4nVS3
-R1
-R12
-S1
-R2
-R13
 R14
+!i10b 1
+!s100 >AWTEa9S89G@30PKfP?[a2
+I^mz>]oRV;=`@K`7ecOf[V1
+R2
+R3
+S1
+R4
 R15
-L0 57
 R6
+R7
+L0 58
+R9
 r1
 !s85 0
 31
-R7
 R16
-R17
+R11
+R12
 !i113 1
-R18
+R13
+vdecoder1
+R14
+!i10b 1
+!s100 ma:g<6Y[XM``nJ4B55lzE3
+Ig3A2<8Li2?HKRDmLk@=PT1
+R2
+R4
+Z31 w1480158991
+Z32 8/home/harshaurora/ECSE548_viterbi_decoder/Verilog/decoder1_sch.v
+Z33 F/home/harshaurora/ECSE548_viterbi_decoder/Verilog/decoder1_sch.v
+L0 197
+R9
+r1
+!s85 0
+31
+R16
+Z34 !s107 /home/harshaurora/ECSE548_viterbi_decoder/Verilog/decoder1_sch.v|
+Z35 !s90 -reportprogress|300|-work|work|-stats=none|/home/harshaurora/ECSE548_viterbi_decoder/Verilog/decoder1_sch.v|
+!i113 1
+R25
 vinv
-R11
 R0
-!i10b 1
-!s100 UdFbkfoZ4FMKJbXk;9X]<1
-IJBAgj:_Ch9TgVmj_LFUWh1
-R1
-R12
-S1
-R2
-R13
 R14
+!i10b 1
+!s100 Gi=m8DL[VKz[?8;43;GX<3
+IdVDe019FD]D1K8n5QGX6f0
+R2
+R3
+S1
+R4
 R15
-L0 204
 R6
+R7
+L0 205
+R9
 r1
 !s85 0
 31
-R7
 R16
-R17
-!i113 1
-R18
-vmux
 R11
+R12
+!i113 1
+R13
+vmux
+R0
 !s110 1479949506
 !i10b 1
 !s100 EGV_^34ER;=B0Sg7>F5iK1
 ILVhon6AFRkeQ2:1LGYY<U3
-R1
-R12
-S1
 R2
+R3
+S1
+R18
 w1479949501
-R14
-R15
-Z30 L0 128
-R6
+R26
+R27
+Z36 L0 128
+R9
 r1
 !s85 0
 31
 !s108 1479949506.000000
-R16
-R17
+R28
+R29
 !i113 1
-R18
-vmux1
-R11
-R0
-!i10b 1
-!s100 Xo]bd1UOK4okQgfJA7Z<N3
-IdmR;^G8dbmAj6XZ?1LMdB3
-R1
-R12
-S1
-R2
 R13
+vmux1
+R0
 R14
+!i10b 1
+!s100 MMJXh`]lEzh8DAMFcJ3VL1
+IOQoYOYG63_XB@4EAg9aWi3
+R2
+R3
+S1
+R4
 R15
-L0 197
 R6
+R7
+L0 198
+R9
 r1
 !s85 0
 31
-R7
 R16
-R17
+R11
+R12
 !i113 1
-R18
+R13
 vmux6
 R0
-!i10b 1
-!s100 eHW:P8P0nEC0hk^2`:mc]2
-IAIIQglYfjR;9D8Vc8m>1G2
 R1
+!i10b 1
+!s100 5jNXnV0S5>XJ7F3?QaaM82
+I^b0feTo5gVh]1WTBeOm=82
 R2
-w1480016225
-8/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/mux6_sch.v
-F/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/mux6_sch.v
-L0 30
-R6
-r1
-!s85 0
-31
-R7
-!s107 /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/mux6_sch.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/mux6_sch.v|
-!i113 1
-R10
-vmux6_ideal
-R11
-R0
-!i10b 1
-!s100 XgdVDZg5JilMc@=k_SDQS2
-IO@75bLJ[0dz@IGf:JS:bR0
-R1
-R12
+R3
 S1
-R2
-R13
-R14
-R15
-L0 190
+R4
+R5
 R6
+R7
+Z37 L0 191
+R9
 r1
 !s85 0
 31
-R7
-R16
-R17
+R10
+R11
+R12
 !i113 1
-R18
-vProject__a2o1_1x
+R13
+vmux6_ideal
 R0
+R14
+!i10b 1
+!s100 270?15ZS@CG:>Y^7ThTn`2
+IR6h_<L[TL>Hd@0;CM`g[N0
+R2
+R3
+S1
+R4
+R15
+R6
+R7
+R37
+R9
+r1
+!s85 0
+31
+R16
+R11
+R12
+!i113 1
+R13
+vProject__a2o1_1x
+R17
 !i10b 1
 !s100 mJ_ikbK2?NOUU=GE3TnPT3
 IdFSneYVY<@6Ph5PzVIk8g3
-R1
 R2
+R18
 R19
 R20
 R21
-R30
-R6
+R36
+R9
 r1
 !s85 0
 31
-R7
 R22
 R23
+R24
 !i113 1
-R10
+R25
 n@project__a2o1_1x
+vProject__adder6
+R14
+!i10b 1
+!s100 >;2Yb^JQ1:mRPHIhO2F103
+IAi]D1R1[ALQIVIdiVH?jn3
+R2
+R4
+R31
+R32
+R33
+L0 138
+R9
+r1
+!s85 0
+31
+R16
+R34
+R35
+!i113 1
+R25
+n@project__adder6
 vProject__and2_1x
-R0
+R17
 !i10b 1
 !s100 JjA?LZBeo[7TeFXLHWnX?0
 I@D7Z_AzWo5^=fNiz2`z[C3
-R1
 R2
+R18
 R19
 R20
 R21
 L0 76
-R6
+R9
 r1
 !s85 0
 31
-R7
 R22
 R23
+R24
 !i113 1
-R10
+R25
 n@project__and2_1x
 vProject__and3_1x
-R0
+R17
 !i10b 1
 !s100 ^lZ8^NJJkA2[jHZN]>4kn2
 I2VfjU_>eH]RzjAd1CTbVO0
-R1
 R2
+R18
 R19
 R20
 R21
 L0 6
-R6
+R9
 r1
 !s85 0
 31
-R7
 R22
 R23
+R24
 !i113 1
-R10
+R25
 n@project__and3_1x
 vProject__bit_prop_gen
-R0
+R17
 !i10b 1
 !s100 cQgWZdHPPIUAVCdJ6S5D50
 Il6d6PKaE9SER_D_DFdkZ01
-R1
 R2
+R18
 R19
 R20
 R21
 L0 116
-R6
+R9
 r1
 !s85 0
 31
-R7
 R22
 R23
+R24
 !i113 1
-R10
+R25
 n@project__bit_prop_gen
+vProject__comp6
+R14
+!i10b 1
+!s100 5dD16=c4P3D?RWUgNS<Kc3
+I7jAP2JjS:Obifkie?zWTR0
+R2
+R4
+R31
+R32
+R33
+L0 180
+R9
+r1
+!s85 0
+31
+R16
+R34
+R35
+!i113 1
+R25
+n@project__comp6
 vProject__fulladder
-R0
+R14
 !i10b 1
 !s100 o1PCd=7YW0?ZXgj1`O<]B3
-IWDS]?JSWB13J?3mg]8Se63
-R1
+I8VA6_VheXW:9Bbb>:LlX53
 R2
-R3
 R4
-R5
+R31
+R32
+R33
 L0 6
-R6
+R9
 r1
 !s85 0
 31
-R7
-R8
-R9
+R16
+R34
+R35
 !i113 1
-R10
+R25
 n@project__fulladder
 vProject__fulladder6
-R0
+R14
 !i10b 1
 !s100 mFnPF4R7PV4Fa08eUYnnW1
-IC:8>l@Z5nVh<lL9=oE]a81
-R1
+I][NAf3OaZl3OWIFH`F]db1
 R2
-R3
 R4
-R5
+R31
+R32
+R33
 L0 71
-R6
+R9
 r1
 !s85 0
 31
-R7
-R8
-R9
+R16
+R34
+R35
 !i113 1
-R10
+R25
 n@project__fulladder6
 vProject__group_gen
-R0
+R17
 !i10b 1
 !s100 hjAAQh:gj]keNOD1h2Joh1
 IR7OGg=BzR`BfSeiY3ef`=3
-R1
 R2
+R18
 R19
 R20
 R21
 L0 148
-R6
+R9
 r1
 !s85 0
 31
-R7
 R22
 R23
+R24
 !i113 1
-R10
+R25
 n@project__group_gen
 vProject__group_prop_gen
-R0
+R17
 !i10b 1
 !s100 LdkRCF9YSAeJ<GEDFF8ES2
 IHbk=6_>?TZ5mWNO>1VMN41
-R1
 R2
+R18
 R19
 R20
 R21
 L0 159
-R6
+R9
 r1
 !s85 0
 31
-R7
 R22
 R23
+R24
 !i113 1
-R10
+R25
 n@project__group_prop_gen
 vProject__inv6_1x
-R0
+R14
 !i10b 1
-!s100 _7@3ZfmnJ`4Wf=DiZ4P`_0
-ITh6LLKC?mR4UMP2Bh`3Nk0
-R1
+!s100 1F7XLemW1eK3V]oGOT=Uf1
+IMc]3gil8IRSh?>deg[^6N1
 R2
-R24
-R25
-R26
-L0 108
-R6
+R4
+R31
+R32
+R33
+L0 166
+R9
 r1
 !s85 0
 31
-R7
-R28
-R29
+R16
+R34
+R35
 !i113 1
-R10
+R25
 n@project__inv6_1x
 vProject__inv_1x
-R0
+R14
 !i10b 1
-!s100 Umz=4_a7M3ob;GWWz7YWJ2
-InfBfkgX@LZm:2Y[37^bV]3
-R1
+!s100 d1jb2hTfi[[m6UMcoNFzD1
+ITWdh[0SOO<mP:`C54mBF>2
 R2
-R19
-R20
-R21
-L0 26
-R6
+R4
+R31
+R32
+R33
+L0 156
+R9
 r1
 !s85 0
 31
-R7
-R22
-R23
+R16
+R34
+R35
 !i113 1
-R10
+R25
 n@project__inv_1x
 vProject__mux2_c_1x
-R0
+R14
 !i10b 1
 !s100 a_=EdzPM2Ee=]LVn?fc4X3
-I[?n5`hT=g6Y3U<b?i5ll?3
-R1
+I3>?eY8mhb9O_iYHVcL2E[1
 R2
-R3
 R4
-R5
+R31
+R32
+R33
 L0 98
-R6
+R9
 r1
 !s85 0
 31
-R7
-R8
-R9
+R16
+R34
+R35
 !i113 1
-R10
+R25
 n@project__mux2_c_1x
 vProject__mux6
-R0
+R14
 !i10b 1
 !s100 BA6e2fekE]009TCom3<mS2
-IZh`Kmzg_FeY4C2Fbn=<P43
-R1
+IPzCM=Y]OYEW2=dDkLnTTR1
 R2
-R3
 R4
-R5
-R27
-R6
+R31
+R32
+R33
+L0 122
+R9
 r1
 !s85 0
 31
-R7
-R8
-R9
+R16
+R34
+R35
 !i113 1
-R10
+R25
 n@project__mux6
 vProject__six_bit_kogge_stone_adder
-R0
+R17
 !i10b 1
 !s100 <TaBgdHKHT[1A56MHKlTd1
 IN@3jgK4cQ298NNh3UNZil3
-R1
 R2
+R18
 R19
 R20
 R21
 L0 173
-R6
+R9
 r1
 !s85 0
 31
-R7
 R22
 R23
+R24
 !i113 1
-R10
+R25
 n@project__six_bit_kogge_stone_adder
 vProject__xor2_1x
-R0
+R14
 !i10b 1
 !s100 XaFNL;^Q<>3b;zR[`;FIY0
-IX[6WTU23]1izCBXglFVBU1
-R1
+I9I]I=mZ^zzPj1XgVkIg3?1
 R2
-R3
 R4
-R5
+R31
+R32
+R33
 L0 48
-R6
+R9
 r1
 !s85 0
 31
-R7
-R8
-R9
+R16
+R34
+R35
 !i113 1
-R10
+R25
 n@project__xor2_1x
 vtestbench
-R11
 R0
-!i10b 1
-!s100 0L_hUgoN>=`izOSE6[Bid3
-I]fzE>NF;gLWc>ARDzAU5P0
-R1
-R12
-S1
-R2
-R13
 R14
+!i10b 1
+!s100 z1SoT7H_66dDXLoz2zK3c3
+I6BDK`DFHc;ojgEDJ[iKzo2
+R2
+R3
+S1
+R4
 R15
-L0 1
 R6
+R7
+L0 1
+R9
 r1
 !s85 0
 31
-R7
 R16
-R17
-!i113 1
-R18
-Xtestbench_sv_unit
 R11
+R12
+!i113 1
+R13
+Xtestbench_sv_unit
+R0
 V@jl35i@A:EoPh`lE`fY?63
 r1
 !s85 0
@@ -600,14 +671,14 @@ r1
 I@jl35i@A:EoPh`lE`fY?63
 !i103 1
 S1
-R2
-w1479934925
-R14
-R15
-L0 55
-R6
-!s108 1479934928.000000
-R16
-R17
-!i113 1
 R18
+w1479934925
+R26
+R27
+L0 55
+R9
+!s108 1479934928.000000
+R28
+R29
+!i113 1
+R13

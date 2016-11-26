@@ -1,28 +1,4 @@
-/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v {1 {vlog -work work -stats=none /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/comp6_sch.v
-Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
--- Compiling module Project__fulladder
--- Compiling module Project__xor2_1x
--- Compiling module Project__fulladder6
--- Compiling module Project__inv_1x
--- Compiling module Project__inv6_1x
--- Compiling module comp
-
-Top level modules:
-	comp
-
-} {} {}} /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_sch.v {1 {vlog -work work -stats=none /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_sch.v
-Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
--- Compiling module Project__fulladder
--- Compiling module Project__xor2_1x
--- Compiling module Project__fulladder6
--- Compiling module Project__mux2_c_1x
--- Compiling module Project__mux6
--- Compiling module adder
-
-Top level modules:
-	adder
-
-} {} {}} /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv {1 {vlog -work work -sv -stats=none /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv
+/home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv {1 {vlog -work work -sv -stats=none /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
 Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
 -- Compiling module testbench
 -- Compiling module decoder
@@ -34,34 +10,25 @@ Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
 
 Top level modules:
 	testbench
+	decoder
 	adder_ideal
 	comp_ideal
 	mux6_ideal
 
-} {} {}} /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_ksa_sch.v {1 {vlog -work work -stats=none /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/adder6_ksa_sch.v
+} {} {}} /home/harshaurora/ECSE548_viterbi_decoder/Verilog/decoder1_sch.v {1 {vlog -work work -stats=none /home/harshaurora/ECSE548_viterbi_decoder/Verilog/decoder1_sch.v
 Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
--- Compiling module Project__and3_1x
--- Compiling module Project__inv_1x
+-- Compiling module Project__fulladder
+-- Compiling module Project__xor2_1x
+-- Compiling module Project__fulladder6
 -- Compiling module Project__mux2_c_1x
 -- Compiling module Project__mux6
--- Compiling module Project__and2_1x
--- Compiling module Project__xor2_1x
--- Compiling module Project__bit_prop_gen
--- Compiling module Project__a2o1_1x
--- Compiling module Project__group_gen
--- Compiling module Project__group_prop_gen
--- Compiling module Project__six_bit_kogge_stone_adder
--- Compiling module adder_ksa
+-- Compiling module Project__adder6
+-- Compiling module Project__inv_1x
+-- Compiling module Project__inv6_1x
+-- Compiling module Project__comp6
+-- Compiling module decoder1
 
 Top level modules:
-	adder_ksa
-
-} {} {}} /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/mux6_sch.v {1 {vlog -work work -stats=none /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/mux6_sch.v
-Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
--- Compiling module Project__mux2_c_1x
--- Compiling module mux6
-
-Top level modules:
-	mux6
+	decoder1
 
 } {} {}}

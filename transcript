@@ -1,0 +1,1691 @@
+project open /home/harshaurora/ECSE548_viterbi_decoder/modelsim/Project
+# Loading project Project
+# Error opening /home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# Path name '/home/harshaurora/Courses/ECSE548/Project/GIT/ECSE548_viterbi_decoder/Verilog/testbench.sv' doesn't exist.
+# Compile of decoder1_sch.v was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of decoder1_sch.v was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 03:46:01 on Nov 26,2016
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.decoder1
+# Loading work.Project__adder6
+# Loading work.Project__fulladder6
+# Loading work.Project__fulladder
+# Loading work.Project__xor2_1x
+# Loading work.Project__mux6
+# Loading work.Project__mux2_c_1x
+# Loading work.Project__comp6
+# Loading work.Project__inv6_1x
+# Loading work.Project__inv_1x
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(29): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(34): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(39): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Error: decoder failed
+#    Time: 1 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 46
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(47)
+#    Time: 1 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 47
+add wave -position insertpoint  \
+sim:/testbench/dec/r0 \
+sim:/testbench/dec/r1 \
+sim:/testbench/dec/r2 \
+sim:/testbench/dec/r3 \
+sim:/testbench/dec/r4 \
+sim:/testbench/dec/r5 \
+sim:/testbench/dec/r6 \
+sim:/testbench/dec/r7 \
+sim:/testbench/dec/m
+add wave -position insertpoint sim:/testbench/*
+add wave -position insertpoint  \
+sim:/testbench/dec/adder6_0/a \
+sim:/testbench/dec/adder6_0/b \
+sim:/testbench/dec/adder6_0/y
+add wave -position insertpoint sim:/testbench/dec/adder6_1/*
+add wave -position insertpoint sim:/testbench/dec/adder6_2/*
+add wave -position insertpoint  \
+sim:/testbench/dec/adder6_2/a \
+sim:/testbench/dec/adder6_2/b \
+sim:/testbench/dec/adder6_2/y
+add wave -position insertpoint  \
+sim:/testbench/dec/adder6_3/a \
+sim:/testbench/dec/adder6_3/b \
+sim:/testbench/dec/adder6_3/y
+add wave -position insertpoint sim:/testbench/dec/adder6_4/*
+add wave -position insertpoint  \
+sim:/testbench/dec/adder6_4/a \
+sim:/testbench/dec/adder6_4/b \
+sim:/testbench/dec/adder6_4/y
+add wave -position insertpoint  \
+sim:/testbench/dec/adder6_5/a \
+sim:/testbench/dec/adder6_5/b \
+sim:/testbench/dec/adder6_5/y
+add wave -position insertpoint  \
+sim:/testbench/dec/adder6_6/a \
+sim:/testbench/dec/adder6_6/b \
+sim:/testbench/dec/adder6_6/y
+restart
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(29): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(34): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(39): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Error: decoder failed
+#    Time: 1 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 46
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(47)
+#    Time: 1 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 47
+run
+# ** Error: decoder failed
+#    Time: 2 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 46
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(47)
+#    Time: 2 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 47
+add wave -position insertpoint  \
+sim:/testbench/r
+restart
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(29): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(34): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(39): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Error: decoder failed
+#    Time: 1 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 46
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(47)
+#    Time: 1 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 47
+run
+# ** Error: decoder failed
+#    Time: 2 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 46
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(47)
+#    Time: 2 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 47
+add wave -position insertpoint  \
+sim:/testbench/dec/adder6_9/a \
+sim:/testbench/dec/adder6_9/b \
+sim:/testbench/dec/adder6_9/y
+add wave -position insertpoint  \
+sim:/testbench/dec/adder6_10/a \
+sim:/testbench/dec/adder6_10/b \
+sim:/testbench/dec/adder6_10/y
+add wave -position insertpoint  \
+sim:/testbench/dec/adder6_11/a \
+sim:/testbench/dec/adder6_11/b \
+sim:/testbench/dec/adder6_11/y
+add wave -position insertpoint  \
+sim:/testbench/dec/adder6_12/a \
+sim:/testbench/dec/adder6_12/b \
+sim:/testbench/dec/adder6_12/y
+add wave -position insertpoint  \
+sim:/testbench/dec/adder6_13/a \
+sim:/testbench/dec/adder6_13/b \
+sim:/testbench/dec/adder6_13/y
+add wave -position insertpoint  \
+sim:/testbench/dec/adder6_14/a \
+sim:/testbench/dec/adder6_14/b \
+sim:/testbench/dec/adder6_14/y
+add wave -position insertpoint  \
+sim:/testbench/dec/adder6_8/a \
+sim:/testbench/dec/adder6_8/b \
+sim:/testbench/dec/adder6_8/y
+add wave -position insertpoint  \
+sim:/testbench/dec/adder6_16/a \
+sim:/testbench/dec/adder6_16/b \
+sim:/testbench/dec/adder6_16/y
+add wave -position insertpoint sim:/testbench/dec/adder6_17/*
+add wave -position insertpoint  \
+sim:/testbench/dec/adder6_18/a \
+sim:/testbench/dec/adder6_18/b \
+sim:/testbench/dec/adder6_18/y
+add wave -position insertpoint sim:/testbench/dec/adder6_19/*
+add wave -position insertpoint  \
+sim:/testbench/dec/adder6_19/ovf
+add wave -position insertpoint  \
+sim:/testbench/dec/comp6_1/a \
+sim:/testbench/dec/comp6_1/b \
+sim:/testbench/dec/comp6_1/alb
+add wave -position insertpoint  \
+sim:/testbench/dec/comp6_2/a \
+sim:/testbench/dec/comp6_2/b \
+sim:/testbench/dec/comp6_2/alb
+add wave -position insertpoint  \
+sim:/testbench/dec/comp6_3/a \
+sim:/testbench/dec/comp6_3/b \
+sim:/testbench/dec/comp6_3/alb
+add wave -position insertpoint  \
+sim:/testbench/dec/comp6_0/a \
+sim:/testbench/dec/comp6_0/b \
+sim:/testbench/dec/comp6_0/alb
+add wave -position insertpoint sim:/testbench/dec/comp6_4/*
+add wave -position insertpoint  \
+sim:/testbench/dec/comp6_5/a \
+sim:/testbench/dec/comp6_5/b \
+sim:/testbench/dec/comp6_5/alb
+add wave -position insertpoint  \
+sim:/testbench/dec/comp6_6/a \
+sim:/testbench/dec/comp6_6/b \
+sim:/testbench/dec/comp6_6/alb
+add wave -position insertpoint sim:/testbench/dec/comp6_7/*
+add wave -position insertpoint  \
+sim:/testbench/dec/comp6_8/a \
+sim:/testbench/dec/comp6_8/b \
+sim:/testbench/dec/comp6_8/alb
+add wave -position insertpoint  \
+sim:/testbench/dec/comp6_10/a \
+sim:/testbench/dec/comp6_10/b \
+sim:/testbench/dec/comp6_10/alb
+add wave -position insertpoint  \
+sim:/testbench/dec/comp6_11/a \
+sim:/testbench/dec/comp6_11/b \
+sim:/testbench/dec/comp6_11/alb
+add wave -position insertpoint  \
+sim:/testbench/dec/comp6_11/net_1
+add wave -position insertpoint sim:/testbench/dec/mux6_0/*
+add wave -position insertpoint sim:/testbench/dec/mux6_1/*
+add wave -position insertpoint sim:/testbench/dec/mux6_2/*
+add wave -position insertpoint sim:/testbench/dec/mux6_3/*
+add wave -position insertpoint sim:/testbench/dec/mux6_4/*
+add wave -position insertpoint sim:/testbench/dec/mux6_5/*
+add wave -position insertpoint sim:/testbench/dec/mux6_6/*
+add wave -position insertpoint sim:/testbench/dec/mux6_7/*
+add wave -position insertpoint sim:/testbench/dec/mux6_8/*
+add wave -position insertpoint sim:/testbench/dec/mux6_9/*
+add wave -position end  sim:/testbench/dec/mux6_9/vdd
+restart
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(29): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(34): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(39): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Error: decoder failed
+#    Time: 1 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 46
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(47)
+#    Time: 1 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 47
+run
+# ** Error: decoder failed
+#    Time: 2 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 46
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(47)
+#    Time: 2 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 47
+restart
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(29): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(34): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(39): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Error: decoder failed
+#    Time: 1 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 46
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(47)
+#    Time: 1 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 47
+run
+# ** Error: decoder failed
+#    Time: 2 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 46
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(47)
+#    Time: 2 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 47
+restart
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(29): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(34): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(39): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+quit -sim
+# End time: 05:49:37 on Nov 26,2016, Elapsed time: 2:03:36
+# Errors: 9, Warnings: 101
+# Compile of decoder1_sch.v was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 05:50:48 on Nov 26,2016
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.decoder1
+# Loading work.Project__adder6
+# Loading work.Project__fulladder6
+# Loading work.Project__fulladder
+# Loading work.Project__xor2_1x
+# Loading work.Project__mux6
+# Loading work.Project__mux2_c_1x
+# Loading work.Project__comp6
+# Loading work.Project__inv6_1x
+# Loading work.Project__inv_1x
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(29): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(34): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(39): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#21 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+do /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Error: decoder failed
+#    Time: 1 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 46
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(47)
+#    Time: 1 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 47
+run
+# ** Error: decoder failed
+#    Time: 2 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 46
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(47)
+#    Time: 2 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 47
+# Compile of decoder1_sch.v was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.testbench
+# Loading work.decoder
+# Loading work.adder
+# Loading work.Project__fulladder6
+# Loading work.Project__fulladder
+# Loading work.Project__xor2_1x
+# Loading work.Project__mux6
+# Loading work.Project__mux2_c_1x
+# Loading work.comp
+# Loading work.Project__inv6_1x
+# Loading work.Project__inv_1x
+# Loading work.mux6
+# Loading work.inv
+# Loading work.mux1
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(21): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(30): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(35): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/r0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/r1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/r2'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/r3'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/r4'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/r5'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/r6'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/r7'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_0/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_0/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_0/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_1/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_1/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_1/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_2/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_2/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_2/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_3/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_3/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_3/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_4/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_4/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_4/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_5/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_5/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_5/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_6/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_6/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_6/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_9/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_9/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_9/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_10/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_10/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_10/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_11/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_11/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_11/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_12/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_12/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_12/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_13/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_13/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_13/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_14/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_14/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_14/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_8/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_8/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_8/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_16/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_16/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_16/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_17/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_17/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_17/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_18/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_18/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_18/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_19/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_19/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_19/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_1/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_1/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_1/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_2/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_2/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_2/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_3/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_3/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_3/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_0/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_0/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_0/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_4/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_4/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_4/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_5/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_5/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_5/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_6/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_6/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_6/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_7/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_7/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_7/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_8/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_8/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_8/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_10/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_10/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_10/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_11/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_11/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_11/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_0/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_0/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_0/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_0/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_1/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_1/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_1/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_1/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_2/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_2/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_2/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_2/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_3/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_3/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_3/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_3/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_4/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_4/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_4/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_4/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_5/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_5/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_5/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_5/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_6/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_6/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_6/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_6/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_7/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_7/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_7/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_7/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_8/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_8/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_8/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_8/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_9/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_9/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_9/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_9/y'. 
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of decoder1_sch.v was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.testbench
+# Loading work.decoder1
+# Loading work.Project__adder6
+# Loading work.Project__fulladder6
+# Loading work.Project__fulladder
+# Loading work.Project__xor2_1x
+# Loading work.Project__mux6
+# Loading work.Project__mux2_c_1x
+# Loading work.Project__comp6
+# Loading work.Project__inv6_1x
+# Loading work.Project__inv_1x
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(21): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(30): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(35): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+do /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Error: decoder failed
+#    Time: 1 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 1 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 3 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 3 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 5 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 5 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 7 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 7 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 9 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 9 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 11 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 11 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+# Compile of decoder1_sch.v was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.testbench
+# Loading work.decoder1
+# Loading work.Project__adder6
+# Loading work.Project__fulladder6
+# Loading work.Project__fulladder
+# Loading work.Project__xor2_1x
+# Loading work.Project__mux6
+# Loading work.Project__mux2_c_1x
+# Loading work.Project__comp6
+# Loading work.Project__inv6_1x
+# Loading work.Project__inv_1x
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(21): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(30): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(35): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Error: decoder failed
+#    Time: 3 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 3 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+# Compile of decoder1_sch.v was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of decoder1_sch.v was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.testbench
+# Loading work.decoder
+# Loading work.adder
+# Loading work.comp
+# Loading work.mux6
+# Loading work.inv
+# Loading work.mux1
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(21): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(30): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(35): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/r0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/r1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/r2'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/r3'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/r4'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/r5'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/r6'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/r7'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_0/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_0/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_0/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_1/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_1/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_1/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_2/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_2/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_2/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_3/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_3/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_3/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_4/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_4/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_4/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_5/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_5/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_5/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_6/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_6/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_6/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_9/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_9/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_9/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_10/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_10/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_10/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_11/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_11/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_11/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_12/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_12/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_12/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_13/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_13/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_13/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_14/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_14/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_14/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_8/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_8/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_8/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_16/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_16/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_16/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_17/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_17/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_17/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_18/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_18/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_18/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_19/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_19/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/adder6_19/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_1/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_1/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_1/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_2/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_2/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_2/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_3/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_3/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_3/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_0/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_0/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_0/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_4/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_4/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_4/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_5/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_5/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_5/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_6/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_6/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_6/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_7/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_7/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_7/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_8/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_8/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_8/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_10/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_10/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_10/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_11/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_11/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/comp6_11/alb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_0/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_0/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_0/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_0/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_1/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_1/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_1/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_1/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_2/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_2/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_2/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_2/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_3/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_3/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_3/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_3/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_4/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_4/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_4/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_4/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_5/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_5/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_5/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_5/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_6/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_6/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_6/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_6/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_7/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_7/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_7/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_7/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_8/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_8/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_8/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_8/y'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_9/d0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_9/d1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_9/s'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dec/mux6_9/y'. 
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+run -all
+# Simulation finished with           0 failures!
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(53)
+#    Time: 148767 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 53
+restart
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(21): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(30): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(35): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# Compile of decoder1_sch.v was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+do /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/r0'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 10
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/r1'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 11
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/r2'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 12
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/r3'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 13
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/r4'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 14
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/r5'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 15
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/r6'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 16
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/r7'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 17
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_0/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 19
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_0/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 20
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_0/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 21
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_1/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 22
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_1/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 23
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_1/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 24
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_2/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 25
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_2/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 26
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_2/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 27
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_3/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 28
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_3/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 29
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_3/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 30
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_4/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 31
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_4/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 32
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_4/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 33
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_5/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 34
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_5/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 35
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_5/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 36
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_6/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 37
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_6/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 38
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_6/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 39
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_9/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 40
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_9/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 41
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_9/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 42
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_10/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 43
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_10/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 44
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_10/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 45
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_11/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 46
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_11/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 47
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_11/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 48
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_12/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 49
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_12/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 50
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_12/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 51
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_13/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 52
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_13/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 53
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_13/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 54
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_14/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 55
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_14/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 56
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_14/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 57
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_8/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 58
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_8/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 59
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_8/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 60
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_16/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 61
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_16/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 62
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_16/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 63
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_17/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 64
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_17/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 65
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_17/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 66
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_18/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 67
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_18/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 68
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_18/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 69
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_19/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 70
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_19/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 71
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/adder6_19/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 72
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_1/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 73
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_1/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 74
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_1/alb'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 75
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_2/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 76
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_2/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 77
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_2/alb'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 78
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_3/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 79
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_3/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 80
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_3/alb'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 81
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_0/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 82
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_0/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 83
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_0/alb'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 84
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_4/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 85
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_4/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 86
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_4/alb'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 87
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_5/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 88
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_5/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 89
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_5/alb'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 90
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_6/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 91
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_6/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 92
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_6/alb'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 93
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_7/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 94
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_7/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 95
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_7/alb'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 96
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_8/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 97
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_8/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 98
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_8/alb'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 99
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_10/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 100
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_10/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 101
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_10/alb'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 102
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_11/a'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 103
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_11/b'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 104
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/comp6_11/alb'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 105
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_0/d0'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 106
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_0/d1'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 107
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_0/s'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 108
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_0/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 109
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_1/d0'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 110
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_1/d1'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 111
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_1/s'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 112
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_1/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 113
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_2/d0'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 114
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_2/d1'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 115
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_2/s'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 116
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_2/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 117
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_3/d0'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 118
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_3/d1'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 119
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_3/s'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 120
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_3/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 121
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_4/d0'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 122
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_4/d1'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 123
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_4/s'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 124
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_4/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 125
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_5/d0'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 126
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_5/d1'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 127
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_5/s'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 128
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_5/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 129
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_6/d0'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 130
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_6/d1'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 131
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_6/s'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 132
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_6/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 133
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_7/d0'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 134
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_7/d1'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 135
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_7/s'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 136
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_7/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 137
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_8/d0'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 138
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_8/d1'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 139
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_8/s'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 140
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_8/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 141
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_9/d0'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 142
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_9/d1'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 143
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_9/s'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 144
+# ** Error: (vish-4014) No objects found matching '/testbench/dec/mux6_9/y'.
+# Executing ONERROR command at macro /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do line 145
+restart
+# Loading work.testbench
+# Loading work.decoder1
+# Loading work.Project__adder6
+# Loading work.Project__fulladder6
+# Loading work.Project__fulladder
+# Loading work.Project__xor2_1x
+# Loading work.Project__mux6
+# Loading work.Project__mux2_c_1x
+# Loading work.Project__comp6
+# Loading work.Project__inv6_1x
+# Loading work.Project__inv_1x
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(21): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(30): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(35): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+do /home/harshaurora/ECSE548_viterbi_decoder/modelsim/wave.do
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Error: decoder failed
+#    Time: 3 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 3 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 6 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 6 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 15 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 15 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 22 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 22 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 26 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 26 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 27 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 27 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+# Compile of decoder1_sch.v was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.testbench
+# Loading work.decoder1
+# Loading work.Project__adder6
+# Loading work.Project__fulladder6
+# Loading work.Project__fulladder
+# Loading work.Project__xor2_1x
+# Loading work.Project__mux6
+# Loading work.Project__mux2_c_1x
+# Loading work.Project__comp6
+# Loading work.Project__inv6_1x
+# Loading work.Project__inv_1x
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(21): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(30): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(35): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Error: decoder failed
+#    Time: 1 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 1 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 3 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 3 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 6 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 6 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 9 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 9 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 12 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 12 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 13 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 13 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 15 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 15 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+# Compile of decoder1_sch.v was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.testbench
+# Loading work.decoder1
+# Loading work.Project__adder6
+# Loading work.Project__fulladder6
+# Loading work.Project__fulladder
+# Loading work.Project__xor2_1x
+# Loading work.Project__mux6
+# Loading work.Project__mux2_c_1x
+# Loading work.Project__comp6
+# Loading work.Project__inv6_1x
+# Loading work.Project__inv_1x
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(21): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(30): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(35): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+run -all
+# Compile of decoder1_sch.v was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.testbench
+# Loading work.decoder1
+# Loading work.Project__adder6
+# Loading work.Project__fulladder6
+# Loading work.Project__fulladder
+# Loading work.Project__xor2_1x
+# Loading work.Project__mux6
+# Loading work.Project__mux2_c_1x
+# Loading work.Project__comp6
+# Loading work.Project__inv6_1x
+# Loading work.Project__inv_1x
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(21): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(30): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(35): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Error: decoder failed
+#    Time: 28 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 28 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 30 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 30 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 31 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 31 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 59 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 59 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+run
+# ** Error: decoder failed
+#    Time: 78 ps  Scope: testbench File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv Line: 45
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(46)
+#    Time: 78 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 46
+restart
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(21): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(30): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(35): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# Compile of decoder1_sch.v was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.testbench
+# Loading work.decoder1
+# Loading work.Project__adder6
+# Loading work.Project__fulladder6
+# Loading work.Project__fulladder
+# Loading work.Project__xor2_1x
+# Loading work.Project__mux6
+# Loading work.Project__mux2_c_1x
+# Loading work.Project__comp6
+# Loading work.Project__inv6_1x
+# Loading work.Project__inv_1x
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(21): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(22): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(23): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(25): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(26): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(27): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(28): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(30): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(31): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(35): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+# ** Warning: (vsim-PLI-3691) /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(38): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/#ublk#178839128#20 File: /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+run -all
+# Simulation finished with           0 failures!
+# ** Note: $stop    : /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv(53)
+#    Time: 148767 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /home/harshaurora/ECSE548_viterbi_decoder/Verilog/testbench.sv line 53
+# End time: 08:36:15 on Nov 26,2016, Elapsed time: 2:45:27
+# Errors: 702, Warnings: 202
