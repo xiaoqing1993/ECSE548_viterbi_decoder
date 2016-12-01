@@ -1,0 +1,35 @@
+| units: 30.0 tech: mocmos format: SU
+| IRSIM file for cell fulladder_cap{sch} from library Project
+| Created on Fri Jan 26, 2007 00:28:40
+| Last revised on Wed Nov 30, 2016 15:32:29
+| Written on Wed Nov 30, 2016 15:32:38 by Electric VLSI Design System, version 8.06
+C cout gnd 74.01
+C s gnd 74.01
+n a gnd net@1 2 8 -22 2 g=S_gnd s=A_8,P_18 d=A_8,P_18
+n b gnd net@1 2 8 -12 2 g=S_gnd s=A_8,P_18 d=A_8,P_18
+n c net@1 coutb 2 8 -17 8 g=S_gnd s=A_8,P_18 d=A_8,P_18
+n a gnd net@11 2 8 -2 2 g=S_gnd s=A_8,P_18 d=A_8,P_18
+n b net@11 coutb 2 8 -2 8 g=S_gnd s=A_8,P_18 d=A_8,P_18
+n a gnd net@23 2 8 8 2 g=S_gnd s=A_8,P_18 d=A_8,P_18
+n b gnd net@23 2 8 18 2 g=S_gnd s=A_8,P_18 d=A_8,P_18
+n c gnd net@23 2 8 28 2 g=S_gnd s=A_8,P_18 d=A_8,P_18
+n coutb net@23 sb 2 8 18 8 g=S_gnd s=A_8,P_18 d=A_8,P_18
+n a gnd net@33 2 8 38 2 g=S_gnd s=A_8,P_18 d=A_8,P_18
+n b net@33 net@32 2 8 38 8 g=S_gnd s=A_8,P_18 d=A_8,P_18
+n c net@32 sb 2 8 38 14 g=S_gnd s=A_8,P_18 d=A_8,P_18
+n coutb gnd cout 2 8 2 14 g=S_gnd s=A_8,P_18 d=A_8,P_18
+n sb gnd s 2 8 48 14 g=S_gnd s=A_8,P_18 d=A_8,P_18
+p c sb net@92 2 16 38 20 g=S_vdd s=A_16,P_34 d=A_16,P_34
+p b net@92 net@90 2 16 38 26 g=S_vdd s=A_16,P_34 d=A_16,P_34
+p a net@90 vdd 2 16 38 32 g=S_vdd s=A_16,P_34 d=A_16,P_34
+p coutb sb net@94 2 16 18 26 g=S_vdd s=A_16,P_34 d=A_16,P_34
+p b net@94 vdd 2 16 18 32 g=S_vdd s=A_16,P_34 d=A_16,P_34
+p c net@94 vdd 2 16 28 32 g=S_vdd s=A_16,P_34 d=A_16,P_34
+p a net@94 vdd 2 16 8 32 g=S_vdd s=A_16,P_34 d=A_16,P_34
+p coutb cout vdd 2 16 2 20 g=S_vdd s=A_16,P_34 d=A_16,P_34
+p a net@95 vdd 2 16 -2 32 g=S_vdd s=A_16,P_34 d=A_16,P_34
+p b coutb net@95 2 16 -2 26 g=S_vdd s=A_16,P_34 d=A_16,P_34
+p a net@111 vdd 2 16 -22 32 g=S_vdd s=A_16,P_34 d=A_16,P_34
+p b net@111 vdd 2 16 -12 32 g=S_vdd s=A_16,P_34 d=A_16,P_34
+p c coutb net@111 2 16 -17 26 g=S_vdd s=A_16,P_34 d=A_16,P_34
+p sb s vdd 2 16 48 20 g=S_vdd s=A_16,P_34 d=A_16,P_34

@@ -1,0 +1,14 @@
+| units: 30.0 tech: mocmos format: SU
+| IRSIM file for cell a2o1_1x_cap{sch} from library Project
+| Created on Wed Nov 08, 2006 00:44:04
+| Last revised on Wed Nov 30, 2016 15:14:15
+| Written on Wed Nov 30, 2016 15:14:35 by Electric VLSI Design System, version 8.06
+C y gnd 74.01
+n a gnd net@19 2 6 -2 1 g=S_gnd s=A_6,P_14 d=A_6,P_14
+n b net@19 net@0 2 6 -2 7 g=S_gnd s=A_6,P_14 d=A_6,P_14
+n c gnd net@0 2 6 -12 1 g=S_gnd s=A_6,P_14 d=A_6,P_14
+n net@0 gnd y 2 7 4 7 g=S_gnd s=A_7,P_16 d=A_7,P_16
+p c net@0 net@11 2 9 -7 13 g=S_vdd s=A_9,P_20 d=A_9,P_20
+p b net@11 vdd 2 9 -2 19 g=S_vdd s=A_9,P_20 d=A_9,P_20
+p a net@11 vdd 2 9 -12 19 g=S_vdd s=A_9,P_20 d=A_9,P_20
+p net@0 y vdd 2 10 4 13 g=S_vdd s=A_10,P_22 d=A_10,P_22

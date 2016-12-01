@@ -1,0 +1,8 @@
+| units: 30.0 tech: mocmos format: SU
+| IRSIM file for cell inv_1x_cap{sch} from library Project
+| Created on Wed Oct 11, 2006 19:45:21
+| Last revised on Wed Nov 30, 2016 15:36:31
+| Written on Wed Nov 30, 2016 15:36:45 by Electric VLSI Design System, version 8.06
+C y gnd 36.53
+n a gnd y 2 7 -2 12 g=S_gnd s=A_7,P_16 d=A_7,P_16
+p a y vdd 2 10 -2 18 g=S_vdd s=A_10,P_22 d=A_10,P_22

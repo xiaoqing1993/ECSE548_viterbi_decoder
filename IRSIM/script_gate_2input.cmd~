@@ -1,0 +1,9 @@
+stepsize 30
+h vdd
+l gnd
+vector in a
+analyzer in y
+set in 0
+s
+set in 1
+s
