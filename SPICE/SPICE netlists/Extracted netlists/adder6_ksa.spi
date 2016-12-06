@@ -1,0 +1,163 @@
+*** SPICE deck for cell adder6_ksa{sch} from library Project
+*** Created on Thu Nov 24, 2016 15:28:06
+*** Last revised on Sat Nov 26, 2016 03:05:07
+*** Written on Thu Dec 01, 2016 02:38:54 by Electric VLSI Design System, 
+*version 8.06
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+.OPTIONS NOMOD NOPAGE
+*CMOS/BULK-NWELL (PRELIMINARY PARAMETERS)
+.OPTIONS NOMOD DEFL=3UM DEFW=3UM DEFAD=70P DEFAS=70P LIMPTS=1000
++ITL5=0 RELTOL=0.01 ABSTOL=500PA VNTOL=500UV LVLTIM=2
++LVLCOD=1
+.MODEL N NMOS LEVEL=1
++KP=60E-6 VTO=0.7 GAMMA=0.3 LAMBDA=0.05 PHI=0.6
++LD=0.4E-6 TOX=40E-9 CGSO=2.0E-10 CGDO=2.0E-10 CJ=.2MF/M^2
+.MODEL P PMOS LEVEL=1
++KP=20E-6 VTO=0.7 GAMMA=0.4 LAMBDA=0.05 PHI=0.6
++LD=0.6E-6 TOX=40E-9 CGSO=3.0E-10 CGDO=3.0E-10 CJ=.2MF/M^2
+.MODEL DIFFCAP D CJO=.2MF/M^2
+
+*** CELL: and3_1x{sch}
+.SUBCKT and3_1x a b c y
+Mnmos@0 net@9 b net@45 gnd N L=0.6U W=2.4U
+Mnmos@1 net@1 c net@9 gnd N L=0.6U W=2.4U
+Mnmos@3 y net@1 gnd gnd N L=0.6U W=2.1U
+Mnmos@4 net@45 a gnd gnd N L=0.6U W=2.4U
+Mpmos@0 vdd c net@1 vdd P L=0.6U W=1.8U
+Mpmos@1 vdd net@1 y vdd P L=0.6U W=3U
+Mpmos@2 vdd a net@1 vdd P L=0.6U W=1.8U
+Mpmos@3 vdd b net@1 vdd P L=0.6U W=1.8U
+.ENDS and3_1x
+
+*** CELL: inv_1x{sch}
+.SUBCKT inv_1x a y
+Mnmos@0 y a gnd gnd N L=0.6U W=2.1U
+Mpmos@0 vdd a y vdd P L=0.6U W=3U
+.ENDS inv_1x
+
+*** CELL: mux2_c_1x{sch}
+.SUBCKT mux2_c_1x d0 d1 s y
+Mnmos@0 net@3 d1 gnd gnd N L=0.6U W=1.8U
+Mnmos@1 net@4 d0 gnd gnd N L=0.6U W=1.8U
+Mnmos@2 net@5 s net@3 gnd N L=0.6U W=1.8U
+Mnmos@3 net@5 sb net@4 gnd N L=0.6U W=1.8U
+Mnmos@4 y net@5 gnd gnd N L=0.6U W=2.1U
+Mnmos@5 sb s gnd gnd N L=0.6U W=1.8U
+Mpmos@0 net@15 sb net@5 vdd P L=0.6U W=2.7U
+Mpmos@1 vdd d1 net@15 vdd P L=0.6U W=2.7U
+Mpmos@2 net@12 s net@5 vdd P L=0.6U W=2.7U
+Mpmos@3 vdd d0 net@12 vdd P L=0.6U W=2.7U
+Mpmos@4 vdd net@5 y vdd P L=0.6U W=3U
+Mpmos@5 vdd s sb vdd P L=0.6U W=2.7U
+.ENDS mux2_c_1x
+
+*** CELL: mux6{sch}
+.SUBCKT mux6 d0[0] d0[1] d0[2] d0[3] d0[4] d0[5] d1[0] d1[1] d1[2] d1[3] 
++d1[4] d1[5] s y[0] y[1] y[2] y[3] y[4] y[5]
+Xmux2_c_1@0 d0[0] d1[0] s y[0] mux2_c_1x
+Xmux2_c_1@1 d0[1] d1[1] s y[1] mux2_c_1x
+Xmux2_c_1@2 d0[2] d1[2] s y[2] mux2_c_1x
+Xmux2_c_1@3 d0[3] d1[3] s y[3] mux2_c_1x
+Xmux2_c_1@4 d0[4] d1[4] s y[4] mux2_c_1x
+Xmux2_c_1@5 d0[5] d1[5] s y[5] mux2_c_1x
+.ENDS mux6
+
+*** CELL: and2_1x{sch}
+.SUBCKT and2_1x a b y
+Mnmos@0 net@2 b net@1 gnd N L=0.6U W=1.8U
+Mnmos@1 net@1 a gnd gnd N L=0.6U W=1.8U
+Mnmos@2 y net@2 gnd gnd N L=0.6U W=2.1U
+Mpmos@0 vdd b net@2 vdd P L=0.6U W=1.8U
+Mpmos@1 vdd a net@2 vdd P L=0.6U W=1.8U
+Mpmos@2 vdd net@2 y vdd P L=0.6U W=3U
+.ENDS and2_1x
+
+*** CELL: xor2_1x{sch}
+.SUBCKT xor2_1x a b y
+Mnmos@0 net@3 a gnd gnd N L=0.6U W=4.2U
+Mnmos@1 net@4 ab gnd gnd N L=0.6U W=4.2U
+Mnmos@2 y b net@3 gnd N L=0.6U W=4.2U
+Mnmos@3 y bb net@4 gnd N L=0.6U W=4.2U
+Mnmos@4 bb b gnd gnd N L=0.6U W=1.8U
+Mnmos@5 ab a gnd gnd N L=0.6U W=1.8U
+Mpmos@0 net@7 b y vdd P L=0.6U W=6U
+Mpmos@1 vdd ab net@7 vdd P L=0.6U W=6U
+Mpmos@2 net@8 bb y vdd P L=0.6U W=6U
+Mpmos@3 vdd a net@8 vdd P L=0.6U W=6U
+Mpmos@4 vdd b bb vdd P L=0.6U W=2.7U
+Mpmos@5 vdd a ab vdd P L=0.6U W=2.7U
+.ENDS xor2_1x
+
+*** CELL: bit_prop_gen{sch}
+.SUBCKT bit_prop_gen A B G P
+Xand2_1x@0 A B G and2_1x
+Xxor2_1x@0 A B P xor2_1x
+.ENDS bit_prop_gen
+
+*** CELL: a2o1_1x{sch}
+.SUBCKT a2o1_1x a b c y
+Mnmos@0 net@19 a gnd gnd N L=0.6U W=1.8U
+Mnmos@1 net@0 b net@19 gnd N L=0.6U W=1.8U
+Mnmos@2 net@0 c gnd gnd N L=0.6U W=1.8U
+Mnmos@3 y net@0 gnd gnd N L=0.6U W=2.1U
+Mpmos@0 net@11 c net@0 vdd P L=0.6U W=2.7U
+Mpmos@1 vdd b net@11 vdd P L=0.6U W=2.7U
+Mpmos@2 vdd a net@11 vdd P L=0.6U W=2.7U
+Mpmos@3 vdd net@0 y vdd P L=0.6U W=3U
+.ENDS a2o1_1x
+
+*** CELL: group_gen{sch}
+.SUBCKT group_gen G0 G1 G2 P1
+Xa2o1_1x@0 G0 P1 G1 G2 a2o1_1x
+.ENDS group_gen
+
+*** CELL: group_prop_gen{sch}
+.SUBCKT group_prop_gen G0 G1 G2 P0 P1 P2
+Xa2o1_1x@0 G0 P1 G1 G2 a2o1_1x
+Xand2_1x@0 P0 P1 P2 and2_1x
+.ENDS group_prop_gen
+
+*** CELL: six_bit_kogge_stone_adder{sch}
+.SUBCKT six_bit_kogge_stone_adder A[0] A[1] A[2] A[3] A[4] A[5] B[0] B[1] 
++B[2] B[3] B[4] B[5] S[0] S[1] S[2] S[3] S[4] S[5]
+Xbit_prop@0 A[0] B[0] net@0 P[0] bit_prop_gen
+Xbit_prop@1 A[1] B[1] net@2 P[1] bit_prop_gen
+Xbit_prop@2 A[2] B[2] net@4 P[2] bit_prop_gen
+Xbit_prop@3 A[3] B[3] net@6 P[3] bit_prop_gen
+Xbit_prop@4 A[4] B[4] net@144 P[4] bit_prop_gen
+Xbit_prop@5 A[5] B[5] bit_prop@5_G P[5] bit_prop_gen
+Xgroup_ge@0 gnd net@0 net@71 P[0] group_gen
+Xgroup_ge@1 gnd net@20 net@143 net@21 group_gen
+Xgroup_ge@2 net@71 net@18 net@120 net@19 group_gen
+Xgroup_ge@3 gnd net@26 net@119 net@27 group_gen
+Xgroup_ge@4 net@71 net@24 net@115 net@25 group_gen
+Xgroup_pr@0 net@2 net@4 net@18 P[1] P[2] net@19 group_prop_gen
+Xgroup_pr@1 net@0 net@2 net@20 P[0] P[1] net@21 group_prop_gen
+Xgroup_pr@2 net@4 net@6 net@141 P[2] P[3] net@142 group_prop_gen
+Xgroup_pr@3 net@6 net@144 net@14 P[3] P[4] net@15 group_prop_gen
+Xgroup_pr@5 net@20 net@141 net@26 net@21 net@142 net@27 group_prop_gen
+Xgroup_pr@6 net@18 net@14 net@24 net@19 net@15 net@25 group_prop_gen
+Xxor2_1x@0 net@115 P[5] S[5] xor2_1x
+Xxor2_1x@4 net@119 P[4] S[4] xor2_1x
+Xxor2_1x@5 net@120 P[3] S[3] xor2_1x
+Xxor2_1x@6 net@143 P[2] S[2] xor2_1x
+Xxor2_1x@7 net@71 P[1] S[1] xor2_1x
+Xxor2_1x@8 gnd P[0] S[0] xor2_1x
+.ENDS six_bit_kogge_stone_adder
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: adder6_ksa{sch}
+Xand3_1x@0 b[5] net@21 a[5] net@19 and3_1x
+Xand3_1x@1 net@22 s[5] net@24 net@20 and3_1x
+Xinv_1x@0 s[5] net@21 inv_1x
+Xinv_1x@1 a[5] net@24 inv_1x
+Xinv_1x@2 b[5] net@22 inv_1x
+Xmux6@0 s[0] s[1] s[2] s[3] s[4] s[5] gnd gnd gnd gnd gnd vdd net@19 
++net@15[0] net@15[1] net@15[2] net@15[3] net@15[4] net@15[5] mux6
+Xmux6@1 net@15[0] net@15[1] net@15[2] net@15[3] net@15[4] net@15[5] vdd vdd 
++vdd vdd vdd gnd net@20 y[0] y[1] y[2] y[3] y[4] y[5] mux6
+Xsix_bit_@0 a[0] a[1] a[2] a[3] a[4] a[5] b[0] b[1] b[2] b[3] b[4] b[5] s[0] 
++s[1] s[2] s[3] s[4] s[5] six_bit_kogge_stone_adder
+.END

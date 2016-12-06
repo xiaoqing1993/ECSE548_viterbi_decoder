@@ -1,0 +1,203 @@
+*** SPICE deck for cell adder6{sch} from library Project
+*** Created on Thu Nov 24, 2016 14:54:53
+*** Last revised on Thu Nov 24, 2016 17:34:03
+*** Written on Thu Dec 01, 2016 02:40:48 by Electric VLSI Design System, 
+*version 8.06
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+* DATE: Jan  7/09
+* LOT: T89Y                  WAF: 7103
+* Temperature_parameters=Default
+.MODEL N NMOS (                                LEVEL   = 49
++VERSION = 3.1            TNOM    = 27             TOX     = 1.41E-8
++XJ      = 1.5E-7         NCH     = 1.7E17         VTH0    = 0.6490078
++K1      = 0.8791883      K2      = -0.0987192     K3      = 30.3743151
++K3B     = -8.9028418     W0      = 1E-8           NLX     = 1E-9
++DVT0W   = 0              DVT1W   = 0              DVT2W   = 0
++DVT0    = 0.7760383      DVT1    = 0.3617427      DVT2    = -0.4947423
++U0      = 448.0056882    UA      = 1E-13          UB      = 1.232756E-18
++UC      = 1.919293E-12   VSAT    = 1.853447E5     A0      = 0.6608042
++AGS     = 0.1481249      B0      = 2.156839E-6    B1      = 5E-6
++KETA    = -5.124492E-3   A1      = 2.16677E-6     A2      = 0.3
++RDSW    = 1.221635E3     PRWG    = 0.1064777      PRWB    = 0.0440597
++WR      = 1              WINT    = 2.288199E-7    LINT    = 9.639076E-8
++XL      = 1E-7           XW      = 0              DWG     = -1.520128E-9
++DWB     = 4.808525E-8    VOFF    = 0              NFACTOR = 1.230707
++CIT     = 0              CDSC    = 2.4E-4         CDSCD   = 0
++CDSCB   = 0              ETA0    = 7.012161E-3    ETAB    = 4.092429E-4
++DSUB    = 0.2049812      PCLM    = 2.8412194      PDIBLC1 = 9.256485E-4
++PDIBLC2 = 2.355065E-3    PDIBLCB = -2.620257E-3   DROUT   = 0.0454337
++PSCBE1  = 6.464275E8     PSCBE2  = 2.427079E-4    PVAG    = 0
++DELTA   = 0.01           RSH     = 87.7           MOBMOD  = 1
++PRT     = 0              UTE     = -1.5           KT1     = -0.11
++KT1L    = 0              KT2     = 0.022          UA1     = 4.31E-9
++UB1     = -7.61E-18      UC1     = -5.6E-11       AT      = 3.3E4
++WL      = 0              WLN     = 1              WW      = 0
++WWN     = 1              WWL     = 0              LL      = 0
++LLN     = 1              LW      = 0              LWN     = 1
++LWL     = 0              CAPMOD  = 2              XPART   = 0.5
++CGDO    = 1.79E-10       CGSO    = 1.79E-10       CGBO    = 1E-9
++CJ      = 4.136412E-4    PB      = 0.8475328      MJ      = 0.4294826
++CJSW    = 3.231457E-10   PBSW    = 0.8            MJSW    = 0.1846141
++CJSWG   = 1.64E-10       PBSWG   = 0.8            MJSWG   = 0.1846141
++CF      = 0              PVTH0   = -0.0466277     PRDSW   = 500
++PK2     = -0.0737963     WKETA   = -0.0147458     LKETA   = -2.029778E-3    )
+*
+.MODEL P PMOS (                                LEVEL   = 49
++VERSION = 3.1            TNOM    = 27             TOX     = 1.41E-8
++XJ      = 1.5E-7         NCH     = 1.7E17         VTH0    = -0.9152268
++K1      = 0.553472       K2      = 7.871921E-3    K3      = 22.5354609
++K3B     = -1.1112458     W0      = 2.03458E-6     NLX     = 1.722913E-7
++DVT0W   = 0              DVT1W   = 0              DVT2W   = 0
++DVT0    = 1.2139827      DVT1    = 0.3310703      DVT2    = -0.0693525
++U0      = 201.3603195    UA      = 2.408572E-9    UB      = 1E-21
++UC      = -1E-10         VSAT    = 8.995975E4     A0      = 0.8936587
++AGS     = 0.0900735      B0      = 7.860659E-8    B1      = 3.278183E-9
++KETA    = -4.865785E-3   A1      = 2.887338E-4    A2      = 0.6177492
++RDSW    = 3E3            PRWG    = -0.0301252     PRWB    = -0.0443005
++WR      = 1              WINT    = 2.76783E-7     LINT    = 1.184609E-7
++XL      = 1E-7           XW      = 0              DWG     = 6.999518E-10
++DWB     = -8.293887E-9   VOFF    = -0.0727048     NFACTOR = 1.0504728
++CIT     = 0              CDSC    = 2.4E-4         CDSCD   = 0
++CDSCB   = 0              ETA0    = 3.502584E-4    ETAB    = -0.2
++DSUB    = 1              PCLM    = 2.3553185      PDIBLC1 = 0.0614112
++PDIBLC2 = 2.759101E-3    PDIBLCB = -0.0320372     DROUT   = 0.2875724
++PSCBE1  = 1E8            PSCBE2  = 3.337278E-9    PVAG    = 9.077394E-4
++DELTA   = 0.01           RSH     = 110.4          MOBMOD  = 1
++PRT     = 0              UTE     = -1.5           KT1     = -0.11
++KT1L    = 0              KT2     = 0.022          UA1     = 4.31E-9
++UB1     = -7.61E-18      UC1     = -5.6E-11       AT      = 3.3E4
++WL      = 0              WLN     = 1              WW      = 0
++WWN     = 1              WWL     = 0              LL      = 0
++LLN     = 1              LW      = 0              LWN     = 1
++LWL     = 0              CAPMOD  = 2              XPART   = 0.5
++CGDO    = 2.1E-10        CGSO    = 2.1E-10        CGBO    = 1E-9
++CJ      = 7.174866E-4    PB      = 0.9112434      MJ      = 0.4943334
++CJSW    = 2.179589E-10   PBSW    = 0.99           MJSW    = 0.2586376
++CJSWG   = 6.4E-11        PBSWG   = 0.99           MJSWG   = 0.2586376
++CF      = 0              PVTH0   = 5.98016E-3     PRDSW   = 14.8598424
++PK2     = 3.73981E-3     WKETA   = 0.0119588      LKETA   = -0.0101021      )
+*
+
+
+*** CELL: fulladder{sch}
+.SUBCKT fulladder a b c cout s
+Mnmos@0 net@1 a gnd gnd N L=0.6U W=2.4U
+Mnmos@1 net@1 b gnd gnd N L=0.6U W=2.4U
+Mnmos@2 coutb c net@1 gnd N L=0.6U W=2.4U
+Mnmos@3 net@11 a gnd gnd N L=0.6U W=2.4U
+Mnmos@4 coutb b net@11 gnd N L=0.6U W=2.4U
+Mnmos@5 net@23 a gnd gnd N L=0.6U W=2.4U
+Mnmos@6 net@23 b gnd gnd N L=0.6U W=2.4U
+Mnmos@7 net@23 c gnd gnd N L=0.6U W=2.4U
+Mnmos@8 sb coutb net@23 gnd N L=0.6U W=2.4U
+Mnmos@9 net@33 a gnd gnd N L=0.6U W=2.4U
+Mnmos@10 net@32 b net@33 gnd N L=0.6U W=2.4U
+Mnmos@11 sb c net@32 gnd N L=0.6U W=2.4U
+Mnmos@12 cout coutb gnd gnd N L=0.6U W=2.4U
+Mnmos@13 s sb gnd gnd N L=0.6U W=2.4U
+Mpmos@1 net@92 c sb vdd P L=0.6U W=4.8U
+Mpmos@2 net@90 b net@92 vdd P L=0.6U W=4.8U
+Mpmos@3 vdd a net@90 vdd P L=0.6U W=4.8U
+Mpmos@4 net@94 coutb sb vdd P L=0.6U W=4.8U
+Mpmos@5 vdd b net@94 vdd P L=0.6U W=4.8U
+Mpmos@6 vdd c net@94 vdd P L=0.6U W=4.8U
+Mpmos@7 vdd a net@94 vdd P L=0.6U W=4.8U
+Mpmos@8 vdd coutb cout vdd P L=0.6U W=4.8U
+Mpmos@9 vdd a net@95 vdd P L=0.6U W=4.8U
+Mpmos@10 net@95 b coutb vdd P L=0.6U W=4.8U
+Mpmos@11 vdd a net@111 vdd P L=0.6U W=4.8U
+Mpmos@12 vdd b net@111 vdd P L=0.6U W=4.8U
+Mpmos@13 net@111 c coutb vdd P L=0.6U W=4.8U
+Mpmos@14 vdd sb s vdd P L=0.6U W=4.8U
+.ENDS fulladder
+
+*** CELL: xor2_1x{sch}
+.SUBCKT xor2_1x a b y
+Mnmos@0 net@3 a gnd gnd N L=0.6U W=4.2U
+Mnmos@1 net@4 ab gnd gnd N L=0.6U W=4.2U
+Mnmos@2 y b net@3 gnd N L=0.6U W=4.2U
+Mnmos@3 y bb net@4 gnd N L=0.6U W=4.2U
+Mnmos@4 bb b gnd gnd N L=0.6U W=1.8U
+Mnmos@5 ab a gnd gnd N L=0.6U W=1.8U
+Mpmos@0 net@7 b y vdd P L=0.6U W=6U
+Mpmos@1 vdd ab net@7 vdd P L=0.6U W=6U
+Mpmos@2 net@8 bb y vdd P L=0.6U W=6U
+Mpmos@3 vdd a net@8 vdd P L=0.6U W=6U
+Mpmos@4 vdd b bb vdd P L=0.6U W=2.7U
+Mpmos@5 vdd a ab vdd P L=0.6U W=2.7U
+.ENDS xor2_1x
+
+*** CELL: fulladder6{sch}
+.SUBCKT fulladder6 Ovf a[0] a[1] a[2] a[3] a[4] a[5] b[0] b[1] b[2] b[3] b[4] 
++b[5] cin cout s[0] s[1] s[2] s[3] s[4] s[5]
+Xfulladde@0 a[0] b[0] cin net@0 s[0] fulladder
+Xfulladde@1 a[1] b[1] net@0 net@1 s[1] fulladder
+Xfulladde@4 a[2] b[2] net@1 net@2 s[2] fulladder
+Xfulladde@5 a[3] b[3] net@2 net@3 s[3] fulladder
+Xfulladde@6 a[4] b[4] net@3 net@4 s[4] fulladder
+Xfulladde@7 a[5] b[5] net@4 cout s[5] fulladder
+Xxor2_1x@0 net@4 cout Ovf xor2_1x
+.ENDS fulladder6
+
+*** CELL: mux2_c_1x{sch}
+.SUBCKT mux2_c_1x d0 d1 s y
+Mnmos@0 net@3 d1 gnd gnd N L=0.6U W=1.8U
+Mnmos@1 net@4 d0 gnd gnd N L=0.6U W=1.8U
+Mnmos@2 net@5 s net@3 gnd N L=0.6U W=1.8U
+Mnmos@3 net@5 sb net@4 gnd N L=0.6U W=1.8U
+Mnmos@4 y net@5 gnd gnd N L=0.6U W=2.1U
+Mnmos@5 sb s gnd gnd N L=0.6U W=1.8U
+Mpmos@0 net@15 sb net@5 vdd P L=0.6U W=2.7U
+Mpmos@1 vdd d1 net@15 vdd P L=0.6U W=2.7U
+Mpmos@2 net@12 s net@5 vdd P L=0.6U W=2.7U
+Mpmos@3 vdd d0 net@12 vdd P L=0.6U W=2.7U
+Mpmos@4 vdd net@5 y vdd P L=0.6U W=3U
+Mpmos@5 vdd s sb vdd P L=0.6U W=2.7U
+.ENDS mux2_c_1x
+
+*** CELL: mux6{sch}
+.SUBCKT mux6 d0[0] d0[1] d0[2] d0[3] d0[4] d0[5] d1[0] d1[1] d1[2] d1[3] 
++d1[4] d1[5] s y[0] y[1] y[2] y[3] y[4] y[5]
+Xmux2_c_1@0 d0[0] d1[0] s y[0] mux2_c_1x
+Xmux2_c_1@1 d0[1] d1[1] s y[1] mux2_c_1x
+Xmux2_c_1@2 d0[2] d1[2] s y[2] mux2_c_1x
+Xmux2_c_1@3 d0[3] d1[3] s y[3] mux2_c_1x
+Xmux2_c_1@4 d0[4] d1[4] s y[4] mux2_c_1x
+Xmux2_c_1@5 d0[5] d1[5] s y[5] mux2_c_1x
+.ENDS mux6
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: adder6{sch}
+Xfulladde@0 ovf a[0] a[1] a[2] a[3] a[4] a[5] b[0] b[1] b[2] b[3] b[4] b[5] 
++gnd fulladde@0_cout s[0] s[1] s[2] s[3] s[4] s[5] fulladder6
+Xmux6@0 gnd gnd gnd gnd gnd vdd vdd vdd vdd vdd vdd gnd s[5] net@28[0] 
++net@28[1] net@28[2] net@28[3] net@28[4] net@28[5] mux6
+Xmux6@1 s[0] s[1] s[2] s[3] s[4] s[5] net@28[0] net@28[1] net@28[2] net@28[3] 
++net@28[4] net@28[5] ovf y[0] y[1] y[2] y[3] y[4] y[5] mux6
+
+*** Load - RC max
+C y[5] 0 68.69F
+C y[4] 0 68.69F
+C y[3] 0 68.69F
+C y[2] 0 68.69F
+C y[1] 0 68.69F
+C y[0] 0 68.69F
+
+*** Test voltages
+vdd VDD 0 DC 5
+V1 a[0] 0 PULSE(0 5 100n 0.1n 0.1n 100n 200n 2056)
+V2 a[1] 0 PULSE(0 5 200n 0.1n 0.1n 200n 400n 1024)
+V3 a[2] 0 PULSE(0 5 400n 0.1n 0.1n 400n 800n 512)
+V4 a[3] 0 PULSE(0 5 800n 0.1n 0.1n 800n 1600n 256)
+V5 a[4] 0 PULSE(0 5 1600n 0.1n 0.1n 1600n 3200n 128)
+V6 a[5] 0 PULSE(0 5 3200n 0.1n 0.1n 3200n 6400n 64)
+V7 b[0] 0 PULSE(0 5 6400n 0.1n 0.1n 6400n 12800n 32)
+V8 b[1] 0 PULSE(0 5 12800n 0.1n 0.1n 12800n 25600n 16)
+V9 b[2] 0 PULSE(0 5 25600n 0.1n 0.1n 25600n 51200n 8)
+V10 b[3] 0 PULSE(0 5 51200n 0.1n 0.1n 51200n 102400n 4)
+V11 b[4] 0 PULSE(0 5 102400n 0.1n 0.1n 102400n 204800n 2)
+V12 b[5] 0 PULSE(0 5 204800n 0.1n 0.1n 204800n 409600n 1)
+.tran 409.6u
+.END

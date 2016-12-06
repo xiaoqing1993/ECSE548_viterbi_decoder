@@ -1,0 +1,106 @@
+*** SPICE deck for cell comp6{sch} from library Project
+*** Created on Thu Nov 24, 2016 11:53:05
+*** Last revised on Thu Nov 24, 2016 13:41:37
+*** Written on Thu Dec 01, 2016 02:39:54 by Electric VLSI Design System, 
+*version 8.06
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+.OPTIONS NOMOD NOPAGE
+*CMOS/BULK-NWELL (PRELIMINARY PARAMETERS)
+.OPTIONS NOMOD DEFL=3UM DEFW=3UM DEFAD=70P DEFAS=70P LIMPTS=1000
++ITL5=0 RELTOL=0.01 ABSTOL=500PA VNTOL=500UV LVLTIM=2
++LVLCOD=1
+.MODEL N NMOS LEVEL=1
++KP=60E-6 VTO=0.7 GAMMA=0.3 LAMBDA=0.05 PHI=0.6
++LD=0.4E-6 TOX=40E-9 CGSO=2.0E-10 CGDO=2.0E-10 CJ=.2MF/M^2
+.MODEL P PMOS LEVEL=1
++KP=20E-6 VTO=0.7 GAMMA=0.4 LAMBDA=0.05 PHI=0.6
++LD=0.6E-6 TOX=40E-9 CGSO=3.0E-10 CGDO=3.0E-10 CJ=.2MF/M^2
+.MODEL DIFFCAP D CJO=.2MF/M^2
+
+*** CELL: fulladder{sch}
+.SUBCKT fulladder a b c cout s
+Mnmos@0 net@1 a gnd gnd N L=0.6U W=2.4U
+Mnmos@1 net@1 b gnd gnd N L=0.6U W=2.4U
+Mnmos@2 coutb c net@1 gnd N L=0.6U W=2.4U
+Mnmos@3 net@11 a gnd gnd N L=0.6U W=2.4U
+Mnmos@4 coutb b net@11 gnd N L=0.6U W=2.4U
+Mnmos@5 net@23 a gnd gnd N L=0.6U W=2.4U
+Mnmos@6 net@23 b gnd gnd N L=0.6U W=2.4U
+Mnmos@7 net@23 c gnd gnd N L=0.6U W=2.4U
+Mnmos@8 sb coutb net@23 gnd N L=0.6U W=2.4U
+Mnmos@9 net@33 a gnd gnd N L=0.6U W=2.4U
+Mnmos@10 net@32 b net@33 gnd N L=0.6U W=2.4U
+Mnmos@11 sb c net@32 gnd N L=0.6U W=2.4U
+Mnmos@12 cout coutb gnd gnd N L=0.6U W=2.4U
+Mnmos@13 s sb gnd gnd N L=0.6U W=2.4U
+Mpmos@1 net@92 c sb vdd P L=0.6U W=4.8U
+Mpmos@2 net@90 b net@92 vdd P L=0.6U W=4.8U
+Mpmos@3 vdd a net@90 vdd P L=0.6U W=4.8U
+Mpmos@4 net@94 coutb sb vdd P L=0.6U W=4.8U
+Mpmos@5 vdd b net@94 vdd P L=0.6U W=4.8U
+Mpmos@6 vdd c net@94 vdd P L=0.6U W=4.8U
+Mpmos@7 vdd a net@94 vdd P L=0.6U W=4.8U
+Mpmos@8 vdd coutb cout vdd P L=0.6U W=4.8U
+Mpmos@9 vdd a net@95 vdd P L=0.6U W=4.8U
+Mpmos@10 net@95 b coutb vdd P L=0.6U W=4.8U
+Mpmos@11 vdd a net@111 vdd P L=0.6U W=4.8U
+Mpmos@12 vdd b net@111 vdd P L=0.6U W=4.8U
+Mpmos@13 net@111 c coutb vdd P L=0.6U W=4.8U
+Mpmos@14 vdd sb s vdd P L=0.6U W=4.8U
+.ENDS fulladder
+
+*** CELL: xor2_1x{sch}
+.SUBCKT xor2_1x a b y
+Mnmos@0 net@3 a gnd gnd N L=0.6U W=4.2U
+Mnmos@1 net@4 ab gnd gnd N L=0.6U W=4.2U
+Mnmos@2 y b net@3 gnd N L=0.6U W=4.2U
+Mnmos@3 y bb net@4 gnd N L=0.6U W=4.2U
+Mnmos@4 bb b gnd gnd N L=0.6U W=1.8U
+Mnmos@5 ab a gnd gnd N L=0.6U W=1.8U
+Mpmos@0 net@7 b y vdd P L=0.6U W=6U
+Mpmos@1 vdd ab net@7 vdd P L=0.6U W=6U
+Mpmos@2 net@8 bb y vdd P L=0.6U W=6U
+Mpmos@3 vdd a net@8 vdd P L=0.6U W=6U
+Mpmos@4 vdd b bb vdd P L=0.6U W=2.7U
+Mpmos@5 vdd a ab vdd P L=0.6U W=2.7U
+.ENDS xor2_1x
+
+*** CELL: fulladder6{sch}
+.SUBCKT fulladder6 Ovf a[0] a[1] a[2] a[3] a[4] a[5] b[0] b[1] b[2] b[3] b[4] 
++b[5] cin cout s[0] s[1] s[2] s[3] s[4] s[5]
+Xfulladde@0 a[0] b[0] cin net@0 s[0] fulladder
+Xfulladde@1 a[1] b[1] net@0 net@1 s[1] fulladder
+Xfulladde@4 a[2] b[2] net@1 net@2 s[2] fulladder
+Xfulladde@5 a[3] b[3] net@2 net@3 s[3] fulladder
+Xfulladde@6 a[4] b[4] net@3 net@4 s[4] fulladder
+Xfulladde@7 a[5] b[5] net@4 cout s[5] fulladder
+Xxor2_1x@0 net@4 cout Ovf xor2_1x
+.ENDS fulladder6
+
+*** CELL: inv_1x{sch}
+.SUBCKT inv_1x a y
+Mnmos@0 y a gnd gnd N L=0.6U W=2.1U
+Mpmos@0 vdd a y vdd P L=0.6U W=3U
+.ENDS inv_1x
+
+*** CELL: inv6_1x{sch}
+.SUBCKT inv6_1x a[0] a[1] a[2] a[3] a[4] a[5] y[0] y[1] y[2] y[3] y[4] y[5]
+Xinv_1x@0 a[5] y[5] inv_1x
+Xinv_1x@2 a[4] y[4] inv_1x
+Xinv_1x@3 a[3] y[3] inv_1x
+Xinv_1x@4 a[2] y[2] inv_1x
+Xinv_1x@5 a[1] y[1] inv_1x
+Xinv_1x@6 a[0] y[0] inv_1x
+.ENDS inv6_1x
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: comp6{sch}
+Xfulladde@0 net@35 a[0] a[1] a[2] a[3] a[4] a[5] net@1[0] net@1[1] net@1[2] 
++net@1[3] net@1[4] net@1[5] vdd fulladde@0_cout s[0] s[1] s[2] s[3] s[4] s[5] 
++fulladder6
+Xinv6_1x@0 b[0] b[1] b[2] b[3] b[4] b[5] net@1[0] net@1[1] net@1[2] net@1[3] 
++net@1[4] net@1[5] inv6_1x
+Xxor2_1x@0 net@35 s[5] alb xor2_1x
+.END
