@@ -1,0 +1,18 @@
+| units: 30.0 tech: mocmos format: SU
+| IRSIM file for cell xor2_1x_cap{sch} from library Project
+| Created on Thu Nov 16, 2006 11:40:23
+| Last revised on Wed Nov 30, 2016 15:45:20
+| Written on Wed Nov 30, 2016 15:45:32 by Electric VLSI Design System, version 8.06
+C y gnd 74.01
+n a gnd net@3 2 14 -2 2 g=S_gnd s=A_14,P_30 d=A_14,P_30
+n ab gnd net@4 2 14 8 2 g=S_gnd s=A_14,P_30 d=A_14,P_30
+n b net@3 y 2 14 -2 7 g=S_gnd s=A_14,P_30 d=A_14,P_30
+n bb net@4 y 2 14 8 7 g=S_gnd s=A_14,P_30 d=A_14,P_30
+n b gnd bb 2 6 -12 7 g=S_gnd s=A_6,P_14 d=A_6,P_14
+n a gnd ab 2 6 -22 7 g=S_gnd s=A_6,P_14 d=A_6,P_14
+p b y net@7 2 20 -2 13 g=S_vdd s=A_20,P_42 d=A_20,P_42
+p ab net@7 vdd 2 20 -2 18 g=S_vdd s=A_20,P_42 d=A_20,P_42
+p bb y net@8 2 20 8 13 g=S_vdd s=A_20,P_42 d=A_20,P_42
+p a net@8 vdd 2 20 8 18 g=S_vdd s=A_20,P_42 d=A_20,P_42
+p b bb vdd 2 9 -12 13 g=S_vdd s=A_9,P_20 d=A_9,P_20
+p a ab vdd 2 9 -22 13 g=S_vdd s=A_9,P_20 d=A_9,P_20

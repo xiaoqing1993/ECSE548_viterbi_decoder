@@ -1,0 +1,14 @@
+| units: 30.0 tech: mocmos format: SU
+| IRSIM file for cell and3_1x_cap{sch} from library Project
+| Created on Tue Nov 07, 2006 23:13:51
+| Last revised on Wed Nov 30, 2016 15:24:30
+| Written on Wed Nov 30, 2016 15:24:42 by Electric VLSI Design System, version 8.06
+C y gnd 38.59
+n b net@45 net@9 2 8 -2 2 g=S_gnd s=A_8,P_18 d=A_8,P_18
+n c net@9 net@1 2 8 -2 7 g=S_gnd s=A_8,P_18 d=A_8,P_18
+n net@1 gnd y 2 7 8 7 g=S_gnd s=A_7,P_16 d=A_7,P_16
+n a gnd net@45 2 8 -2 -3 g=S_gnd s=A_8,P_18 d=A_8,P_18
+p c net@1 vdd 2 6 -2 13 g=S_vdd s=A_6,P_14 d=A_6,P_14
+p net@1 y vdd 2 10 8 13 g=S_vdd s=A_10,P_22 d=A_10,P_22
+p a net@1 vdd 2 6 -12 13 g=S_vdd s=A_6,P_14 d=A_6,P_14
+p b net@1 vdd 2 6 -7 13 g=S_vdd s=A_6,P_14 d=A_6,P_14

@@ -1,0 +1,18 @@
+| units: 30.0 tech: mocmos format: SU
+| IRSIM file for cell mux2_c_1x_cap{sch} from library Project
+| Created on Wed Nov 08, 2006 00:17:13
+| Last revised on Wed Nov 30, 2016 15:40:50
+| Written on Wed Nov 30, 2016 15:40:58 by Electric VLSI Design System, version 8.06
+C y gnd 74.01
+n d1 gnd net@3 2 6 -2 2 g=S_gnd s=A_6,P_14 d=A_6,P_14
+n d0 gnd net@4 2 6 7 2 g=S_gnd s=A_6,P_14 d=A_6,P_14
+n s net@3 net@5 2 6 -2 7 g=S_gnd s=A_6,P_14 d=A_6,P_14
+n sb net@4 net@5 2 6 7 7 g=S_gnd s=A_6,P_14 d=A_6,P_14
+n net@5 gnd y 2 7 14.5 7 g=S_gnd s=A_7,P_16 d=A_7,P_16
+n s gnd sb 2 6 -12 7 g=S_gnd s=A_6,P_14 d=A_6,P_14
+p sb net@5 net@15 2 9 -2 13 g=S_vdd s=A_9,P_20 d=A_9,P_20
+p d1 net@15 vdd 2 9 -2 18 g=S_vdd s=A_9,P_20 d=A_9,P_20
+p s net@5 net@12 2 9 7 13 g=S_vdd s=A_9,P_20 d=A_9,P_20
+p d0 net@12 vdd 2 9 7 18 g=S_vdd s=A_9,P_20 d=A_9,P_20
+p net@5 y vdd 2 10 14.5 13 g=S_vdd s=A_10,P_22 d=A_10,P_22
+p s sb vdd 2 9 -12 13 g=S_vdd s=A_9,P_20 d=A_9,P_20
