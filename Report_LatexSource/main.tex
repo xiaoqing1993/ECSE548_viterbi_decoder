@@ -365,7 +365,7 @@
 %
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
-\title{Project Report: (8, 4, 4) Viterbi Decoder}
+\title{Implementation and Testing of an (8, 4, 4) Viterbi Decoder}
 
 
 % author names and affiliations
@@ -424,7 +424,7 @@ dylan.watts@mail.mcgill.ca}}
 
 \begin{abstract}
 %\boldmath
-This paper presents the basic knowledge and circuit design for an (8, 4, 4) Viterbi decoder. Two different designs are given to optimize either computation speed or power consumption. The decoder architecture is verified by logic simulation in Modelsim with verilog. Timing analysis and circuit simulation in SPICE are done to find the computation delay and the amount of power consumed for both designs. The repository and \LaTeX\  code for this report can be accessed by visiting: \url{https://github.com/xiaoqing1993/ECSE548_viterbi_decoder}
+This paper presents the basic knowledge and circuit design for an (8, 4, 4) Viterbi decoder. Two different designs are given to optimize either computation speed or power consumption. The decoder architecture is verified by logic simulation in Modelsim with Verilog. Timing analysis and circuit simulation in IRSIM and SPICE are done to find the computation delay and the amount of power consumed for both designs. The repository and \LaTeX\  code for this report can be accessed by visiting: \url{https://github.com/xiaoqing1993/ECSE548_viterbi_decoder}
 
 \end{abstract}
 % IEEEtran.cls defaults to using nonbold math in the Abstract.
@@ -457,11 +457,11 @@ This paper presents the basic knowledge and circuit design for an (8, 4, 4) Vite
 
 
 \section{Introduction}
-For this project, our goal is to design two different circuits of an (8, 4, 4) Viterbi decoder for different purpose: one is power-efficient while the other runs in a high speed. To eliminate the power consumption, carry-ripple adders are implemented in the first design. In another design, Kogge-stone adders are introduced to speed up the computation. The schematic and layout designs for all modules and the overall decoder are finished in electric.
+For this project, our goal is to design two different circuits of an (8, 4, 4) Viterbi decoder for different purpose: one is power-efficient while the other runs in a high speed. To eliminate the power consumption, carry-ripple adders are implemented in the first design. In another design, Kogge-Stone adders are introduced to speed up the computation. The schematic and layout designs for all modules and the overall decoder are finished in electric.
 
-Simulation process of this project can be divided into two parts. The first part is logic verification, which has been conducted with verilog using Modelsim. The second part is circuit simulation for finding delays and power consumptions. This work has been done within MATLAB and LTSPICE.
+Simulation process of this project can be divided into two parts. The first part is logic verification, which has been conducted with Verilog using Modelsim. The second part is circuit simulation for finding delays and power consumptions. This work has been done within MATLAB, IRSIM and LTSPICE.
 
-This report is organized as follow: Section II introduces the background knowledge of viterbi decoder and section III presents the schematics and layouts of related modules and the overall decoder. Simulation procedures and results are presented in Section IV and V. Conclusions are drawn in Section VI.
+This report is organized as follow: Section II introduces the background knowledge of Viterbi decoder and section III presents the schematics and layouts of related modules and the overall decoder. Simulation procedures and results are presented in Section IV and V. Conclusions are drawn in Section VI.
 
 \section {Background}
 Error correction codes are employed to counter the effects of the noise introduced by the channel in data transmission. One such coding scheme is the Hamming (8,4,4) code, which is a systematic parity check code in which 4 message bits are used to produce an 8 bit codeword. The first four bits of the codeword are the message bits themselves (systematic), while the remaining four bits (parities) are calculated through XOR operations on the message bits three at a time. The numbers in (8,4,4) then represent the codeword length (8 bits), the number of information bits (4 bits), and the minimum distance of the code (4), which is a parameter that is used to describe the error correction capability of the code. The Hamming (8,4,4) code is constructed using the equations shown below.
@@ -876,7 +876,7 @@ These values were then used to calculate the top-level power consumption for the
 
 
 \subsubsection{Propagation Delay}
-Similar to power consumption, we can compare bot the minimum and maximum propagation delay for each module located in the top level. Figure \ref{fig:delay1} and Figure \ref{fig:delay2} demonstrate the simulation results under average and maximum loading respectively, with the MUX6 module being neglected from analysis as it has the same delay as MUX2.
+Similar to power consumption, we can compare both the minimum and maximum propagation delay for each module located in the top level. Figure \ref{fig:delay1} and Figure 14 demonstrate the simulation results under average and maximum loading respectively, with the MUX6 module being neglected from analysis as it has the same delay as MUX2.
 
 \FloatBarrier
 % Average Loading
@@ -964,7 +964,7 @@ Using the hierarchical procedure outline in the testing methodology, the results
 
 \subsection{Discussion}
 
-Upon examination of the results, The Kogge-Stone decoder does indeed operate faster than the Ripple-Carry Decoder in nearly all cases as expected.This increase in speed can be attributed to the reduction of the longest path through the adder as demonstrated in Figures \ref{fig:delay1} and \ref{fig:delay2}.
+Upon examination of the results, The Kogge-Stone decoder does indeed operate faster than the Ripple-Carry decoder in nearly all cases as expected.This increase in speed can be attributed to the reduction of the longest path through the adder as demonstrated in Figures \ref{fig:delay1} and 14.
 
 These results are verified by extracting a netlist from both Schematic and Layout, and inputting the values into IRSIM for analysis. It can then be observed from Figure \ref{fig:delay4} that the values fall within the calculated bounds when interconnect is both included and neglected.
 
@@ -1047,7 +1047,7 @@ Although the two decoder implementations differ only by these adders, our compar
 \begin{thebibliography}{1}
 
 \bibitem{textbook}
-CoN.West ad D.M. Harris, \emph{CMOS VLSI Design A Circuits and Systems Perspective}, 4th ed., Addison-Wesley, 2011.
+C.N.West and D.M. Harris, \emph{CMOS VLSI Design A Circuits and Systems Perspective}, 4th ed., Addison-Wesley, 2011.
 \bibitem{url}
 VLSI Concepts, and online center for all who have interest in the Semiconductor industry; \url{http://www.vlsi-expert.com/2011/03/static-timing-analysis-sta-basic-timing.html}, Wed.March 9 2011.
 
